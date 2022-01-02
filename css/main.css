@@ -1,0 +1,1455 @@
+.flexCenter, header, nav .nav_container .nav_menus .Daseboard .Daseboard_container .fa-chart-pie, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container .fa-user-alt, nav .nav_container .nav_menus .Messages .Messages_container .fa-comment-alt, nav .nav_container .nav_menus .Transactions .Transactions_container .fa-credit-card, nav .nav_container .nav_menus .Mywallet .Mywallet_container .fa-wallet, nav .nav_container .nav_menus .Payment .Payment_container .fa-dollar-sign, nav .nav_container .nav_menus .Investment .Investment_container .fa-chart-bar, nav .nav_container .nav_menus .Reports .Reports_container .fa-clipboard, nav .nav_container .nav_config .Settings .Settings_container .fa-cog, nav .nav_container .nav_config .Support .Support_container .fa-question-circle, nav .nav_container .nav_exit .Logout .Logout_container .fa-sign-out-alt, content, aside, aside .aside_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-startColumn, nav .nav_container .nav_logo, nav .nav_container .nav_menus .Daseboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-endColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexSpace-evenly, aside .aside_container .Card .Anallytics button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexSpace-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexSpace-between, header .header_container, header .header_container .header_infos, header .header_container .header_infos .box_profile, nav .nav_container .nav_menus .Daseboard .Daseboard_container, nav .nav_container .nav_menus .Userprofiles, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container, nav .nav_container .nav_menus .Messages, nav .nav_container .nav_menus .Messages .Messages_container, nav .nav_container .nav_menus .Transactions, nav .nav_container .nav_menus .Transactions .Transactions_container, nav .nav_container .nav_menus .Mywallet, nav .nav_container .nav_menus .Mywallet .Mywallet_container, nav .nav_container .nav_menus .Payment, nav .nav_container .nav_menus .Payment .Payment_container, nav .nav_container .nav_menus .Investment, nav .nav_container .nav_menus .Investment .Investment_container, nav .nav_container .nav_menus .Reports, nav .nav_container .nav_menus .Reports .Reports_container, nav .nav_container .nav_config .Settings, nav .nav_container .nav_config .Settings .Settings_container, nav .nav_container .nav_config .Support, nav .nav_container .nav_config .Support .Support_container, nav .nav_container .nav_exit .Logout, nav .nav_container .nav_exit .Logout .Logout_container, content .content_container .content_total, aside .aside_container .Card .MyCard p, aside .aside_container .Card .Anallytics p, aside .aside_container .Card .Anallytics .anally_statistics .Stairs, aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics, aside .aside_container .Card .Anallytics .anally_statistics .Footings, aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings, aside .aside_container .Card .Anallytics .anally_statistics .Electrical, aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Framing, aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .Roofing, aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .Insulation, aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexSpace-evenlyColumn, content .content_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flexSpace-aroundColumn, aside .aside_container .Card .MyCard, aside .aside_container .Card .Anallytics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexSpace-betweenColumn, nav .nav_container, aside .aside_container .Card, aside .aside_container .Card .Anallytics .anally_statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexalign-itemsColumn, nav .nav_container .nav_menus, nav .nav_container .nav_config, nav .nav_container .nav_exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexDirColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flexDirRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1D1E2C;
+}
+
+body .grid_container {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 68px auto;
+      grid-template-rows: 68px auto;
+      grid-template-areas: 'nav header header header header header' 'nav main main main main aside' 'nav main main main main aside';
+  gap: 15px;
+}
+
+header {
+  background: #24263A;
+  border-radius: 0px 20px 0px 10px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-area: header;
+}
+
+header .header_container {
+  width: 92%;
+  max-width: 1104px;
+  height: 90%;
+}
+
+header .header_container p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+header .header_container .header_infos {
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 35px;
+  color: #DBDFEA;
+}
+
+header .header_container .header_infos .fa-sun {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+header .header_container .header_infos .fa-search {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+header .header_container .header_infos .fa-bell {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+header .header_container .header_infos .fa-chevron-down {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+header .header_container .header_infos .box_profile {
+  width: 100%;
+  max-width: 69px;
+  height: 100%;
+}
+
+header .header_container .header_infos .box_profile p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav {
+  background: #24263A;
+  border-radius: 20px 0px 0px 20px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: nav;
+}
+
+nav .nav_container {
+  width: 100%;
+  height: 530px;
+  margin-top: 20px;
+}
+
+nav .nav_container .nav_logo {
+  width: 100%;
+  max-width: 180px;
+  height: 36px;
+  text-align: center;
+  border-bottom: 1px solid #1D1E2C;
+}
+
+nav .nav_container .nav_logo p {
+  position: relative;
+  left: 35px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus {
+  width: 100%;
+  height: 100%;
+  max-height: 346px;
+  border-bottom: 1px solid #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Daseboard {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Daseboard:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Daseboard .Daseboard_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Daseboard .Daseboard_container .fa-chart-pie {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Daseboard .Daseboard_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Userprofiles {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Userprofiles:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Userprofiles .Userprofiles_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Userprofiles .Userprofiles_container .fa-user-alt {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Userprofiles .Userprofiles_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Messages {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Messages:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Messages .Messages_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Messages .Messages_container .fa-comment-alt {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Messages .Messages_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Transactions {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Transactions:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Transactions .Transactions_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Transactions .Transactions_container .fa-credit-card {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Transactions .Transactions_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Mywallet {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Mywallet:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Mywallet .Mywallet_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Mywallet .Mywallet_container .fa-wallet {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Mywallet .Mywallet_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Payment {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Payment:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Payment .Payment_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Payment .Payment_container .fa-dollar-sign {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Payment .Payment_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Investment {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Investment:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Investment .Investment_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Investment .Investment_container .fa-chart-bar {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Investment .Investment_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_menus .Reports {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_menus .Reports:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_menus .Reports .Reports_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_menus .Reports .Reports_container .fa-clipboard {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_menus .Reports .Reports_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_config {
+  width: 100%;
+  height: 84px;
+  border-bottom: 1px solid #1D1E2C;
+}
+
+nav .nav_container .nav_config .Settings {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+}
+
+nav .nav_container .nav_config .Settings:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_config .Settings .Settings_container {
+  width: 100%;
+  max-width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_config .Settings .Settings_container .fa-cog {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_config .Settings .Settings_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_config .Support {
+  width: 90%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+}
+
+nav .nav_container .nav_config .Support:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_config .Support .Support_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_config .Support .Support_container .fa-question-circle {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_config .Support .Support_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+nav .nav_container .nav_exit {
+  width: 100%;
+  height: 38px;
+}
+
+nav .nav_container .nav_exit .Logout {
+  width: 100%;
+  max-width: 220px;
+  height: 40px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+nav .nav_container .nav_exit .Logout:hover {
+  background-color: #1D1E2C;
+}
+
+nav .nav_container .nav_exit .Logout .Logout_container {
+  width: 120px;
+  height: 25px;
+  position: relative;
+  left: 20px;
+}
+
+nav .nav_container .nav_exit .Logout .Logout_container .fa-sign-out-alt {
+  width: 25px;
+  height: 100%;
+  color: #DBDFEA;
+  font-size: 19px;
+}
+
+nav .nav_container .nav_exit .Logout .Logout_container p {
+  width: 85px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+content {
+  background-color: #1D1E2C;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-area: main;
+}
+
+content .content_container {
+  width: 100%;
+  height: 100%;
+}
+
+content .content_container .content_total {
+  width: 100%;
+  height: 92px;
+  border-radius: 10px;
+}
+
+content .content_container .content_total .totalBalance {
+  width: 100%;
+  max-width: 196px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #24263A;
+}
+
+content .content_container .content_total .totalExpence {
+  width: 100%;
+  max-width: 196px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #24263A;
+}
+
+content .content_container .content_total .totalSavings {
+  width: 100%;
+  max-width: 196px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #24263A;
+}
+
+content .content_container .content_Outlay {
+  width: 100%;
+  height: 230px;
+  border-radius: 10px;
+  background-color: #24263A;
+}
+
+content .content_container .Income {
+  width: 100%;
+  height: 177px;
+  border-radius: 10px;
+  background-color: #24263A;
+}
+
+aside {
+  background-color: #1D1E2C;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 6;
+  grid-area: aside;
+  border-radius: 10px;
+}
+
+aside .aside_container {
+  width: 100%;
+  max-width: 250px;
+}
+
+aside .aside_container .Card {
+  width: 100%;
+  max-width: 235px;
+  height: 529px;
+}
+
+aside .aside_container .Card .MyCard {
+  width: 100%;
+  max-width: 235px;
+  height: 45%;
+  height: 156px;
+  background-color: #24263A;
+  border-radius: 10px;
+}
+
+aside .aside_container .Card .MyCard img {
+  width: 75%;
+}
+
+aside .aside_container .Card .MyCard p {
+  width: 90%;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .MyCard .fa-ellipsis-h {
+  font-size: 15px;
+  color: #DBDFEA;
+  cursor: pointer;
+}
+
+aside .aside_container .Card .Anallytics {
+  width: 100%;
+  max-width: 235px;
+  height: 45%;
+  height: 358px;
+  background-color: #24263A;
+  border-radius: 10px;
+}
+
+aside .aside_container .Card .Anallytics p {
+  width: 90%;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics button {
+  width: 80%;
+  max-width: 100px;
+  height: 27px;
+  background: #1D1E2C;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics {
+  width: 100%;
+  max-width: 205px;
+  max-height: 90%;
+  height: 254.81px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Stairs {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Stairs p {
+  width: 30px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics .StairsGraphic {
+  width: 64px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Footings {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Footings p {
+  width: 30px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings .FootingsGraphic {
+  width: 64px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Electrical {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Electrical p {
+  width: 30px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical .ElectricalGraphic {
+  width: 59px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial .FramingMaterialGraphic {
+  width: 55px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor .FinishLaborGraphic {
+  width: 48px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Hardware {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Hardware p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware .HardwareGraphic {
+  width: 48px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Framing {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Framing p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing .FramingGraphic {
+  width: 32px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation .TileInstallationGraphic {
+  width: 25px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Roofing {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Roofing p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing .RoofingGraphic {
+  width: 25px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.2px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall .AppliancesInstallGraphic {
+  width: 13px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Insulation {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Insulation p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation .InsulationGraphic {
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting {
+  width: 100%;
+  max-width: 204px;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting p {
+  width: 92px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.5px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
+  width: 100px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #1D1E2C;
+}
+
+aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting .InteriorPaintingGraphic {
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  border-radius: 100px;
+}
+/*# sourceMappingURL=main.css.map */

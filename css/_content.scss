@@ -1,0 +1,65 @@
+content{
+    background-color: $color-body;
+    grid-area: main;
+
+    @extend .flexCenter;
+
+    .content_container{
+        width: 100%;
+        height: 100%;
+
+        @extend .flexSpace-evenlyColumn;
+
+        .content_total{
+            width: 100%;
+            height: 92px;
+
+            border-radius: 10px;
+
+            @extend .flexSpace-between;
+
+            .totalBalance{
+                width: 100%;
+                max-width: 196px;
+                height: 100%;
+                
+                border-radius: 10px;
+                background-color: $primary-color;
+            }
+            
+            .totalExpence{
+                width: 100%;
+                max-width: 196px;
+                height: 100%;
+
+                border-radius: 10px;
+                background-color: $primary-color;
+            }
+
+            .totalSavings{
+                width: 100%;
+                max-width: 196px;
+                height: 100%;
+
+                border-radius: 10px;
+                background-color: $primary-color;
+            }
+        }
+
+        .content_Outlay{
+            width: 100%;
+            height: 230px;
+
+            border-radius: 10px;
+            background-color: $primary-color;
+        }
+
+        .Income{
+            width: 100%;
+            height: 177px;
+
+            border-radius: 10px;
+            background-color:$primary-color;
+        }
+    }
+}
