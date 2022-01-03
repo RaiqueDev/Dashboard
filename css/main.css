@@ -1,4 +1,4 @@
-.flexCenter, header, nav .nav_container .nav_menus .Daseboard .Daseboard_container .fa-chart-pie, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container .fa-user-alt, nav .nav_container .nav_menus .Messages .Messages_container .fa-comment-alt, nav .nav_container .nav_menus .Transactions .Transactions_container .fa-credit-card, nav .nav_container .nav_menus .Mywallet .Mywallet_container .fa-wallet, nav .nav_container .nav_menus .Payment .Payment_container .fa-dollar-sign, nav .nav_container .nav_menus .Investment .Investment_container .fa-chart-bar, nav .nav_container .nav_menus .Reports .Reports_container .fa-clipboard, nav .nav_container .nav_config .Settings .Settings_container .fa-cog, nav .nav_container .nav_config .Support .Support_container .fa-question-circle, nav .nav_container .nav_exit .Logout .Logout_container .fa-sign-out-alt, content, aside, aside .aside_container {
+.flexCenter, header, nav .nav_container .nav_menus .Daseboard .Daseboard_container .fa-chart-pie, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container .fa-user-alt, nav .nav_container .nav_menus .Messages .Messages_container .fa-comment-alt, nav .nav_container .nav_menus .Transactions .Transactions_container .fa-credit-card, nav .nav_container .nav_menus .Mywallet .Mywallet_container .fa-wallet, nav .nav_container .nav_menus .Payment .Payment_container .fa-dollar-sign, nav .nav_container .nav_menus .Investment .Investment_container .fa-chart-bar, nav .nav_container .nav_menus .Reports .Reports_container .fa-clipboard, nav .nav_container .nav_config .Settings .Settings_container .fa-cog, nav .nav_container .nav_config .Support .Support_container .fa-question-circle, nav .nav_container .nav_exit .Logout .Logout_container .fa-sign-out-alt, aside .aside_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,7 @@
           justify-content: center;
 }
 
-.flex-start {
+.flex-start, aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-between, header .header_container, header .header_container .header_infos, header .header_container .header_infos .box_profile, nav .nav_container .nav_menus .Daseboard .Daseboard_container, nav .nav_container .nav_menus .Userprofiles, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container, nav .nav_container .nav_menus .Messages, nav .nav_container .nav_menus .Messages .Messages_container, nav .nav_container .nav_menus .Transactions, nav .nav_container .nav_menus .Transactions .Transactions_container, nav .nav_container .nav_menus .Mywallet, nav .nav_container .nav_menus .Mywallet .Mywallet_container, nav .nav_container .nav_menus .Payment, nav .nav_container .nav_menus .Payment .Payment_container, nav .nav_container .nav_menus .Investment, nav .nav_container .nav_menus .Investment .Investment_container, nav .nav_container .nav_menus .Reports, nav .nav_container .nav_menus .Reports .Reports_container, nav .nav_container .nav_config .Settings, nav .nav_container .nav_config .Settings .Settings_container, nav .nav_container .nav_config .Support, nav .nav_container .nav_config .Support .Support_container, nav .nav_container .nav_exit .Logout, nav .nav_container .nav_exit .Logout .Logout_container, content .content_container .content_total, aside .aside_container .Card .MyCard p, aside .aside_container .Card .Anallytics p, aside .aside_container .Card .Anallytics .anally_statistics .Stairs, aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics, aside .aside_container .Card .Anallytics .anally_statistics .Footings, aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings, aside .aside_container .Card .Anallytics .anally_statistics .Electrical, aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Framing, aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .Roofing, aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .Insulation, aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
+.flexSpace-between, header .header_container, header .header_container .header_infos, header .header_container .header_infos .box_profile, nav .nav_container .nav_menus .Daseboard .Daseboard_container, nav .nav_container .nav_menus .Userprofiles, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container, nav .nav_container .nav_menus .Messages, nav .nav_container .nav_menus .Messages .Messages_container, nav .nav_container .nav_menus .Transactions, nav .nav_container .nav_menus .Transactions .Transactions_container, nav .nav_container .nav_menus .Mywallet, nav .nav_container .nav_menus .Mywallet .Mywallet_container, nav .nav_container .nav_menus .Payment, nav .nav_container .nav_menus .Payment .Payment_container, nav .nav_container .nav_menus .Investment, nav .nav_container .nav_menus .Investment .Investment_container, nav .nav_container .nav_menus .Reports, nav .nav_container .nav_menus .Reports .Reports_container, nav .nav_container .nav_config .Settings, nav .nav_container .nav_config .Settings .Settings_container, nav .nav_container .nav_config .Support, nav .nav_container .nav_config .Support .Support_container, nav .nav_container .nav_exit .Logout, nav .nav_container .nav_exit .Logout .Logout_container, content .content_container .content_total, content .content_container .content_total .totalBalance .TxtBalance, content .content_container .content_total .totalExpence .TxtExpence, content .content_container .content_total .totalSavings .TxtSavings, content .content_container .content_Outlay .TxtOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth, content .content_container .content_Outlay .OutlayGraphic, content .content_container .content_Outlay .OutlayGraphic_numberdown, content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown, aside .aside_container .Card .MyCard p, aside .aside_container .Card .Anallytics p, aside .aside_container .Card .Anallytics .anally_statistics .Stairs, aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics, aside .aside_container .Card .Anallytics .anally_statistics .Footings, aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings, aside .aside_container .Card .Anallytics .anally_statistics .Electrical, aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Framing, aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .Roofing, aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .Insulation, aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +101,7 @@
           justify-content: space-between;
 }
 
-.flexSpace-evenlyColumn, content .content_container {
+.flexSpace-evenlyColumn, content .content_container .content_total .totalBalance, content .content_container .content_total .totalExpence, content .content_container .content_total .totalSavings, content .content_container .content_Outlay {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +132,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-betweenColumn, nav .nav_container, aside .aside_container .Card, aside .aside_container .Card .Anallytics .anally_statistics {
+.flexSpace-betweenColumn, nav .nav_container, content .content_container, content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft, aside .aside_container .Card, aside .aside_container .Card .Anallytics .anally_statistics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -831,6 +831,7 @@ content {
 content .content_container {
   width: 100%;
   height: 100%;
+  max-height: 529px;
 }
 
 content .content_container .content_total {
@@ -841,26 +842,167 @@ content .content_container .content_total {
 
 content .content_container .content_total .totalBalance {
   width: 100%;
-  max-width: 196px;
-  height: 100%;
+  max-width: 250px;
+  height: 92px;
   border-radius: 10px;
   background-color: #24263A;
+  background-image: url(../img/GraphicBalance.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 80%;
+  color: #DBDFEA;
+}
+
+content .content_container .content_total .totalBalance .TxtBalance {
+  width: 90%;
+  max-width: 200px;
+  height: 20px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+content .content_container .content_total .totalBalance .fa-ellipsis-h {
+  font-size: 20px;
+}
+
+content .content_container .content_total .totalBalance .valuebalance {
+  width: 90%;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #DBDFEA;
+}
+
+content .content_container .content_total .totalBalance .percentageBalance {
+  width: 90%;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #34E4B5;
 }
 
 content .content_container .content_total .totalExpence {
   width: 100%;
-  max-width: 196px;
-  height: 100%;
+  max-width: 250px;
+  height: 92px;
   border-radius: 10px;
   background-color: #24263A;
+  background-image: url(../img/GraphicExpence.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 80%;
+  color: #DBDFEA;
+}
+
+content .content_container .content_total .totalExpence .TxtExpence {
+  width: 90%;
+  max-width: 200px;
+  height: 20px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+content .content_container .content_total .totalExpence .fa-ellipsis-h {
+  font-size: 20px;
+}
+
+content .content_container .content_total .totalExpence .valueExpence {
+  width: 90%;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #DBDFEA;
+}
+
+content .content_container .content_total .totalExpence .percentageExpence {
+  width: 90%;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #34E4B5;
 }
 
 content .content_container .content_total .totalSavings {
   width: 100%;
-  max-width: 196px;
-  height: 100%;
+  max-width: 250px;
+  height: 92px;
   border-radius: 10px;
   background-color: #24263A;
+  background-image: url(../img/GraphicSavings.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 100%;
+  background-size: 80%;
+  color: #DBDFEA;
+}
+
+content .content_container .content_total .totalSavings .TxtSavings {
+  width: 90%;
+  max-width: 200px;
+  height: 20px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+content .content_container .content_total .totalSavings .fa-ellipsis-h {
+  font-size: 20px;
+}
+
+content .content_container .content_total .totalSavings .valueSavings {
+  width: 90%;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #DBDFEA;
+}
+
+content .content_container .content_total .totalSavings .percentageSavings {
+  width: 90%;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #34E4B5;
 }
 
 content .content_container .content_Outlay {
@@ -868,6 +1010,134 @@ content .content_container .content_Outlay {
   height: 230px;
   border-radius: 10px;
   background-color: #24263A;
+  color: #DBDFEA;
+}
+
+content .content_container .content_Outlay .TxtOutlay {
+  width: 95%;
+  height: 20px;
+}
+
+content .content_container .content_Outlay .TxtOutlay p {
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay {
+  width: 40%;
+  max-width: 309px;
+  height: 20px;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth {
+  width: 90px;
+  height: 100%;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth .fa-circle {
+  font-size: 6px;
+  color: #894BA9;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth p {
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth {
+  width: 90px;
+  height: 100%;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth .fa-circle {
+  font-size: 6px;
+  color: #E03A45;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth p {
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+content .content_container .content_Outlay .TxtOutlay .btnOutlay button {
+  cursor: pointer;
+  width: 80px;
+  height: 20px;
+  border: none;
+  color: #DBDFEA;
+  background: #1D1E2C;
+  border-radius: 20px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+content .content_container .content_Outlay .OutlayGraphic {
+  width: 95%;
+  height: 150px;
+}
+
+content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft {
+  width: 25%;
+  max-width: 45px;
+  height: 100%;
+}
+
+content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DBDFEA;
+}
+
+content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_image {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/OutlayGraphic.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+content .content_container .content_Outlay .OutlayGraphic_numberdown {
+  width: 95%;
+  height: 15px;
+}
+
+content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown {
+  width: 93.5%;
+  height: 15px;
+}
+
+content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #DBDFEA;
 }
 
 content .content_container .Income {
@@ -900,7 +1170,6 @@ aside .aside_container .Card {
 aside .aside_container .Card .MyCard {
   width: 100%;
   max-width: 235px;
-  height: 45%;
   height: 156px;
   background-color: #24263A;
   border-radius: 10px;

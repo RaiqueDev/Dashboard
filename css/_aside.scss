@@ -2,7 +2,7 @@ aside{
     background-color: $color-body;
     grid-area: aside;
 
-    @extend .flexCenter;
+    @extend .flex-start;
 
     border-radius: 10px;
 
@@ -22,7 +22,6 @@ aside{
             .MyCard{
                 width: 100%;
                 max-width: 235px;
-                height: 45%;
                 height: 156px;
 
                 @extend .flexSpace-aroundColumn;
