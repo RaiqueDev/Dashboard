@@ -1,15 +1,14 @@
-content{
+content {
     background-color: $color-body;
     grid-area: main;
 
-    .content_container{
+    .content_container {
         width: 100%;
         height: 100%;
-        max-height: 529px;
 
-        @extend .flexSpace-betweenColumn;
-        
-        .content_total{
+        @extend .flexSpace-evenlyColumn;
+
+        .content_total {
             width: 100%;
             height: 92px;
 
@@ -17,11 +16,11 @@ content{
 
             @extend .flexSpace-between;
 
-            .totalBalance{
+            .totalBalance {
                 width: 100%;
                 max-width: 250px;
                 height: 92px;
-                
+
                 border-radius: 10px;
                 background-color: $primary-color;
                 background-image: url(../img/GraphicBalance.svg);
@@ -30,32 +29,31 @@ content{
                 background-position-y: 100%;
                 background-size: 80%;
 
-                color: #DBDFEA;
+                color: #dbdfea;
 
                 @extend .flexSpace-evenlyColumn;
 
-                .TxtBalance{
+                .TxtBalance {
                     @extend .flexSpace-between;
 
                     width: 90%;
                     max-width: 200px;
                     height: 20px;
 
-                    font-family: 'Gilroy', sans-serif;
+                    font-family: "Gilroy", sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 14px;
                     line-height: 12px;
-                    
+
                     display: flex;
-                    
                 }
 
-                .fa-ellipsis-h{
+                .fa-ellipsis-h {
                     font-size: 20px;
                 }
 
-                .valuebalance{
+                .valuebalance {
                     width: 90%;
                     max-width: 200px;
 
@@ -63,11 +61,11 @@ content{
                     font-weight: 600;
                     font-size: 14px;
                     line-height: 17px;
-                    
-                    color: #DBDFEA;
+
+                    color: #dbdfea;
                 }
 
-                .percentageBalance{
+                .percentageBalance {
                     width: 90%;
                     max-width: 200px;
 
@@ -75,14 +73,14 @@ content{
                     font-weight: bold;
                     font-size: 10px;
                     line-height: 12px;
-                    
+
                     display: flex;
-                    
-                    color: #34E4B5;
+
+                    color: #34e4b5;
                 }
             }
-            
-            .totalExpence{
+
+            .totalExpence {
                 width: 100%;
                 max-width: 250px;
                 height: 92px;
@@ -95,32 +93,31 @@ content{
                 background-position-y: 100%;
                 background-size: 80%;
 
-                color: #DBDFEA;
+                color: #dbdfea;
 
                 @extend .flexSpace-evenlyColumn;
 
-                .TxtExpence{
+                .TxtExpence {
                     @extend .flexSpace-between;
 
                     width: 90%;
                     max-width: 200px;
                     height: 20px;
 
-                    font-family: 'Gilroy', sans-serif;
+                    font-family: "Gilroy", sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 14px;
                     line-height: 12px;
-                    
+
                     display: flex;
-                    
                 }
 
-                .fa-ellipsis-h{
+                .fa-ellipsis-h {
                     font-size: 20px;
                 }
 
-                .valueExpence{
+                .valueExpence {
                     width: 90%;
                     max-width: 200px;
 
@@ -128,11 +125,11 @@ content{
                     font-weight: 600;
                     font-size: 14px;
                     line-height: 17px;
-                    
-                    color: #DBDFEA;
+
+                    color: #dbdfea;
                 }
 
-                .percentageExpence{
+                .percentageExpence {
                     width: 90%;
                     max-width: 200px;
 
@@ -140,14 +137,14 @@ content{
                     font-weight: bold;
                     font-size: 10px;
                     line-height: 12px;
-                    
+
                     display: flex;
-                    
-                    color: #34E4B5;
+
+                    color: #34e4b5;
                 }
             }
 
-            .totalSavings{
+            .totalSavings {
                 width: 100%;
                 max-width: 250px;
                 height: 92px;
@@ -160,32 +157,31 @@ content{
                 background-position-y: 100%;
                 background-size: 80%;
 
-                color: #DBDFEA;
+                color: #dbdfea;
 
                 @extend .flexSpace-evenlyColumn;
 
-                .TxtSavings{
+                .TxtSavings {
                     @extend .flexSpace-between;
 
                     width: 90%;
                     max-width: 200px;
                     height: 20px;
 
-                    font-family: 'Gilroy', sans-serif;
+                    font-family: "Gilroy", sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 14px;
                     line-height: 12px;
-                    
+
                     display: flex;
-                    
                 }
 
-                .fa-ellipsis-h{
+                .fa-ellipsis-h {
                     font-size: 20px;
                 }
 
-                .valueSavings{
+                .valueSavings {
                     width: 90%;
                     max-width: 200px;
 
@@ -193,11 +189,11 @@ content{
                     font-weight: 600;
                     font-size: 14px;
                     line-height: 17px;
-                    
-                    color: #DBDFEA;
+
+                    color: #dbdfea;
                 }
 
-                .percentageSavings{
+                .percentageSavings {
                     width: 90%;
                     max-width: 200px;
 
@@ -205,15 +201,15 @@ content{
                     font-weight: bold;
                     font-size: 10px;
                     line-height: 12px;
-                    
+
                     display: flex;
-                    
-                    color: #34E4B5;
+
+                    color: #34e4b5;
                 }
             }
         }
 
-        .content_Outlay{
+        .content_Outlay {
             width: 100%;
             height: 230px;
 
@@ -222,45 +218,45 @@ content{
 
             @extend .flexSpace-evenlyColumn;
 
-            color: #DBDFEA;
+            color: #dbdfea;
 
-            .TxtOutlay{
+            .TxtOutlay {
                 @extend .flexSpace-between;
 
                 width: 95%;
                 height: 20px;
 
-                p{
-                    font-family: 'Gilroy', sans-serif;
+                p {
+                    font-family: "Gilroy", sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 15px;
                     line-height: 12px;
-                    
-                    display: flex; 
+
+                    display: flex;
                 }
 
-                .btnOutlay{
+                .btnOutlay {
                     width: 40%;
                     max-width: 309px;
                     height: 20px;
 
                     @extend .flexSpace-between;
 
-                    .Previousmonth{
+                    .Previousmonth {
                         width: 90px;
                         height: 100%;
 
                         @extend .flexSpace-between;
 
-                        .fa-circle{
+                        .fa-circle {
                             font-size: 6px;
 
-                            color: #894BA9;
+                            color: #894ba9;
                         }
 
-                        p{
-                            font-family: 'Gilroy', sans-serif;
+                        p {
+                            font-family: "Gilroy", sans-serif;
                             font-style: normal;
                             font-weight: normal;
                             font-size: 10px;
@@ -268,20 +264,20 @@ content{
                         }
                     }
 
-                    .Selectedmonth{
+                    .Selectedmonth {
                         width: 90px;
                         height: 100%;
 
                         @extend .flexSpace-between;
 
-                        .fa-circle{
+                        .fa-circle {
                             font-size: 6px;
 
-                            color: #E03A45;
+                            color: #e03a45;
                         }
 
-                        p{
-                            font-family: 'Gilroy', sans-serif;
+                        p {
+                            font-family: "Gilroy", sans-serif;
                             font-style: normal;
                             font-weight: normal;
                             font-size: 10px;
@@ -289,17 +285,17 @@ content{
                         }
                     }
 
-                    button{
+                    button {
                         cursor: pointer;
                         width: 80px;
                         height: 20px;
 
                         border: none;
-                        color: #DBDFEA;
-                        background: #1D1E2C;
+                        color: #dbdfea;
+                        background: #1d1e2c;
                         border-radius: 20px;
 
-                        font-family: 'Gilroy', sans-serif;
+                        font-family: "Gilroy", sans-serif;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 10px;
@@ -308,33 +304,32 @@ content{
                 }
             }
 
-            .OutlayGraphic{
+            .OutlayGraphic {
                 width: 95%;
                 height: 150px;
 
                 @extend .flexSpace-between;
 
-                .OutlayGraphic_numberleft{
+                .OutlayGraphic_numberleft {
                     width: 25%;
                     max-width: 45px;
                     height: 100%;
-    
+
                     @extend .flexSpace-betweenColumn;
 
-
-                    p{
+                    p {
                         font-style: normal;
                         font-weight: normal;
                         font-size: 11px;
                         line-height: 9px;
                         display: flex;
                         align-items: center;
-                        
-                        color: #DBDFEA;
+
+                        color: #dbdfea;
                     }
                 }
 
-                .OutlayGraphic_image{
+                .OutlayGraphic_image {
                     width: 100%;
                     height: 150px;
 
@@ -344,39 +339,401 @@ content{
                 }
             }
 
-            .OutlayGraphic_numberdown{
+            .OutlayGraphic_numberdown {
                 width: 95%;
                 height: 15px;
 
                 @extend .flexSpace-between;
 
-                
-                .numberdown{
+                .numberdown {
                     width: 93.5%;
                     height: 15px;
-                    
 
                     @extend .flexSpace-between;
 
-                    p{
+                    p {
                         font-style: normal;
                         font-weight: normal;
                         font-size: 8px;
                         line-height: 9px;
                         display: flex;
-                        
-                        color: #DBDFEA;
+
+                        color: #dbdfea;
                     }
                 }
             }
         }
 
-        .Income{
+        .Income {
             width: 100%;
             height: 177px;
 
             border-radius: 10px;
-            background-color:$primary-color;
+            background-color: $color-body;
+
+            @extend .flexSpace-between;
+
+            .Income_graphic {
+                width: 57%;
+                max-width: 500px;
+                height: 100%;
+
+                background-color: $primary-color;
+                @extend .flexSpace-aroundColumn;
+
+                border-radius: 10px;
+
+                p {
+                    width: 97%;
+                    height: 30px;
+
+                    @extend .flexSpace-between;
+
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+
+                    color: #dbdfea;
+                }
+
+                button {
+                    width: 80%;
+                    max-width: 100px;
+                    height: 27px;
+
+                    @extend .flexSpace-evenly;
+
+                    background: #1d1e2c;
+                    border: none;
+                    border-radius: 20px;
+                    cursor: pointer;
+
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 11px;
+                    line-height: 8px;
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #dbdfea;
+                }
+
+                .IncomeGraphic {
+                    width: 97%;
+                    height: 92.08px;
+
+                    @extend .flexSpace-between;
+
+                    .IncomeGraphic_numberleft {
+                        width: 25%;
+                        max-width: 45px;
+                        height: 92.06px;
+
+                        @extend .flexSpace-betweenColumn;
+
+                        p {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 11px;
+                            line-height: 9px;
+                            display: flex;
+                            align-items: center;
+
+                            color: #dbdfea;
+                        }
+                    }
+
+                    .IncomeGraphic_Rectangle {
+                        width: 89%;
+                        height: 92.06px;
+
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+
+                        @extend .flexSpace-around;
+
+                        .Rectangle {
+                            width: 10px;
+                            height: 100%;
+
+                            background-color: #1d1e2c;
+                            border-radius: 100px;
+
+                            @extend .flex-end;
+
+                            .Rectangle-Jan {
+                                width: 100%;
+                                height: 41.57px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Fab {
+                                width: 100%;
+                                height: 65.72px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Mar {
+                                width: 100%;
+                                height: 57.73px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Apr {
+                                width: 100%;
+                                height: 62.35px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-May {
+                                width: 100%;
+                                height: 62.35px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Jun {
+                                width: 100%;
+                                height: 36.95px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Jul {
+                                width: 100%;
+                                height: 50.8px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Aug {
+                                width: 100%;
+                                height: 62.35px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Sep {
+                                width: 100%;
+                                height: 36.95px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Oct {
+                                width: 100%;
+                                height: 64.66px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Nov {
+                                width: 100%;
+                                height: 50.8px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+
+                            .Rectangle-Dec {
+                                width: 100%;
+                                height: 42.66px;
+
+                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+                                border-radius: 100px;
+                            }
+                        }
+                    }
+                }
+                .IncomeGraphic_numberdown {
+                    width: 97%;
+                    height: 15px;
+
+                    @extend .flexSpace-between;
+
+                    .Incomenumberdown {
+                        width: 89%;
+                        height: 15px;
+
+                        @extend .flexSpace-around;
+
+                        p {
+                            width: 19px;
+                            height: 100%;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 10px;
+
+                            color: #dbdfea;
+                        }
+                    }
+                }
+            }
+
+            .Income_Transactions {
+                width: 40%;
+                max-width: 453px;
+                height: 100%;
+
+                background-color: $primary-color;
+
+                @extend .flexSpace-aroundColumn;
+
+                border-radius: 10px;
+
+                img {
+                    width: 75%;
+                }
+
+                p {
+                    width: 90%;
+                    height: 30px;
+
+                    @extend .flexSpace-between;
+
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+
+                    color: #dbdfea;
+                }
+
+                .fa-ellipsis-h {
+                    font-size: 15px;
+                    color: #dbdfea;
+
+                    cursor: pointer;
+                }
+
+                .Income_RefuelingGasoline {
+                    width: 90%;
+                    height: 37px;
+
+                    @extend .flexSpace-between;
+                    border-bottom: 1px solid #1d1e2c;
+
+                    p {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 12px;
+                        display: flex;
+                        align-items: center;
+
+                        color: #dbdfea;
+                    }
+
+                    h6 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 12px;
+                        display: flex;
+                        align-items: center;
+
+                        color: #e03a45;
+                    }
+                }
+
+                .Income_PurchaseOfFurniture {
+                    width: 90%;
+                    height: 37px;
+
+                    @extend .flexSpace-between;
+
+                    border-bottom: 1px solid #1d1e2c;
+
+                    p {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 12px;
+                        display: flex;
+                        align-items: center;
+
+                        color: #dbdfea;
+                    }
+
+                    h6 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 12px;
+                        display: flex;
+                        align-items: center;
+
+                        color: #e03a45;
+                    }
+                }
+
+                .Income_CashRefundForTickets {
+                    width: 90%;
+                    height: 37px;
+
+                    @extend .flexSpace-between;
+
+                    p {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 12px;
+                        display: flex;
+                        align-items: center;
+
+                        color: #dbdfea;
+                    }
+
+                    h6 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 12px;
+                        display: flex;
+                        align-items: center;
+
+                        color: #34e4b5;
+                    }
+                }
+            }
         }
     }
 }
+
+/* 
+                                animation-name: example;
+                                animation-duration: 10s;
+                                animation-iteration-count: infinite;
+                                @keyframes example {
+                                    0%   {height: 41.57px;}
+                                    5%  {height: 42.57px;}
+                                    10%  {height: 43.57px;}
+                                    15%  {height: 44.57px;}
+                                    20% {height: 45.57px;}
+                                    25%   {height: 46.57px;}
+                                    30%  {height: 47.57px;}
+                                    40%  {height: 48.57px;}
+                                    45%  {height: 49.57px;}
+                                    50% {height: 50px;}
+                                }
+*/

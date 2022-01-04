@@ -38,7 +38,7 @@
           justify-content: center;
 }
 
-.flex-end {
+.flex-end, content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +66,7 @@
           justify-content: center;
 }
 
-.flexSpace-evenly, aside .aside_container .Card .Anallytics button {
+.flexSpace-evenly, content .content_container .Income .Income_graphic button, aside .aside_container .Card .Anallytics .titleAnallytics summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-around {
+.flexSpace-around, content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle, content .content_container .Income .Income_graphic .IncomeGraphic_numberdown .Incomenumberdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-between, header .header_container, header .header_container .header_infos, header .header_container .header_infos .box_profile, nav .nav_container .nav_menus .Daseboard .Daseboard_container, nav .nav_container .nav_menus .Userprofiles, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container, nav .nav_container .nav_menus .Messages, nav .nav_container .nav_menus .Messages .Messages_container, nav .nav_container .nav_menus .Transactions, nav .nav_container .nav_menus .Transactions .Transactions_container, nav .nav_container .nav_menus .Mywallet, nav .nav_container .nav_menus .Mywallet .Mywallet_container, nav .nav_container .nav_menus .Payment, nav .nav_container .nav_menus .Payment .Payment_container, nav .nav_container .nav_menus .Investment, nav .nav_container .nav_menus .Investment .Investment_container, nav .nav_container .nav_menus .Reports, nav .nav_container .nav_menus .Reports .Reports_container, nav .nav_container .nav_config .Settings, nav .nav_container .nav_config .Settings .Settings_container, nav .nav_container .nav_config .Support, nav .nav_container .nav_config .Support .Support_container, nav .nav_container .nav_exit .Logout, nav .nav_container .nav_exit .Logout .Logout_container, content .content_container .content_total, content .content_container .content_total .totalBalance .TxtBalance, content .content_container .content_total .totalExpence .TxtExpence, content .content_container .content_total .totalSavings .TxtSavings, content .content_container .content_Outlay .TxtOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth, content .content_container .content_Outlay .OutlayGraphic, content .content_container .content_Outlay .OutlayGraphic_numberdown, content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown, aside .aside_container .Card .MyCard p, aside .aside_container .Card .Anallytics p, aside .aside_container .Card .Anallytics .anally_statistics .Stairs, aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics, aside .aside_container .Card .Anallytics .anally_statistics .Footings, aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings, aside .aside_container .Card .Anallytics .anally_statistics .Electrical, aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Framing, aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .Roofing, aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .Insulation, aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
+.flexSpace-between, header .header_container, header .header_container .header_infos, header .header_container .header_infos .box_profile, nav .nav_container .nav_menus .Daseboard .Daseboard_container, nav .nav_container .nav_menus .Userprofiles, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container, nav .nav_container .nav_menus .Messages, nav .nav_container .nav_menus .Messages .Messages_container, nav .nav_container .nav_menus .Transactions, nav .nav_container .nav_menus .Transactions .Transactions_container, nav .nav_container .nav_menus .Mywallet, nav .nav_container .nav_menus .Mywallet .Mywallet_container, nav .nav_container .nav_menus .Payment, nav .nav_container .nav_menus .Payment .Payment_container, nav .nav_container .nav_menus .Investment, nav .nav_container .nav_menus .Investment .Investment_container, nav .nav_container .nav_menus .Reports, nav .nav_container .nav_menus .Reports .Reports_container, nav .nav_container .nav_config .Settings, nav .nav_container .nav_config .Settings .Settings_container, nav .nav_container .nav_config .Support, nav .nav_container .nav_config .Support .Support_container, nav .nav_container .nav_exit .Logout, nav .nav_container .nav_exit .Logout .Logout_container, content .content_container .content_total, content .content_container .content_total .totalBalance .TxtBalance, content .content_container .content_total .totalExpence .TxtExpence, content .content_container .content_total .totalSavings .TxtSavings, content .content_container .content_Outlay .TxtOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth, content .content_container .content_Outlay .OutlayGraphic, content .content_container .content_Outlay .OutlayGraphic_numberdown, content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown, content .content_container .Income, content .content_container .Income .Income_graphic p, content .content_container .Income .Income_graphic .IncomeGraphic, content .content_container .Income .Income_graphic .IncomeGraphic_numberdown, content .content_container .Income .Income_Transactions p, content .content_container .Income .Income_Transactions .Income_RefuelingGasoline, content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture, content .content_container .Income .Income_Transactions .Income_CashRefundForTickets, aside .aside_container .Card .MyCard p, aside .aside_container .Card .Anallytics p, aside .aside_container .Card .Anallytics .titleAnallytics, aside .aside_container .Card .Anallytics .anally_statistics .Stairs, aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics, aside .aside_container .Card .Anallytics .anally_statistics .Footings, aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings, aside .aside_container .Card .Anallytics .anally_statistics .Electrical, aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Framing, aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .Roofing, aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .Insulation, aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +101,7 @@
           justify-content: space-between;
 }
 
-.flexSpace-evenlyColumn, content .content_container .content_total .totalBalance, content .content_container .content_total .totalExpence, content .content_container .content_total .totalSavings, content .content_container .content_Outlay {
+.flexSpace-evenlyColumn, content .content_container, content .content_container .content_total .totalBalance, content .content_container .content_total .totalExpence, content .content_container .content_total .totalSavings, content .content_container .content_Outlay {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-aroundColumn, aside .aside_container .Card .MyCard, aside .aside_container .Card .Anallytics {
+.flexSpace-aroundColumn, content .content_container .Income .Income_graphic, content .content_container .Income .Income_Transactions, aside .aside_container .Card, aside .aside_container .Card .MyCard, aside .aside_container .Card .Anallytics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +132,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-betweenColumn, nav .nav_container, content .content_container, content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft, aside .aside_container .Card, aside .aside_container .Card .Anallytics .anally_statistics {
+.flexSpace-betweenColumn, nav .nav_container, content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft, content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_numberleft, aside .aside_container .Card .Anallytics .titleAnallytics .ml-4, aside .aside_container .Card .Anallytics .anally_statistics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,6 +338,7 @@ nav .nav_container .nav_logo p {
       -ms-flex-align: center;
           align-items: center;
   color: #DBDFEA;
+  cursor: pointer;
 }
 
 nav .nav_container .nav_menus {
@@ -778,7 +779,7 @@ nav .nav_container .nav_exit {
 }
 
 nav .nav_container .nav_exit .Logout {
-  width: 100%;
+  width: 90%;
   max-width: 220px;
   height: 40px;
   border-radius: 100px 0px 0px 100px;
@@ -831,7 +832,6 @@ content {
 content .content_container {
   width: 100%;
   height: 100%;
-  max-height: 529px;
 }
 
 content .content_container .content_total {
@@ -851,14 +851,14 @@ content .content_container .content_total .totalBalance {
   background-position-x: 100%;
   background-position-y: 100%;
   background-size: 80%;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_total .totalBalance .TxtBalance {
   width: 90%;
   max-width: 200px;
   height: 20px;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -879,7 +879,7 @@ content .content_container .content_total .totalBalance .valuebalance {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_total .totalBalance .percentageBalance {
@@ -892,7 +892,7 @@ content .content_container .content_total .totalBalance .percentageBalance {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #34E4B5;
+  color: #34e4b5;
 }
 
 content .content_container .content_total .totalExpence {
@@ -906,14 +906,14 @@ content .content_container .content_total .totalExpence {
   background-position-x: 100%;
   background-position-y: 100%;
   background-size: 80%;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_total .totalExpence .TxtExpence {
   width: 90%;
   max-width: 200px;
   height: 20px;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -934,7 +934,7 @@ content .content_container .content_total .totalExpence .valueExpence {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_total .totalExpence .percentageExpence {
@@ -947,7 +947,7 @@ content .content_container .content_total .totalExpence .percentageExpence {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #34E4B5;
+  color: #34e4b5;
 }
 
 content .content_container .content_total .totalSavings {
@@ -961,14 +961,14 @@ content .content_container .content_total .totalSavings {
   background-position-x: 100%;
   background-position-y: 100%;
   background-size: 80%;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_total .totalSavings .TxtSavings {
   width: 90%;
   max-width: 200px;
   height: 20px;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -989,7 +989,7 @@ content .content_container .content_total .totalSavings .valueSavings {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_total .totalSavings .percentageSavings {
@@ -1002,7 +1002,7 @@ content .content_container .content_total .totalSavings .percentageSavings {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #34E4B5;
+  color: #34e4b5;
 }
 
 content .content_container .content_Outlay {
@@ -1010,7 +1010,7 @@ content .content_container .content_Outlay {
   height: 230px;
   border-radius: 10px;
   background-color: #24263A;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_Outlay .TxtOutlay {
@@ -1019,7 +1019,7 @@ content .content_container .content_Outlay .TxtOutlay {
 }
 
 content .content_container .content_Outlay .TxtOutlay p {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -1042,11 +1042,11 @@ content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth 
 
 content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth .fa-circle {
   font-size: 6px;
-  color: #894BA9;
+  color: #894ba9;
 }
 
 content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth p {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -1060,11 +1060,11 @@ content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth 
 
 content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth .fa-circle {
   font-size: 6px;
-  color: #E03A45;
+  color: #e03a45;
 }
 
 content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth p {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -1076,10 +1076,10 @@ content .content_container .content_Outlay .TxtOutlay .btnOutlay button {
   width: 80px;
   height: 20px;
   border: none;
-  color: #DBDFEA;
-  background: #1D1E2C;
+  color: #dbdfea;
+  background: #1d1e2c;
   border-radius: 20px;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -1108,7 +1108,7 @@ content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberl
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_image {
@@ -1137,16 +1137,355 @@ content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 content .content_container .Income {
   width: 100%;
   height: 177px;
   border-radius: 10px;
-  background-color: #24263A;
+  background-color: #1D1E2C;
 }
 
+content .content_container .Income .Income_graphic {
+  width: 57%;
+  max-width: 500px;
+  height: 100%;
+  background-color: #24263A;
+  border-radius: 10px;
+}
+
+content .content_container .Income .Income_graphic p {
+  width: 97%;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_graphic button {
+  width: 80%;
+  max-width: 100px;
+  height: 27px;
+  background: #1d1e2c;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic {
+  width: 97%;
+  height: 92.08px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_numberleft {
+  width: 25%;
+  max-width: 45px;
+  height: 92.06px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_numberleft p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle {
+  width: 89%;
+  height: 92.06px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle {
+  width: 10px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Jan {
+  width: 100%;
+  height: 41.57px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Fab {
+  width: 100%;
+  height: 65.72px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Mar {
+  width: 100%;
+  height: 57.73px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Apr {
+  width: 100%;
+  height: 62.35px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-May {
+  width: 100%;
+  height: 62.35px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Jun {
+  width: 100%;
+  height: 36.95px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Jul {
+  width: 100%;
+  height: 50.8px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Aug {
+  width: 100%;
+  height: 62.35px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Sep {
+  width: 100%;
+  height: 36.95px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Oct {
+  width: 100%;
+  height: 64.66px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Nov {
+  width: 100%;
+  height: 50.8px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Dec {
+  width: 100%;
+  height: 42.66px;
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  border-radius: 100px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic_numberdown {
+  width: 97%;
+  height: 15px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic_numberdown .Incomenumberdown {
+  width: 89%;
+  height: 15px;
+}
+
+content .content_container .Income .Income_graphic .IncomeGraphic_numberdown .Incomenumberdown p {
+  width: 19px;
+  height: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_Transactions {
+  width: 40%;
+  max-width: 453px;
+  height: 100%;
+  background-color: #24263A;
+  border-radius: 10px;
+}
+
+content .content_container .Income .Income_Transactions img {
+  width: 75%;
+}
+
+content .content_container .Income .Income_Transactions p {
+  width: 90%;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_Transactions .fa-ellipsis-h {
+  font-size: 15px;
+  color: #dbdfea;
+  cursor: pointer;
+}
+
+content .content_container .Income .Income_Transactions .Income_RefuelingGasoline {
+  width: 90%;
+  height: 37px;
+  border-bottom: 1px solid #1d1e2c;
+}
+
+content .content_container .Income .Income_Transactions .Income_RefuelingGasoline p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_Transactions .Income_RefuelingGasoline h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e03a45;
+}
+
+content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture {
+  width: 90%;
+  height: 37px;
+  border-bottom: 1px solid #1d1e2c;
+}
+
+content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e03a45;
+}
+
+content .content_container .Income .Income_Transactions .Income_CashRefundForTickets {
+  width: 90%;
+  height: 37px;
+}
+
+content .content_container .Income .Income_Transactions .Income_CashRefundForTickets p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+content .content_container .Income .Income_Transactions .Income_CashRefundForTickets h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #34e4b5;
+}
+
+/* 
+                                animation-name: example;
+                                animation-duration: 10s;
+                                animation-iteration-count: infinite;
+                                @keyframes example {
+                                    0%   {height: 41.57px;}
+                                    5%  {height: 42.57px;}
+                                    10%  {height: 43.57px;}
+                                    15%  {height: 44.57px;}
+                                    20% {height: 45.57px;}
+                                    25%   {height: 46.57px;}
+                                    30%  {height: 47.57px;}
+                                    40%  {height: 48.57px;}
+                                    45%  {height: 49.57px;}
+                                    50% {height: 50px;}
+                                }
+*/
 aside {
   background-color: #1D1E2C;
   -ms-grid-row: 2;
@@ -1159,12 +1498,13 @@ aside {
 aside .aside_container {
   width: 100%;
   max-width: 250px;
+  height: 100%;
 }
 
 aside .aside_container .Card {
   width: 100%;
   max-width: 235px;
-  height: 529px;
+  height: 100%;
 }
 
 aside .aside_container .Card .MyCard {
@@ -1192,12 +1532,12 @@ aside .aside_container .Card .MyCard p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .MyCard .fa-ellipsis-h {
   font-size: 15px;
-  color: #DBDFEA;
+  color: #dbdfea;
   cursor: pointer;
 }
 
@@ -1223,28 +1563,71 @@ aside .aside_container .Card .Anallytics p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics button {
-  width: 80%;
-  max-width: 100px;
-  height: 27px;
-  background: #1D1E2C;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+aside .aside_container .Card .Anallytics .titleAnallytics {
+  width: 90%;
+  height: 30px;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 8px;
+  font-size: 16px;
+  line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
+}
+
+aside .aside_container .Card .Anallytics .titleAnallytics summary {
+  width: 100px;
+  max-width: 100px;
+  height: 27px;
+  background: #1d1e2c;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+aside .aside_container .Card .Anallytics .titleAnallytics summary p {
+  width: 60%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #dbdfea;
+}
+
+aside .aside_container .Card .Anallytics .titleAnallytics .ml-4 {
+  position: absolute;
+  right: 40px;
+  width: 100px;
+  height: 100px;
+  color: #dbdfea;
+  border-radius: 10px 0px 0px 10px;
+}
+
+aside .aside_container .Card .Anallytics .titleAnallytics .ml-4 .ThisMonth {
+  width: 100%;
+  height: 30px;
+  background-color: #dbdfea;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #24263A;
+  cursor: pointer;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics {
@@ -1276,20 +1659,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Stairs p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics .StairsGraphic {
   width: 64px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1315,20 +1698,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Footings p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings .FootingsGraphic {
   width: 64px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1354,20 +1737,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Electrical p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical .ElectricalGraphic {
   width: 59px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1393,20 +1776,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial .FramingMaterialGraphic {
   width: 55px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1432,20 +1815,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor .FinishLaborGraphic {
   width: 48px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1471,20 +1854,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Hardware p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware .HardwareGraphic {
   width: 48px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1510,20 +1893,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Framing p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing .FramingGraphic {
   width: 32px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1549,20 +1932,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation p 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation .TileInstallationGraphic {
   width: 25px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1588,20 +1971,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Roofing p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing .RoofingGraphic {
   width: 25px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1627,20 +2010,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall p
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall .AppliancesInstallGraphic {
   width: 13px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1666,20 +2049,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .Insulation p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation .InsulationGraphic {
   width: 10px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
@@ -1705,20 +2088,20 @@ aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting p 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
   width: 100px;
   height: 10px;
   border-radius: 100px;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
 aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting .InteriorPaintingGraphic {
   width: 10px;
   height: 100%;
-  background: linear-gradient(59.45deg, #DC2430 -58.34%, #DB2379 19.04%, #7B4397 140.91%);
+  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 /*# sourceMappingURL=main.css.map */
