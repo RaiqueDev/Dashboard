@@ -12,4 +12,8 @@
 
 <br>
 
+![2022-01-05_14-59](https://user-images.githubusercontent.com/96999326/148266036-1578fdb6-b36d-4cf6-8716-a52f8b7cba4b.png)
+
+<br>
+
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raique-ramos-328556210/)
