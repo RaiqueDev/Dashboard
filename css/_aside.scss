@@ -47,12 +47,12 @@ aside {
                     display: flex;
                     align-items: center;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .fa-ellipsis-h {
                     font-size: 15px;
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
 
                     cursor: pointer;
                 }
@@ -82,7 +82,7 @@ aside {
                     display: flex;
                     align-items: center;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .titleAnallytics {
@@ -98,11 +98,10 @@ aside {
                     display: flex;
                     align-items: center;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
 
                     summary {
                         width: 100px;
-                        max-width: 100px;
                         height: 27px;
 
                         @extend .flexSpace-evenly;
@@ -118,7 +117,7 @@ aside {
                             font-weight: normal;
                             font-size: 10px;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
                     }
 
@@ -129,14 +128,14 @@ aside {
                         right: 40px;
                         width: 100px;
                         height: 100px;
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
 
                         border-radius: 10px 0px 0px 10px;
 
                         .ThisMonth {
-                            width: 100%;
-                            height: 30px;
-                            background-color: #dbdfea;
+                            width: 100px;
+                            height: 27px;
+                            background-color: set-text-color($color-txt);
                             border-radius: 20px;
 
                             font-style: normal;
@@ -179,7 +178,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Statistics {
@@ -221,7 +220,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Footings {
@@ -263,7 +262,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Electrical {
@@ -305,7 +304,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_FramingMaterial {
@@ -347,7 +346,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_FinishLabor {
@@ -389,7 +388,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Hardware {
@@ -431,7 +430,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Framing {
@@ -473,7 +472,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_TileInstallation {
@@ -515,7 +514,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Roofing {
@@ -557,7 +556,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_AppliancesInstall {
@@ -599,7 +598,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_Insulation {
@@ -641,7 +640,7 @@ aside {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
 
                         .bar_InteriorPainting {

@@ -1,10 +1,14 @@
 $color-body: #1D1E2C;
 
-$primary-color: #24263A;
+$primary-color: #24263A; // 24263A
 
 $second-color: #E7ECEF;
 
-$boxes: #F8F8FB;
+$color-txt: #DBDFEA;
+
+$border-nav: #1D1E2C;
+
+$hover-color: #1D1E2C;
 
 $circle-possible-color: #9B4343;
 
@@ -15,11 +19,11 @@ $darkenColor: darken($activeColor, 20%);
 $background: #3498db;
 
 @function set-text-color($color){
-    @if lightness($color) > 70{
-        @return #274C77;
+    @if lightness($color) > 88.8{ // light 90 dark 70
+        @return #DBDFEA;
     }
     @else{
-        @return white;
+        @return #364A63;
     }
 }
 

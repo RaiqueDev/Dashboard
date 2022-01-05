@@ -19,7 +19,7 @@ nav{
             text-align: center;
 
             @extend .flex-startColumn;
-            border-bottom: 1px solid #1D1E2C;
+            border-bottom: 1px solid set-line-color($primary-color);
 
             p{
                 position: relative;
@@ -32,7 +32,7 @@ nav{
                 display: flex;
                 align-items: center;
                 
-                color: #DBDFEA;
+                color: set-text-color($color-txt);
                 cursor: pointer;
 
             }
@@ -44,7 +44,7 @@ nav{
             max-height: 346px;
 
             @extend .flexalign-itemsColumn;
-            border-bottom: 1px solid #1D1E2C;
+            border-bottom: 1px solid set-line-color($primary-color);
 
             .Daseboard{
                 width: 90%;
@@ -57,7 +57,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Daseboard_container{
@@ -73,7 +73,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -87,7 +87,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -103,7 +103,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Userprofiles_container{
@@ -120,7 +120,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -134,7 +134,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -150,7 +150,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Messages_container{
@@ -167,7 +167,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -181,7 +181,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -197,7 +197,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Transactions_container{
@@ -214,7 +214,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -228,7 +228,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -244,7 +244,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Mywallet_container{
@@ -261,7 +261,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -275,7 +275,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -291,7 +291,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Payment_container{
@@ -308,7 +308,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -322,7 +322,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -338,7 +338,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
     
                 .Investment_container{
@@ -355,7 +355,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -369,7 +369,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -385,7 +385,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Reports_container{
@@ -401,7 +401,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -415,7 +415,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -426,7 +426,7 @@ nav{
             height: 84px;
 
             @extend .flexalign-itemsColumn;
-            border-bottom: 1px solid #1D1E2C;
+            border-bottom: 1px solid set-line-color($border-nav);
 
             .Settings{
                 width: 90%;
@@ -438,7 +438,7 @@ nav{
                 border-radius: 100px 0px 0px 100px;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);                
                 }
 
                 .Settings_container{
@@ -456,7 +456,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -470,7 +470,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -485,7 +485,7 @@ nav{
                 border-radius: 100px 0px 0px 100px;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Support_container{
@@ -502,7 +502,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -516,7 +516,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -539,7 +539,7 @@ nav{
                 cursor: pointer;
 
                 &:hover{
-                    background-color: $color-body;
+                    background-color: set-hover-color($hover-color);
                 }
 
                 .Logout_container{
@@ -556,7 +556,7 @@ nav{
 
                         width: 25px;
                         height: 100%;
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                         font-size: 19px;
                     }
 
@@ -570,7 +570,7 @@ nav{
                         display: flex;
                         align-items: center;
                         
-                        color: #DBDFEA;
+                        color: set-text-color($color-txt);
                     }
                 }
             }

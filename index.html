@@ -19,7 +19,10 @@
                 <p>Hello, Drax</p>
 
                 <div class="header_infos">
-                    <i class="fas fa-sun"></i>
+                    <div class="lightAndDark">
+                        <input onclick="dark()" class="container_toggle" type="checkbox" id="switch" name="mode">
+                        <label onclick="light()" for="switch"></label>
+                    </div>
                     <i class="fas fa-search"></i>
                     <i class="fas fa-bell"></i>
                     <div class="box_profile">
@@ -122,12 +125,12 @@
                     <div class="totalExpence">
                         <p class="TxtExpence">Total Expence <i class="far fa-ellipsis-h"></i></p>
                         <p class="valueExpence">$ 11,375</p>
-                        <p class="percentageExpence"><i class="fas fa-level-up-alt"></i> 11.94%</p>
+                        <p class="percentageExpence"><i class="fas fa-level-up-alt"></i> 19.91%</p>
                     </div>
                     <div class="totalSavings">
                         <p class="TxtSavings">Total Balance <i class="far fa-ellipsis-h"></i></p>
-                        <p class="valueSavings">$ 19,750</p>
-                        <p class="percentageSavings"><i class="fas fa-level-up-alt"></i> 11.94%</p>
+                        <p class="valueSavings">$ 8400</p>
+                        <p class="percentageSavings"><i class="fas fa-level-up-alt"></i> 21.17%</p>
                     </div>
                 </div>
                 <div class="content_Outlay">
@@ -445,6 +448,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="script.js"></script>
+    <script src="theme.js"></script>
 </body>
 
 </html>

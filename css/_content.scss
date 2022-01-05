@@ -29,7 +29,7 @@ content {
                 background-position-y: 100%;
                 background-size: 80%;
 
-                color: #dbdfea;
+                color: set-text-color($color-txt);
 
                 @extend .flexSpace-evenlyColumn;
 
@@ -62,7 +62,7 @@ content {
                     font-size: 14px;
                     line-height: 17px;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .percentageBalance {
@@ -93,7 +93,7 @@ content {
                 background-position-y: 100%;
                 background-size: 80%;
 
-                color: #dbdfea;
+                color: set-text-color($color-txt);
 
                 @extend .flexSpace-evenlyColumn;
 
@@ -126,7 +126,7 @@ content {
                     font-size: 14px;
                     line-height: 17px;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .percentageExpence {
@@ -140,7 +140,7 @@ content {
 
                     display: flex;
 
-                    color: #34e4b5;
+                    color: #DC2430;
                 }
             }
 
@@ -157,7 +157,7 @@ content {
                 background-position-y: 100%;
                 background-size: 80%;
 
-                color: #dbdfea;
+                color: set-text-color($color-txt);
 
                 @extend .flexSpace-evenlyColumn;
 
@@ -190,7 +190,7 @@ content {
                     font-size: 14px;
                     line-height: 17px;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .percentageSavings {
@@ -218,7 +218,7 @@ content {
 
             @extend .flexSpace-evenlyColumn;
 
-            color: #dbdfea;
+            color: set-text-color($color-txt);
 
             .TxtOutlay {
                 @extend .flexSpace-between;
@@ -291,7 +291,7 @@ content {
                         height: 20px;
 
                         border: none;
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
                         background: #1d1e2c;
                         border-radius: 20px;
 
@@ -325,7 +325,7 @@ content {
                         display: flex;
                         align-items: center;
 
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
                     }
                 }
 
@@ -358,7 +358,7 @@ content {
                         line-height: 9px;
                         display: flex;
 
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
                     }
                 }
             }
@@ -396,7 +396,7 @@ content {
                     display: flex;
                     align-items: center;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 button {
@@ -419,7 +419,7 @@ content {
                     display: flex;
                     align-items: center;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .IncomeGraphic {
@@ -443,7 +443,7 @@ content {
                             display: flex;
                             align-items: center;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
                     }
 
@@ -582,7 +582,7 @@ content {
                             font-weight: normal;
                             font-size: 10px;
 
-                            color: #dbdfea;
+                            color: set-text-color($color-txt);
                         }
                     }
                 }
@@ -616,12 +616,12 @@ content {
                     display: flex;
                     align-items: center;
 
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
                 }
 
                 .fa-ellipsis-h {
                     font-size: 15px;
-                    color: #dbdfea;
+                    color: set-text-color($color-txt);
 
                     cursor: pointer;
                 }
@@ -641,7 +641,7 @@ content {
                         display: flex;
                         align-items: center;
 
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
                     }
 
                     h6 {
@@ -672,7 +672,7 @@ content {
                         display: flex;
                         align-items: center;
 
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
                     }
 
                     h6 {
@@ -701,7 +701,7 @@ content {
                         display: flex;
                         align-items: center;
 
-                        color: #dbdfea;
+                        color: set-text-color($color-txt);
                     }
 
                     h6 {
