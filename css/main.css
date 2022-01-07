@@ -1,4 +1,4 @@
-.flexCenter, header, nav .nav_container .nav_menus .Daseboard .Daseboard_container .fa-chart-pie, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container .fa-user-alt, nav .nav_container .nav_menus .Messages .Messages_container .fa-comment-alt, nav .nav_container .nav_menus .Transactions .Transactions_container .fa-credit-card, nav .nav_container .nav_menus .Mywallet .Mywallet_container .fa-wallet, nav .nav_container .nav_menus .Payment .Payment_container .fa-dollar-sign, nav .nav_container .nav_menus .Investment .Investment_container .fa-chart-bar, nav .nav_container .nav_menus .Reports .Reports_container .fa-clipboard, nav .nav_container .nav_config .Settings .Settings_container .fa-cog, nav .nav_container .nav_config .Support .Support_container .fa-question-circle, nav .nav_container .nav_exit .Logout .Logout_container .fa-sign-out-alt, aside .aside_container {
+.flexCenter, .header, .header .container_header .header_helloName, .nav .container_nav .Logo, .nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie, .nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie, .nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt, .nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt, .nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet, .nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd, .nav .container_nav .nav_options .Investment .icon_name .fa-chart-line, .nav .container_nav .nav_options .Reports .icon_name .fa-clipboard, .nav .container_nav .nav_settings .settings .icon_name .fa-cog, .nav .container_nav .nav_settings .support .icon_name .fa-question-circle, .nav .container_nav .nav_Logout .Logout .icon_name .fa-sign-out-alt, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate .fa-angle-down {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,7 @@
           justify-content: center;
 }
 
-.flex-start, aside {
+.flex-start {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@
           justify-content: center;
 }
 
-.flex-startColumn, nav .nav_container .nav_logo, nav .nav_container .nav_menus .Daseboard {
+.flex-startColumn, .content .container_content .box_total .total_balance .balance_txt h4, .content .container_content .box_total .total_expence .expence_txt h4, .content .container_content .box_total .total_savings .savings_txt h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@
           justify-content: center;
 }
 
-.flex-end, content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle {
+.flex-end, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jan, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Feb, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Mar, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Apr, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-May, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jun, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jul, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Aug, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Sep, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Oct, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Nov, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Dec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +66,7 @@
           justify-content: center;
 }
 
-.flexSpace-evenly, content .content_container .Income .Income_graphic button, aside .aside_container .Card .Anallytics .titleAnallytics summary {
+.flexSpace-evenly, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate, .content .container_content .box_income .boxincome_graphic .income_title button, .aside .container_aside .Anallytics .Anallytics_title button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-around, content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle, content .content_container .Income .Income_graphic .IncomeGraphic_numberdown .Incomenumberdown {
+.flexSpace-around, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .settings .icon_name, .nav .container_nav .nav_settings .support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-between, header .header_container, header .header_container .header_infos, header .header_container .header_infos .box_profile, nav .nav_container .nav_menus .Daseboard .Daseboard_container, nav .nav_container .nav_menus .Userprofiles, nav .nav_container .nav_menus .Userprofiles .Userprofiles_container, nav .nav_container .nav_menus .Messages, nav .nav_container .nav_menus .Messages .Messages_container, nav .nav_container .nav_menus .Transactions, nav .nav_container .nav_menus .Transactions .Transactions_container, nav .nav_container .nav_menus .Mywallet, nav .nav_container .nav_menus .Mywallet .Mywallet_container, nav .nav_container .nav_menus .Payment, nav .nav_container .nav_menus .Payment .Payment_container, nav .nav_container .nav_menus .Investment, nav .nav_container .nav_menus .Investment .Investment_container, nav .nav_container .nav_menus .Reports, nav .nav_container .nav_menus .Reports .Reports_container, nav .nav_container .nav_config .Settings, nav .nav_container .nav_config .Settings .Settings_container, nav .nav_container .nav_config .Support, nav .nav_container .nav_config .Support .Support_container, nav .nav_container .nav_exit .Logout, nav .nav_container .nav_exit .Logout .Logout_container, content .content_container .content_total, content .content_container .content_total .totalBalance .TxtBalance, content .content_container .content_total .totalExpence .TxtExpence, content .content_container .content_total .totalSavings .TxtSavings, content .content_container .content_Outlay .TxtOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth, content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth, content .content_container .content_Outlay .OutlayGraphic, content .content_container .content_Outlay .OutlayGraphic_numberdown, content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown, content .content_container .Income, content .content_container .Income .Income_graphic p, content .content_container .Income .Income_graphic .IncomeGraphic, content .content_container .Income .Income_graphic .IncomeGraphic_numberdown, content .content_container .Income .Income_Transactions p, content .content_container .Income .Income_Transactions .Income_RefuelingGasoline, content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture, content .content_container .Income .Income_Transactions .Income_CashRefundForTickets, aside .aside_container .Card .MyCard p, aside .aside_container .Card .Anallytics p, aside .aside_container .Card .Anallytics .titleAnallytics, aside .aside_container .Card .Anallytics .anally_statistics .Stairs, aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics, aside .aside_container .Card .Anallytics .anally_statistics .Footings, aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings, aside .aside_container .Card .Anallytics .anally_statistics .Electrical, aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor, aside .aside_container .Card .Anallytics .anally_statistics .Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware, aside .aside_container .Card .Anallytics .anally_statistics .Framing, aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation, aside .aside_container .Card .Anallytics .anally_statistics .Roofing, aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall, aside .aside_container .Card .Anallytics .anally_statistics .Insulation, aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting, aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
+.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .header .container_header .header_infos, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +101,7 @@
           justify-content: space-between;
 }
 
-.flexSpace-evenlyColumn, content .content_container, content .content_container .content_total .totalBalance, content .content_container .content_total .totalExpence, content .content_container .content_total .totalSavings, content .content_container .content_Outlay {
+.flexSpace-evenlyColumn, .content .container_content .box_total .total_balance, .content .container_content .box_total .total_expence, .content .container_content .box_total .total_savings, .content .container_content .box_outlay, .content .container_content .box_income .boxincome_LatestTransactions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-aroundColumn, content .content_container .Income .Income_graphic, content .content_container .Income .Income_Transactions, aside .aside_container .Card, aside .aside_container .Card .MyCard, aside .aside_container .Card .Anallytics {
+.flexSpace-aroundColumn, .content .container_content .box_income .boxincome_graphic, .aside .container_aside .Card, .aside .container_aside .Anallytics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +132,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-betweenColumn, nav .nav_container, content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft, content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_numberleft, aside .aside_container .Card .Anallytics .titleAnallytics .ml-4, aside .aside_container .Card .Anallytics .anally_statistics {
+.flexSpace-betweenColumn, .content .container_content, .aside .container_aside, .aside .container_aside .Anallytics .Anallytics_Graphic {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +148,22 @@
           justify-content: space-between;
 }
 
-.flexalign-itemsColumn, nav .nav_container .nav_menus, nav .nav_container .nav_config, nav .nav_container .nav_exit {
+.flexalign-StartColumn, body .container .main, .content .container_content .box_outlay .outlay_graphic .number_left, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexalign-EndColumn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,6 +176,53 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.flexalign-EndColumnBetween {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexalign-EndColumnAround {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexalign-EndColumnEvenly, .nav .container_nav .nav_options, .nav .container_nav .nav_settings, .nav .container_nav .nav_Logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .flexDirColumn {
@@ -202,47 +264,66 @@
           box-sizing: border-box;
 }
 
-html,
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 body {
   width: 100%;
   height: 100vh;
-  background-color: #1D1E2C;
+  background-color: #1d1e2c;
 }
 
-body .grid_container {
+body .container {
   width: 100%;
+  height: 97vh;
+  background-color: #1d1e2c;
+}
+
+body .container .main {
+  width: 83%;
+  max-width: 1440px;
   height: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 68px auto;
-      grid-template-rows: 68px auto;
-      grid-template-areas: 'nav header header header header header' 'nav main main main main aside' 'nav main main main main aside';
-  gap: 15px;
+  background-color: #1d1e2c;
 }
 
-header {
-  background-color: #24263A;
+body .container .main .container_main {
+  width: 98.5%;
+  height: 85%;
+  max-height: 729px;
+}
+
+body .container .main .container_main.container_main-light {
+  background-color: #f5f6fa;
+}
+
+body .container .main.light-main {
+  background: #f5f6fa;
+}
+
+body .container.light-container {
+  background: #f5f6fa;
+}
+
+.header {
+  width: 98.5%;
+  height: 68px;
+  background-color: #24263a;
+  margin-top: 3px;
   border-radius: 0px 20px 0px 10px;
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 5;
-  grid-area: header;
 }
 
-header .header_container {
-  width: 92%;
-  max-width: 1104px;
-  height: 90%;
+.header .container_header {
+  width: 98%;
+  height: 50px;
 }
 
-header .header_container p {
+.header .container_header .header_helloName {
+  width: 100px;
+  height: 100%;
+}
+
+.header .container_header .header_helloName h1 {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,56 +331,115 @@ header .header_container p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-header .header_container .header_infos {
-  width: 100%;
-  max-width: 250px;
+.header .container_header .header_infos {
+  width: 350px;
   height: 100%;
-  max-height: 35px;
-  color: #DBDFEA;
 }
 
-header .header_container .header_infos .lightAndDark {
-  width: 40px;
-  height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-header .header_container .header_infos .lightAndDark .sun {
-  display: none;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-header .header_container .header_infos .lightAndDark .fa-moon {
-  display: none;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-header .header_container .header_infos .lightAndDark input[type="checkbox"] {
+.header .container_header .header_infos input[type="checkbox"] {
   height: 0;
   width: 0;
   visibility: hidden;
 }
 
-header .header_container .header_infos .lightAndDark label {
+.header .container_header .header_infos label {
   cursor: pointer;
   text-indent: -9999px;
-  width: 100%;
-  height: 100%;
-  background: #000dc0;
-  margin: 0 auto;
+  width: 42px;
+  height: 18px;
+  background: #1d1e2c;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+.header .container_header .header_infos label::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  width: 15px;
+  height: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#DC2430), color-stop(99.99%, #7B4397));
+  background: linear-gradient(90deg, #DC2430 0%, #7B4397 99.99%);
+  border-radius: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .container_header .header_infos input:checked + label {
+  background-color: #1d1e2c;
+}
+
+.header .container_header .header_infos input:checked + label::after {
+  left: calc(100% - 5px);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.header .container_header .header_infos label:active:after {
+  width: 45px;
+}
+
+.header .container_header .header_infos .search-box {
+  border: solid 2px #fff;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+}
+
+.header .container_header .header_infos .search-box input[type="text"] {
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 12px;
+  height: 16px;
+  padding: 5px 40px 5px 10px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #24263a;
+  color: white;
+  -webkit-transition: width 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
+  transition: width 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
+}
+
+.header .container_header .header_infos .search-box input[type="text"]:focus {
+  outline: none;
+}
+
+.header .container_header .header_infos .search-box input[type="text"]:focus, .header .container_header .header_infos .search-box input[type="text"]:not(:placeholder-shown) {
+  width: 130px;
+  -webkit-transition: width 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition: width 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.header .container_header .header_infos .search-box input[type="text"]:focus + button[type="reset"], .header .container_header .header_infos .search-box input[type="text"]:not(:placeholder-shown) + button[type="reset"] {
+  bottom: 3px;
+  right: 3px;
+  -webkit-transition: bottom 150ms ease-out 400ms, right 150ms ease-out 400ms;
+  transition: bottom 150ms ease-out 400ms, right 150ms ease-out 400ms;
+}
+
+.header .container_header .header_infos .search-box input[type="text"]:focus + button[type="reset"]:after, .header .container_header .header_infos .search-box input[type="text"]:not(:placeholder-shown) + button[type="reset"]:after {
+  top: 0;
+  right: 5px;
+  opacity: 1;
+  -webkit-transition: top 150ms ease-out 550ms, right 150ms ease-out 550ms, opacity 150ms ease 550ms;
+  transition: top 150ms ease-out 550ms, right 150ms ease-out 550ms, opacity 150ms ease 550ms;
+}
+
+.header .container_header .header_infos .search-box button[type="reset"] {
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  padding: 0;
+  outline: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -309,105 +449,81 @@ header .header_container .header_infos .lightAndDark label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 100px;
-  position: relative;
-}
-
-header .header_container .header_infos .lightAndDark label:after {
-  content: "\f099";
-  background: -webkit-gradient(linear, left top, right top, from(#DC2430), color-stop(51.04%, #DB2379), to(#7B4397));
-  background: linear-gradient(90deg, #DC2430 0%, #DB2379 51.04%, #7B4397 100%);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
   position: absolute;
-  bottom: 1.6px;
-  left: 2px;
-  -webkit-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
-  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
+  bottom: -8px;
+  right: -9px;
+  -webkit-transition: bottom 150ms ease-out 150ms, right 150ms ease-out 150ms;
+  transition: bottom 150ms ease-out 150ms, right 150ms ease-out 150ms;
 }
 
-header .header_container .header_infos .lightAndDark input:checked + label {
-  background: #1D1E2C;
+.header .container_header .header_infos .search-box button[type="reset"]:before, .header .container_header .header_infos .search-box button[type="reset"]:after {
+  content: "";
+  height: 12px;
+  border-left: solid 2px #fff;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
-header .header_container .header_infos .lightAndDark input:checked + label:after {
-  left: calc(100% - 2px);
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+.header .container_header .header_infos .search-box button[type="reset"]:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  opacity: 0;
+  top: -20px;
+  right: -10px;
+  -webkit-transition: top 150ms ease-out, right 150ms ease-out, opacity 150ms ease-out;
+  transition: top 150ms ease-out, right 150ms ease-out, opacity 150ms ease-out;
 }
 
-header .header_container .header_infos .lightAndDark html.transition,
-header .header_container .header_infos .lightAndDark html.transition *,
-header .header_container .header_infos .lightAndDark html.transition *:before,
-header .header_container .header_infos .lightAndDark html.transition *:after {
-  -webkit-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 420ms !important;
-  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 420ms !important;
-  -webkit-transition-delay: 0 !important;
-          transition-delay: 0 !important;
-}
-
-header .header_container .header_infos .fa-search {
-  font-size: 18px;
+.header .container_header .header_infos .fa-bell {
+  font-size: 24px;
+  color: #fff;
   cursor: pointer;
 }
 
-header .header_container .header_infos .fa-bell {
-  font-size: 18px;
-  cursor: pointer;
+.header .container_header .header_infos .header_profile {
+  width: 45px;
+  height: 45px;
 }
 
-header .header_container .header_infos .fa-chevron-down {
-  font-size: 18px;
-  cursor: pointer;
-}
-
-header .header_container .header_infos .box_profile {
+.header .container_header .header_infos .header_profile img {
   width: 100%;
-  max-width: 69px;
   height: 100%;
+  cursor: pointer;
 }
 
-header .header_container .header_infos .box_profile p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 9px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
+.header .container_header .header_infos .fa-angle-down {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
 }
 
-nav {
-  background: #24263A;
+.header.light-header {
+  background-color: #fff;
+}
+
+.nav {
+  width: 210px;
+  height: 100%;
+  background-color: #24263a;
   border-radius: 20px 0px 0px 20px;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 1;
-  grid-area: nav;
 }
 
-nav .nav_container {
+.nav .container_nav {
   width: 100%;
-  height: 530px;
-  margin-top: 20px;
+  height: 100%;
+  max-height: 576px;
+  margin-top: 9px;
 }
 
-nav .nav_container .nav_logo {
+.nav .container_nav .Logo {
   width: 100%;
-  max-width: 180px;
-  height: 36px;
-  text-align: center;
-  border-bottom: 1px solid set-line-color(#24263A);
+  height: 68px;
+  border-bottom: 1px solid #1d1e2c;
 }
 
-nav .nav_container .nav_logo p {
-  position: relative;
-  left: 35px;
+.nav .container_nav .Logo h1 {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -418,830 +534,756 @@ nav .nav_container .nav_logo p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
-  cursor: pointer;
+  color: #dbdfea;
 }
 
-nav .nav_container .nav_menus {
+.nav .container_nav .nav_options {
   width: 100%;
-  height: 100%;
-  max-height: 346px;
-  border-bottom: 1px solid set-line-color(#24263A);
+  height: 60%;
+  max-height: 450px;
+  border-bottom: 1px solid #1d1e2c;
 }
 
-nav .nav_container .nav_menus .Daseboard {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Daseboard:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Daseboard .Daseboard_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Daseboard .Daseboard_container .fa-chart-pie {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Daseboard .Daseboard_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Userprofiles {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Userprofiles:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Userprofiles .Userprofiles_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Userprofiles .Userprofiles_container .fa-user-alt {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Userprofiles .Userprofiles_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Messages {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Messages:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Messages .Messages_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Messages .Messages_container .fa-comment-alt {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Messages .Messages_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Transactions {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Transactions:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Transactions .Transactions_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Transactions .Transactions_container .fa-credit-card {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Transactions .Transactions_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Mywallet {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Mywallet:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Mywallet .Mywallet_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Mywallet .Mywallet_container .fa-wallet {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Mywallet .Mywallet_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Payment {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Payment:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Payment .Payment_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Payment .Payment_container .fa-dollar-sign {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Payment .Payment_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Investment {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Investment:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Investment .Investment_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Investment .Investment_container .fa-chart-bar {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Investment .Investment_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_menus .Reports {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-  cursor: pointer;
-}
-
-nav .nav_container .nav_menus .Reports:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_menus .Reports .Reports_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_menus .Reports .Reports_container .fa-clipboard {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_menus .Reports .Reports_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_config {
+.nav .container_nav .nav_options .dashboard {
   width: 100%;
-  height: 84px;
-  border-bottom: 1px solid set-line-color(#1D1E2C);
-}
-
-nav .nav_container .nav_config .Settings {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-}
-
-nav .nav_container .nav_config .Settings:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_config .Settings .Settings_container {
-  width: 100%;
-  max-width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_config .Settings .Settings_container .fa-cog {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_config .Settings .Settings_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_config .Support {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
-  border-radius: 100px 0px 0px 100px;
-}
-
-nav .nav_container .nav_config .Support:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_config .Support .Support_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_config .Support .Support_container .fa-question-circle {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_config .Support .Support_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-nav .nav_container .nav_exit {
-  width: 100%;
-  height: 38px;
-}
-
-nav .nav_container .nav_exit .Logout {
-  width: 90%;
-  max-width: 220px;
-  height: 40px;
+  max-width: 173px;
+  height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
 }
 
-nav .nav_container .nav_exit .Logout:hover {
-  background-color: set-hover-color(#1D1E2C);
-}
-
-nav .nav_container .nav_exit .Logout .Logout_container {
-  width: 120px;
-  height: 25px;
-  position: relative;
-  left: 20px;
-}
-
-nav .nav_container .nav_exit .Logout .Logout_container .fa-sign-out-alt {
-  width: 25px;
-  height: 100%;
-  color: #DBDFEA;
-  font-size: 19px;
-}
-
-nav .nav_container .nav_exit .Logout .Logout_container p {
-  width: 85px;
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-content {
-  background-color: #1D1E2C;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 4;
-  grid-area: main;
-}
-
-content .content_container {
-  width: 100%;
-  height: 100%;
-}
-
-content .content_container .content_total {
-  width: 100%;
-  height: 92px;
-  border-radius: 10px;
-}
-
-content .content_container .content_total .totalBalance {
-  width: 100%;
-  max-width: 250px;
-  height: 92px;
-  border-radius: 10px;
-  background-color: #24263A;
-  background-image: url(../img/GraphicBalance.svg);
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 100%;
-  background-size: 80%;
-  color: #DBDFEA;
-}
-
-content .content_container .content_total .totalBalance .TxtBalance {
+.nav .container_nav .nav_options .dashboard .icon_name {
   width: 90%;
-  max-width: 200px;
-  height: 20px;
+  height: 100%;
+}
+
+.nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .dashboard .icon_name p {
+  width: 67%;
+  height: 100%;
   font-family: "Gilroy", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-content .content_container .content_total .totalBalance .fa-ellipsis-h {
-  font-size: 20px;
-}
-
-content .content_container .content_total .totalBalance .valuebalance {
-  width: 90%;
-  max-width: 200px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: #DBDFEA;
-}
-
-content .content_container .content_total .totalBalance .percentageBalance {
-  width: 90%;
-  max-width: 200px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #34e4b5;
-}
-
-content .content_container .content_total .totalExpence {
-  width: 100%;
-  max-width: 250px;
-  height: 92px;
-  border-radius: 10px;
-  background-color: #24263A;
-  background-image: url(../img/GraphicExpence.svg);
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 100%;
-  background-size: 80%;
-  color: #DBDFEA;
-}
-
-content .content_container .content_total .totalExpence .TxtExpence {
-  width: 90%;
-  max-width: 200px;
-  height: 20px;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-content .content_container .content_total .totalExpence .fa-ellipsis-h {
-  font-size: 20px;
-}
-
-content .content_container .content_total .totalExpence .valueExpence {
-  width: 90%;
-  max-width: 200px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: #DBDFEA;
-}
-
-content .content_container .content_total .totalExpence .percentageExpence {
-  width: 90%;
-  max-width: 200px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #DC2430;
-}
-
-content .content_container .content_total .totalSavings {
-  width: 100%;
-  max-width: 250px;
-  height: 92px;
-  border-radius: 10px;
-  background-color: #24263A;
-  background-image: url(../img/GraphicSavings.svg);
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 100%;
-  background-size: 80%;
-  color: #DBDFEA;
-}
-
-content .content_container .content_total .totalSavings .TxtSavings {
-  width: 90%;
-  max-width: 200px;
-  height: 20px;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-content .content_container .content_total .totalSavings .fa-ellipsis-h {
-  font-size: 20px;
-}
-
-content .content_container .content_total .totalSavings .valueSavings {
-  width: 90%;
-  max-width: 200px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: #DBDFEA;
-}
-
-content .content_container .content_total .totalSavings .percentageSavings {
-  width: 90%;
-  max-width: 200px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #34e4b5;
-}
-
-content .content_container .content_Outlay {
-  width: 100%;
-  height: 230px;
-  border-radius: 10px;
-  background-color: #24263A;
-  color: #DBDFEA;
-}
-
-content .content_container .content_Outlay .TxtOutlay {
-  width: 95%;
-  height: 20px;
-}
-
-content .content_container .content_Outlay .TxtOutlay p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 15px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
 }
 
-content .content_container .content_Outlay .TxtOutlay .btnOutlay {
-  width: 40%;
-  max-width: 309px;
-  height: 20px;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth {
-  width: 90px;
-  height: 100%;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth .fa-circle {
-  font-size: 6px;
-  color: #894ba9;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay .Previousmonth p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 12px;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth {
-  width: 90px;
-  height: 100%;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth .fa-circle {
-  font-size: 6px;
-  color: #e03a45;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay .Selectedmonth p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 12px;
-}
-
-content .content_container .content_Outlay .TxtOutlay .btnOutlay button {
-  cursor: pointer;
-  width: 80px;
-  height: 20px;
-  border: none;
-  color: #DBDFEA;
+.nav .container_nav .nav_options .dashboard:hover {
   background: #1d1e2c;
-  border-radius: 20px;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 12px;
 }
 
-content .content_container .content_Outlay .OutlayGraphic {
-  width: 95%;
-  height: 150px;
+.nav .container_nav .nav_options .Userprofiles {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
 }
 
-content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft {
-  width: 25%;
-  max-width: 45px;
+.nav .container_nav .nav_options .Userprofiles .icon_name {
+  width: 90%;
   height: 100%;
 }
 
-content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_numberleft p {
+.nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Userprofiles .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 11px;
-  line-height: 9px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-content .content_container .content_Outlay .OutlayGraphic .OutlayGraphic_image {
+.nav .container_nav .nav_options .Userprofiles:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options .Messages {
   width: 100%;
-  height: 150px;
-  background-image: url(../img/OutlayGraphic.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
 }
 
-content .content_container .content_Outlay .OutlayGraphic_numberdown {
-  width: 95%;
-  height: 15px;
+.nav .container_nav .nav_options .Messages .icon_name {
+  width: 90%;
+  height: 100%;
 }
 
-content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown {
-  width: 93.5%;
-  height: 15px;
+.nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
 }
 
-content .content_container .content_Outlay .OutlayGraphic_numberdown .numberdown p {
+.nav .container_nav .nav_options .Messages .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 9px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #DBDFEA;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
 }
 
-content .content_container .Income {
+.nav .container_nav .nav_options .Messages:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options .Transactions {
   width: 100%;
-  height: 177px;
-  border-radius: 10px;
-  background-color: #1D1E2C;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
 }
 
-content .content_container .Income .Income_graphic {
-  width: 57%;
-  max-width: 500px;
+.nav .container_nav .nav_options .Transactions .icon_name {
+  width: 90%;
   height: 100%;
-  background-color: #24263A;
-  border-radius: 10px;
 }
 
-content .content_container .Income .Income_graphic p {
-  width: 97%;
-  height: 30px;
+.nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Transactions .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Transactions:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options .Mywallet {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_options .Mywallet .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Mywallet .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Mywallet:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options .Payment {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_options .Payment .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Payment .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Payment:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options .Investment {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_options .Investment .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_options .Investment .icon_name .fa-chart-line {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Investment .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Investment:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options .Reports {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_options .Reports .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_options .Reports .icon_name .fa-clipboard {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Reports .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_options .Reports:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_settings {
+  width: 100%;
+  height: 55%;
+  max-height: 90px;
+  border-bottom: 1px solid #1d1e2c;
+}
+
+.nav .container_nav .nav_settings .settings {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_settings .settings .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_settings .settings .icon_name .fa-cog {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_settings .settings .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_settings .settings:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_settings .support {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_settings .support .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_settings .support .icon_name .fa-question-circle {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_settings .support .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_settings .support:hover {
+  background: #1d1e2c;
+}
+
+.nav .container_nav .nav_Logout {
+  width: 100%;
+  height: 55px;
+}
+
+.nav .container_nav .nav_Logout .Logout {
+  width: 100%;
+  max-width: 173px;
+  height: 35px;
+  border-radius: 100px 0px 0px 100px;
+  cursor: pointer;
+}
+
+.nav .container_nav .nav_Logout .Logout .icon_name {
+  width: 90%;
+  height: 100%;
+}
+
+.nav .container_nav .nav_Logout .Logout .icon_name .fa-sign-out-alt {
+  font-size: 18px;
+  width: 25%;
+  height: 100%;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_Logout .Logout .icon_name p {
+  width: 67%;
+  height: 100%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.nav .container_nav .nav_Logout .Logout:hover {
+  background: #1d1e2c;
+}
+
+.nav.light-nav {
+  background-color: #fff;
+}
+
+.content {
+  width: 76%;
+  max-width: 900px;
+  height: 100%;
+}
+
+.content .container_content {
+  width: 100%;
+  height: 100%;
+}
+
+.content .container_content .box_total {
+  width: 100%;
+  height: 20%;
+}
+
+.content .container_content .box_total .total_balance {
+  width: 32%;
+  max-width: 370px;
+  height: 100%;
+  background-color: #24263a;
+  border-radius: 10px;
+  background-image: url(/img/GraphicBalance.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+  background-position-x: 100%;
+}
+
+.content .container_content .box_total .total_balance .balance_title {
+  width: 93%;
+  height: 40px;
+}
+
+.content .container_content .box_total .total_balance .balance_title p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_balance .balance_title .fa-ellipsis-h {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_balance .balance_txt {
+  width: 93%;
+  height: 60%;
+}
+
+.content .container_content .box_total .total_balance .balance_txt h4 {
+  width: 100%;
+  height: 40%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 17px;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_balance .balance_txt h5 {
+  width: 25%;
+  height: 40%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 12px;
+  color: #34e4b5;
+}
+
+.content .container_content .box_total .total_balance .balance_txt .fa-level-up-alt {
+  font-size: 10px;
+  color: #34e4b5;
+}
+
+.content .container_content .box_total .total_expence {
+  width: 32%;
+  max-width: 380px;
+  height: 100%;
+  background-color: #24263a;
+  border-radius: 10px;
+  background-image: url(/img/GraphicExpence.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+  background-position-x: 100%;
+}
+
+.content .container_content .box_total .total_expence .expence_title {
+  width: 93%;
+  height: 40px;
+}
+
+.content .container_content .box_total .total_expence .expence_title p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_expence .expence_title .fa-ellipsis-h {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_expence .expence_txt {
+  width: 93%;
+  height: 60%;
+}
+
+.content .container_content .box_total .total_expence .expence_txt h4 {
+  width: 100%;
+  height: 40%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 17px;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_expence .expence_txt h5 {
+  width: 25%;
+  height: 40%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 12px;
+  color: #e03a45;
+}
+
+.content .container_content .box_total .total_expence .expence_txt .fa-level-up-alt {
+  font-size: 10px;
+  color: #e03a45;
+}
+
+.content .container_content .box_total .total_savings {
+  width: 32%;
+  max-width: 380px;
+  height: 100%;
+  background-color: #24263a;
+  border-radius: 10px;
+  background-image: url(/img/GraphicSavings.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+  background-position-x: 100%;
+}
+
+.content .container_content .box_total .total_savings .savings_title {
+  width: 93%;
+  height: 40px;
+}
+
+.content .container_content .box_total .total_savings .savings_title p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_savings .savings_title .fa-ellipsis-h {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_savings .savings_txt {
+  width: 93%;
+  height: 60%;
+}
+
+.content .container_content .box_total .total_savings .savings_txt h4 {
+  width: 100%;
+  height: 40%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 17px;
+  color: #dbdfea;
+}
+
+.content .container_content .box_total .total_savings .savings_txt h5 {
+  width: 25%;
+  height: 40%;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 12px;
+  color: #34e4b5;
+}
+
+.content .container_content .box_total .total_savings .savings_txt .fa-level-up-alt {
+  font-size: 10px;
+  color: #34e4b5;
+}
+
+.content .container_content .box_outlay {
+  width: 100%;
+  height: 46%;
+  background-color: #24263a;
+  border-radius: 10px;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic {
+  width: 95%;
+  height: 10%;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1249,20 +1291,200 @@ content .content_container .Income .Income_graphic p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_graphic button {
-  width: 80%;
-  max-width: 100px;
-  height: 27px;
-  background: #1d1e2c;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic {
+  width: 315px;
+  height: 100%;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth {
+  width: 100px;
+  height: 100%;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth .fa-circle {
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  color: #894ba9;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 12px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth {
+  width: 100px;
+  height: 100%;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth .fa-circle {
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  color: #9b4343;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate {
+  width: 100px;
+  height: 100%;
+  background: #1d1e2c;
+  border-radius: 20px;
+  border: none;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate .fa-angle-down {
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  color: #dbdfea;
+}
+
+.content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_outlay .outlay_graphic {
+  width: 95%;
+  height: 70%;
+}
+
+.content .container_content .box_outlay .outlay_graphic .number_left {
+  width: 7%;
+  height: 100%;
+}
+
+.content .container_content .box_outlay .outlay_graphic .number_left p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_outlay .outlay_graphic .graphic_center {
+  width: 93%;
+  height: 100%;
+  background-image: url(/img/OutlayGraphic.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 100%;
+}
+
+.content .container_content .box_outlay .number_bottom {
+  width: 97%;
+  height: 9%;
+}
+
+.content .container_content .box_outlay .number_bottom .numbers {
+  width: 93%;
+  height: 100%;
+}
+
+.content .container_content .box_outlay .number_bottom .numbers p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_income {
+  width: 100%;
+  height: 32%;
+}
+
+.content .container_content .box_income .boxincome_graphic {
+  width: 55%;
+  height: 100%;
+  background-color: #24263a;
+  border-radius: 10px;
+}
+
+.content .container_content .box_income .boxincome_graphic .income_title {
+  width: 95%;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.content .container_content .box_income .boxincome_graphic .income_title p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_income .boxincome_graphic .income_title button {
+  width: 90px;
+  height: 25px;
+  background: #1d1e2c;
+  border-radius: 20px;
+  border: none;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
   line-height: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1270,24 +1492,30 @@ content .content_container .Income .Income_graphic button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  cursor: pointer;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic {
-  width: 97%;
-  height: 92.08px;
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic {
+  width: 95%;
+  height: 55%;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_numberleft {
-  width: 25%;
-  max-width: 45px;
-  height: 92.06px;
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome {
+  width: 10%;
+  height: 100%;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_numberleft p {
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome {
+  width: 7%;
+  height: 100%;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1295,144 +1523,236 @@ content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle {
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center {
   width: 89%;
-  height: 92.06px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  height: 100%;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle {
-  width: 10px;
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jan {
+  width: 11px;
   height: 100%;
   background-color: #1d1e2c;
-  border-radius: 100px;
+  border-radius: 999px;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Jan {
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jan .Jan-Bar {
   width: 100%;
-  height: 41.57px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
+  height: 65px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
 }
 
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Fab {
-  width: 100%;
-  height: 65.72px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Mar {
-  width: 100%;
-  height: 57.73px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Apr {
-  width: 100%;
-  height: 62.35px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-May {
-  width: 100%;
-  height: 62.35px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Jun {
-  width: 100%;
-  height: 36.95px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Jul {
-  width: 100%;
-  height: 50.8px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Aug {
-  width: 100%;
-  height: 62.35px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Sep {
-  width: 100%;
-  height: 36.95px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Oct {
-  width: 100%;
-  height: 64.66px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Nov {
-  width: 100%;
-  height: 50.8px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic .IncomeGraphic_Rectangle .Rectangle .Rectangle-Dec {
-  width: 100%;
-  height: 42.66px;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-  border-radius: 100px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic_numberdown {
-  width: 97%;
-  height: 15px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic_numberdown .Incomenumberdown {
-  width: 89%;
-  height: 15px;
-}
-
-content .content_container .Income .Income_graphic .IncomeGraphic_numberdown .Incomenumberdown p {
-  width: 19px;
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Feb {
+  width: 11px;
   height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Feb .Feb-Bar {
+  width: 100%;
+  height: 41px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Mar {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Mar .Mar-Bar {
+  width: 100%;
+  height: 57px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Apr {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Apr .Apr-Bar {
+  width: 100%;
+  height: 62px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-May {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-May .May-Bar {
+  width: 100%;
+  height: 62px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jun {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jun .Jun-Bar {
+  width: 100%;
+  height: 36px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jul {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Jul .Jul-Bar {
+  width: 100%;
+  height: 50px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Aug {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Aug .Aug-Bar {
+  width: 100%;
+  height: 62px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Sep {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Sep .Sep-Bar {
+  width: 100%;
+  height: 36px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Oct {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Oct .Oct-Bar {
+  width: 100%;
+  height: 64px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Nov {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Nov .Nov-Bar {
+  width: 100%;
+  height: 50px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Dec {
+  width: 11px;
+  height: 100%;
+  background-color: #1d1e2c;
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center .Income-Dec .Dec-Bar {
+  width: 100%;
+  height: 42px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#dc2430), color-stop(51.04%, #db2379), to(#7b4397));
+  background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+  border-radius: 999px;
+}
+
+.content .container_content .box_income .boxincome_graphic .number_bottomIncome {
+  width: 95%;
+  height: 20px;
+}
+
+.content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom {
+  width: 90%;
+  height: 100%;
+}
+
+.content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  color: #DBDFEA;
+  font-size: 12px;
+  line-height: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_Transactions {
-  width: 40%;
-  max-width: 453px;
+.content .container_content .box_income .boxincome_LatestTransactions {
+  width: 44.2%;
   height: 100%;
-  background-color: #24263A;
+  background-color: #24263a;
   border-radius: 10px;
 }
 
-content .content_container .Income .Income_Transactions img {
-  width: 75%;
+.content .container_content .box_income .boxincome_LatestTransactions .Transactions_title {
+  width: 93%;
+  height: 15px;
 }
 
-content .content_container .Income .Income_Transactions p {
-  width: 90%;
-  height: 30px;
+.content .container_content .box_income .boxincome_LatestTransactions .Transactions_title p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1440,25 +1760,24 @@ content .content_container .Income .Income_Transactions p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_Transactions .fa-ellipsis-h {
-  font-size: 15px;
-  color: #DBDFEA;
-  cursor: pointer;
+.content .container_content .box_income .boxincome_LatestTransactions .Transactions_title .fa-ellipsis-h {
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_Transactions .Income_RefuelingGasoline {
-  width: 90%;
-  height: 37px;
-  border-bottom: 1px solid #1d1e2c;
+.content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline {
+  width: 93%;
+  height: 40px;
+  border-bottom: 2px solid #1d1e2c;
 }
 
-content .content_container .Income .Income_Transactions .Income_RefuelingGasoline p {
+.content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1466,47 +1785,14 @@ content .content_container .Income .Income_Transactions .Income_RefuelingGasolin
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_Transactions .Income_RefuelingGasoline h6 {
+.content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline h6 {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #e03a45;
-}
-
-content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture {
-  width: 90%;
-  height: 37px;
-  border-bottom: 1px solid #1d1e2c;
-}
-
-content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-content .content_container .Income .Income_Transactions .Income_PurchaseOfFurniture h6 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1517,15 +1803,17 @@ content .content_container .Income .Income_Transactions .Income_PurchaseOfFurnit
   color: #e03a45;
 }
 
-content .content_container .Income .Income_Transactions .Income_CashRefundForTickets {
-  width: 90%;
-  height: 37px;
+.content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture {
+  width: 93%;
+  height: 40px;
+  border-bottom: 2px solid #1d1e2c;
 }
 
-content .content_container .Income .Income_Transactions .Income_CashRefundForTickets p {
+.content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1533,13 +1821,49 @@ content .content_container .Income .Income_Transactions .Income_CashRefundForTic
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-content .content_container .Income .Income_Transactions .Income_CashRefundForTickets h6 {
+.content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture h6 {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e03a45;
+}
+
+.content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets {
+  width: 93%;
+  height: 40px;
+}
+
+.content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets h6 {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1550,62 +1874,42 @@ content .content_container .Income .Income_Transactions .Income_CashRefundForTic
   color: #34e4b5;
 }
 
-/* 
-                                animation-name: example;
-                                animation-duration: 10s;
-                                animation-iteration-count: infinite;
-                                @keyframes example {
-                                    0%   {height: 41.57px;}
-                                    5%  {height: 42.57px;}
-                                    10%  {height: 43.57px;}
-                                    15%  {height: 44.57px;}
-                                    20% {height: 45.57px;}
-                                    25%   {height: 46.57px;}
-                                    30%  {height: 47.57px;}
-                                    40%  {height: 48.57px;}
-                                    45%  {height: 49.57px;}
-                                    50% {height: 50px;}
-                                }
-*/
-aside {
-  background-color: #1D1E2C;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 6;
-  grid-area: aside;
-  border-radius: 10px;
+.content.light-content {
+  background-color: #fff;
 }
 
-aside .aside_container {
-  width: 100%;
+.aside {
+  width: 30%;
   max-width: 250px;
   height: 100%;
 }
 
-aside .aside_container .Card {
+.aside .container_aside {
   width: 100%;
-  max-width: 235px;
   height: 100%;
 }
 
-aside .aside_container .Card .MyCard {
+.aside .container_aside .Card {
   width: 100%;
-  max-width: 235px;
-  height: 156px;
-  background-color: #24263A;
+  height: 35%;
+  background-color: #24263a;
   border-radius: 10px;
 }
 
-aside .aside_container .Card .MyCard img {
-  width: 75%;
+.aside .container_aside .Card .MyCard_title {
+  width: 90%;
+  height: 32px;
 }
 
-aside .aside_container .Card .MyCard p {
-  width: 90%;
-  height: 30px;
+.aside .container_aside .Card .MyCard_title .fa-ellipsis-h {
+  color: #dbdfea;
+}
+
+.aside .container_aside .Card .MyCard_title p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1613,30 +1917,30 @@ aside .aside_container .Card .MyCard p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .MyCard .fa-ellipsis-h {
-  font-size: 15px;
-  color: #DBDFEA;
-  cursor: pointer;
+.aside .container_aside .Card img {
+  width: 90%;
 }
 
-aside .aside_container .Card .Anallytics {
+.aside .container_aside .Anallytics {
   width: 100%;
-  max-width: 235px;
-  height: 45%;
-  height: 358px;
-  background-color: #24263A;
+  height: 64%;
+  background-color: #24263a;
   border-radius: 10px;
 }
 
-aside .aside_container .Card .Anallytics p {
+.aside .container_aside .Anallytics .Anallytics_title {
   width: 90%;
-  height: 30px;
+  height: 32px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_title p {
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1644,94 +1948,48 @@ aside .aside_container .Card .Anallytics p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .titleAnallytics {
-  width: 90%;
-  height: 30px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #DBDFEA;
-}
-
-aside .aside_container .Card .Anallytics .titleAnallytics summary {
-  width: 100px;
-  height: 27px;
+.aside .container_aside .Anallytics .Anallytics_title button {
+  width: 90px;
+  height: 25px;
   background: #1d1e2c;
+  border-radius: 20px;
   border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-aside .aside_container .Card .Anallytics .titleAnallytics summary p {
-  width: 60%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  color: #DBDFEA;
-}
-
-aside .aside_container .Card .Anallytics .titleAnallytics .ml-4 {
-  position: absolute;
-  right: 40px;
-  width: 100px;
-  height: 100px;
-  color: #DBDFEA;
-  border-radius: 10px 0px 0px 10px;
-}
-
-aside .aside_container .Card .Anallytics .titleAnallytics .ml-4 .ThisMonth {
-  width: 100px;
-  height: 27px;
-  background-color: #DBDFEA;
-  border-radius: 20px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
+  line-height: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #24263A;
   cursor: pointer;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics {
+.aside .container_aside .Anallytics .Anallytics_Graphic {
+  width: 90%;
+  max-width: 235px;
+  height: 75%;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group {
   width: 100%;
-  max-width: 205px;
-  max-height: 90%;
-  height: 254.81px;
+  height: 11px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Stairs {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Stairs p {
-  width: 30px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1739,38 +1997,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Stairs p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group .startsGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Stairs .bar_Statistics .StairsGraphic {
-  width: 64px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Footings {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group .startsGraphic .startsBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Footings p {
-  width: 30px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .footings_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .footings_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1778,38 +2035,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Footings p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .footings_group .footingsGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Footings .bar_Footings .FootingsGraphic {
-  width: 64px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Electrical {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .footings_group .footingsGraphic .footingsBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Electrical p {
-  width: 30px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1817,38 +2073,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Electrical p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group .electricalGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Electrical .bar_Electrical .ElectricalGraphic {
-  width: 59px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group .electricalGraphic .electricalBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1856,38 +2111,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group .framingMaterialGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .FramingMaterial .bar_FramingMaterial .FramingMaterialGraphic {
-  width: 55px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group .framingMaterialGraphic .framingMaterialBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1895,38 +2149,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group .finishLaborGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .FinishLabor .bar_FinishLabor .FinishLaborGraphic {
-  width: 48px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Hardware {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group .finishLaborGraphic .finishLaborBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Hardware p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1934,38 +2187,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Hardware p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group .HardwareGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Hardware .bar_Hardware .HardwareGraphic {
-  width: 48px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Framing {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group .HardwareGraphic .HardwareBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Framing p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1973,38 +2225,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Framing p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group .FramingGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Framing .bar_Framing .FramingGraphic {
-  width: 32px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group .FramingGraphic .FramingBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2012,38 +2263,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation p 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group .TileInstallationGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .TileInstallation .bar_TileInstallation .TileInstallationGraphic {
-  width: 25px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Roofing {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group .TileInstallationGraphic .TileInstallationBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Roofing p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2051,38 +2301,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Roofing p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group .RoofingGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Roofing .bar_Roofing .RoofingGraphic {
-  width: 25px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group .RoofingGraphic .RoofingBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.2px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2090,38 +2339,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall p
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group .AppliancesInstallGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .AppliancesInstall .bar_AppliancesInstall .AppliancesInstallGraphic {
-  width: 13px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Insulation {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group .AppliancesInstallGraphic .AppliancesInstallBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Insulation p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2129,38 +2377,37 @@ aside .aside_container .Card .Anallytics .anally_statistics .Insulation p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group .InsulationGraphic {
+  width: 50%;
+  max-width: 100px;
+  height: 100%;
   background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .Insulation .bar_Insulation .InsulationGraphic {
-  width: 10px;
-  height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
   border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting {
-  width: 100%;
-  max-width: 204px;
-  height: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group .InsulationGraphic .InsulationBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting p {
-  width: 92px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group {
+  width: 100%;
+  height: 11px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group p {
+  width: 50%;
   height: 100%;
+  font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10.5px;
+  font-size: 13px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2168,20 +2415,62 @@ aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting p 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #DBDFEA;
+  color: #dbdfea;
 }
 
-aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting {
-  width: 100px;
-  height: 10px;
-  border-radius: 100px;
-  background-color: #1d1e2c;
-}
-
-aside .aside_container .Card .Anallytics .anally_statistics .InteriorPainting .bar_InteriorPainting .InteriorPaintingGraphic {
-  width: 10px;
+.aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group .InteriorPaintingGraphic {
+  width: 50%;
+  max-width: 100px;
   height: 100%;
-  background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
+  background-color: #1d1e2c;
   border-radius: 100px;
+}
+
+.aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group .InteriorPaintingGraphic .InteriorPaintingBar {
+  width: 50%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-14.86%, #dc2430), color-stop(51.15%, #db2379), color-stop(98.14%, #7b4397));
+  background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+  border-radius: 100px;
+}
+
+.aside .container_aside .Anallytics .Anallystics_Total {
+  width: 90%;
+  height: 28px;
+  border-top: 1px solid #1d1e2c;
+}
+
+.aside .container_aside .Anallytics .Anallystics_Total p {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.aside .container_aside .Anallytics .Anallystics_Total h6 {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dbdfea;
+}
+
+.aside.light-aside {
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

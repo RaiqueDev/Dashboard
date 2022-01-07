@@ -1,579 +1,550 @@
-nav{
-    background: $primary-color;
-    border-radius: 20px 0px 0px 20px;
-    grid-area: nav;
-
-    .nav_container{
-        width: 100%;
-        height: 530px;
-
-        margin-top: 20px;
-
-        @extend .flexSpace-betweenColumn;
- 
-        .nav_logo{
-            width: 100%;
-            max-width: 180px;
-            height: 36px;
-
-            text-align: center;
-
-            @extend .flex-startColumn;
-            border-bottom: 1px solid set-line-color($primary-color);
-
-            p{
-                position: relative;
-                left: 35px;
-
-                font-style: normal;
-                font-weight: bold;
-                font-size: 15px;
-                line-height: 18px;
-                display: flex;
-                align-items: center;
-                
-                color: set-text-color($color-txt);
-                cursor: pointer;
-
-            }
-        }
-
-        .nav_menus{
-            width: 100%;
-            height: 100%;
-            max-height: 346px;
-
-            @extend .flexalign-itemsColumn;
-            border-bottom: 1px solid set-line-color($primary-color);
-
-            .Daseboard{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flex-startColumn;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Daseboard_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-                    .fa-chart-pie{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-            
-            .Userprofiles{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Userprofiles_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-user-alt{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-
-            .Messages{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Messages_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-comment-alt{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-
-            .Transactions{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Transactions_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-credit-card{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-
-            .Mywallet{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Mywallet_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-wallet{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-            
-            .Payment{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Payment_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-dollar-sign{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-
-            .Investment{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-    
-                .Investment_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-chart-bar{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-
-            .Reports{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Reports_container{
-                    width: 120px;
-                    height: 25px;
-                    position: relative;
-                    left: 20px;
-
-                    @extend .flexSpace-between;
-
-                    .fa-clipboard{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-        }
-
-        .nav_config{
-            width: 100%;
-            height: 84px;
-
-            @extend .flexalign-itemsColumn;
-            border-bottom: 1px solid set-line-color($border-nav);
-
-            .Settings{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);                
-                }
-
-                .Settings_container{
-                    width: 100%;
-                    max-width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-cog{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-
-            .Support{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Support_container{
-                    width: 120px;
-                    height: 25px;
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-question-circle{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-        }
-    
-        .nav_exit{
-            width: 100%;
-            height: 38px;
-            
-            @extend .flexalign-itemsColumn;
-
-            .Logout{
-                width: 90%;
-                max-width: 220px;
-                height: 40px;
-
-                @extend .flexSpace-between;
-
-                border-radius: 100px 0px 0px 100px;
-                cursor: pointer;
-
-                &:hover{
-                    background-color: set-hover-color($hover-color);
-                }
-
-                .Logout_container{
-                    width: 120px;
-                    height: 25px; 
-
-                    @extend .flexSpace-between;
-                    position: relative;
-                    left: 20px;
-
-
-                    .fa-sign-out-alt{
-                        @extend .flexCenter;
-
-                        width: 25px;
-                        height: 100%;
-                        color: set-text-color($color-txt);
-                        font-size: 19px;
-                    }
-
-                    p{
-                        width: 85px;
-                        height: 100%;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-                        
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-        }
-    }
+.nav {
+	width: 210px;
+	height: 100%;
+	background-color: $primary-color-dark;
+	border-radius: 20px 0px 0px 20px;
+
+	.container_nav {
+		width: 100%;
+		height: 100%;
+		max-height: 576px;
+
+		margin-top: 9px;
+
+		.Logo {
+			width: 100%;
+			height: 68px;
+
+			@extend .flexCenter;
+
+			border-bottom: 1px solid #1d1e2c;
+
+			h1 {
+				font-family: "Gilroy", sans-serif;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 15px;
+				line-height: 18px;
+				display: flex;
+				align-items: center;
+
+				color: set-text-color($color-font);
+			}
+		}
+
+		.nav_options {
+			width: 100%;
+			height: 60%;
+			max-height: 450px;
+
+			@extend .flexalign-EndColumnEvenly;
+
+			border-bottom: 1px solid #1d1e2c;
+
+			.dashboard {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-chart-pie {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Userprofiles {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-user-tie {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Messages {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-comment-alt {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Transactions {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-money-check-alt {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Mywallet {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-wallet {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Payment {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-hand-holding-usd {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Investment {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-chart-line {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.Reports {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-clipboard {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+		}
+
+		.nav_settings {
+			width: 100%;
+			height: 55%;
+			max-height: 90px;
+
+			@extend .flexalign-EndColumnEvenly;
+
+			border-bottom: 1px solid #1d1e2c;
+
+			.settings {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-cog {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+
+			.support {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-question-circle {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+		}
+
+		.nav_Logout {
+			width: 100%;
+			height: 55px;
+
+			@extend .flexalign-EndColumnEvenly;
+
+			.Logout {
+				width: 100%;
+				max-width: 173px;
+				height: 35px;
+
+				border-radius: 100px 0px 0px 100px;
+				cursor: pointer;
+
+				.icon_name {
+					width: 90%;
+					height: 100%;
+
+					@extend .flexSpace-around;
+
+					.fa-sign-out-alt {
+						font-size: 18px;
+						width: 25%;
+						height: 100%;
+						color: #dbdfea;
+
+						@extend .flexCenter;
+					}
+
+					p {
+						width: 67%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				&:hover {
+					background: #1d1e2c;
+				}
+			}
+		}
+	}
+}
+
+.nav.light-nav {
+	background-color: $primary-color-light;
 }

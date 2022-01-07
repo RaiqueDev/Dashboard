@@ -1,668 +1,613 @@
-aside {
-    background-color: $color-body;
-    grid-area: aside;
+.aside {
+	width: 30%;
+	max-width: 250px;
+	height: 100%;
 
-    @extend .flex-start;
+	.container_aside {
+		width: 100%;
+		height: 100%;
 
-    border-radius: 10px;
+		@extend .flexSpace-betweenColumn;
 
-    .aside_container {
-        width: 100%;
-        max-width: 250px;
-        height: 100%;
+		.Card {
+			width: 100%;
+			height: 35%;
 
-        @extend .flexCenter;
+			@extend .flexSpace-aroundColumn;
 
-        .Card {
-            width: 100%;
-            max-width: 235px;
-            height: 100%;
+			background-color: $primary-color-dark;
+			border-radius: 10px;
 
-            @extend .flexSpace-aroundColumn;
+			.MyCard_title {
+				width: 90%;
+				height: 32px;
+
+				@extend .flexSpace-between;
+
+				.fa-ellipsis-h {
+					color: #dbdfea;
+				}
+
+				p {
+					font-family: "Gilroy", sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 14px;
+					line-height: 16px;
+					display: flex;
+					align-items: center;
+
+					color: #dbdfea;
+				}
+			}
+
+			img {
+				width: 90%;
+			}
+		}
+
+		.Anallytics {
+			width: 100%;
+			height: 64%;
 
-            .MyCard {
-                width: 100%;
-                max-width: 235px;
-                height: 156px;
+			@extend .flexSpace-aroundColumn;
+
+			background-color: $primary-color-dark;
+			border-radius: 10px;
 
-                @extend .flexSpace-aroundColumn;
-
-                background-color: $primary-color;
-                border-radius: 10px;
-
-                img {
-                    width: 75%;
-                }
-
-                p {
-                    width: 90%;
-                    height: 30px;
-
-                    @extend .flexSpace-between;
-
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 16px;
-                    display: flex;
-                    align-items: center;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .fa-ellipsis-h {
-                    font-size: 15px;
-                    color: set-text-color($color-txt);
-
-                    cursor: pointer;
-                }
-            }
-
-            .Anallytics {
-                width: 100%;
-                max-width: 235px;
-                height: 45%;
-                height: 358px;
-
-                @extend .flexSpace-aroundColumn;
-
-                background-color: $primary-color;
-                border-radius: 10px;
-
-                p {
-                    width: 90%;
-                    height: 30px;
-
-                    @extend .flexSpace-between;
-
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 16px;
-                    display: flex;
-                    align-items: center;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .titleAnallytics {
-                    width: 90%;
-                    height: 30px;
-
-                    @extend .flexSpace-between;
-
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 16px;
-                    display: flex;
-                    align-items: center;
-
-                    color: set-text-color($color-txt);
-
-                    summary {
-                        width: 100px;
-                        height: 27px;
-
-                        @extend .flexSpace-evenly;
-
-                        background: #1d1e2c;
-                        border: none;
-                        border-radius: 20px;
-                        cursor: pointer;
-
-                        p {
-                            width: 60%;
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10px;
-
-                            color: set-text-color($color-txt);
-                        }
-                    }
-
-                    .ml-4 {
-                        @extend .flexSpace-betweenColumn;
-
-                        position: absolute;
-                        right: 40px;
-                        width: 100px;
-                        height: 100px;
-                        color: set-text-color($color-txt);
-
-                        border-radius: 10px 0px 0px 10px;
-
-                        .ThisMonth {
-                            width: 100px;
-                            height: 27px;
-                            background-color: set-text-color($color-txt);
-                            border-radius: 20px;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            color: $primary-color;
-                            cursor: pointer;
-                        }
-                    }
-                }
-
-                .anally_statistics {
-                    width: 100%;
-                    max-width: 205px;
-                    max-height: 90%;
-                    height: 254.81px;
-
-                    @extend .flexSpace-betweenColumn;
-
-                    .Stairs {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 30px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Statistics {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .StairsGraphic {
-                                width: 64px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .Footings {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 30px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Footings {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .FootingsGraphic {
-                                width: 64px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .Electrical {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 30px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Electrical {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .ElectricalGraphic {
-                                width: 59px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .FramingMaterial {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_FramingMaterial {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .FramingMaterialGraphic {
-                                width: 55px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .FinishLabor {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_FinishLabor {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .FinishLaborGraphic {
-                                width: 48px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .Hardware {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Hardware {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .HardwareGraphic {
-                                width: 48px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .Framing {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Framing {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .FramingGraphic {
-                                width: 32px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .TileInstallation {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_TileInstallation {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .TileInstallationGraphic {
-                                width: 25px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .Roofing {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Roofing {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .RoofingGraphic {
-                                width: 25px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .AppliancesInstall {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.2px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_AppliancesInstall {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .AppliancesInstallGraphic {
-                                width: 13px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .Insulation {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_Insulation {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .InsulationGraphic {
-                                width: 10px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-
-                    .InteriorPainting {
-                        width: 100%;
-                        max-width: 204px;
-                        height: 13px;
-
-                        @extend .flexSpace-between;
-
-                        display: flex;
-
-                        p {
-                            width: 92px;
-                            height: 100%;
-
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10.5px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-
-                        .bar_InteriorPainting {
-                            width: 100px;
-                            height: 10px;
-
-                            @extend .flexSpace-between;
-
-                            border-radius: 100px;
-                            background-color: #1d1e2c;
-
-                            .InteriorPaintingGraphic {
-                                width: 10px;
-                                height: 100%;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+			.Anallytics_title {
+				width: 90%;
+				height: 32px;
+
+				@extend .flexSpace-between;
+
+				p {
+					font-family: "Gilroy", sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 14px;
+					line-height: 16px;
+					display: flex;
+					align-items: center;
+
+					color: #dbdfea;
+				}
+
+				button {
+					width: 90px;
+					height: 25px;
+
+					@extend .flexSpace-evenly;
+
+					background: #1d1e2c;
+					border-radius: 20px;
+					border: none;
+
+					font-family: "Gilroy", sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 10px;
+					line-height: 8px;
+
+					display: flex;
+					align-items: center;
+					cursor: pointer;
+
+					color: #dbdfea;
+				}
+			}
+
+			.Anallytics_Graphic {
+				width: 90%;
+				max-width: 235px;
+				height: 75%;
+
+				@extend .flexSpace-betweenColumn;
+
+				.stairs_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.startsGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.startsBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.footings_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.footingsGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.footingsBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.electrical_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.electricalGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.electricalBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.framingMaterial_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.framingMaterialGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.framingMaterialBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.finishLabor_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.finishLaborGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.finishLaborBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.Hardware_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.HardwareGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.HardwareBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.Framing_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.FramingGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.FramingBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.TileInstallation_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.TileInstallationGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.TileInstallationBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.Roofing_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.RoofingGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.RoofingBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.AppliancesInstall_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.AppliancesInstallGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.AppliancesInstallBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.Insulation_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.InsulationGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.InsulationBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+
+				.InteriorPainting_group {
+					width: 100%;
+					height: 11px;
+
+					@extend .flexSpace-between;
+
+					p {
+						width: 50%;
+						height: 100%;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 13px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.InteriorPaintingGraphic {
+						width: 50%;
+						max-width: 100px;
+						height: 100%;
+
+						background-color: $color-body-dark;
+						border-radius: 100px;
+
+						.InteriorPaintingBar {
+							width: 50%;
+							height: 100%;
+
+							background: linear-gradient(90deg, #dc2430 -14.86%, #db2379 51.15%, #7b4397 98.14%);
+							border-radius: 100px;
+						}
+					}
+				}
+			}
+
+			.Anallystics_Total {
+				width: 90%;
+				height: 28px;
+				@extend .flexSpace-between;
+
+				border-top: 1px solid #1d1e2c;
+
+				p {
+					font-family: "Gilroy", sans-serif;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 13px;
+					line-height: 12px;
+					display: flex;
+					align-items: center;
+
+					color: #dbdfea;
+				}
+
+				h6 {
+					font-family: "Gilroy", sans-serif;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 13px;
+					line-height: 12px;
+					display: flex;
+					align-items: center;
+
+					color: #dbdfea;
+				}
+			}
+		}
+	}
+}
+
+.aside.light-aside {
+	background-color: $primary-color-light;
 }

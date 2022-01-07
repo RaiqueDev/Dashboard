@@ -1,739 +1,943 @@
-content {
-    background-color: $color-body;
-    grid-area: main;
-
-    .content_container {
-        width: 100%;
-        height: 100%;
-
-        @extend .flexSpace-evenlyColumn;
-
-        .content_total {
-            width: 100%;
-            height: 92px;
-
-            border-radius: 10px;
-
-            @extend .flexSpace-between;
-
-            .totalBalance {
-                width: 100%;
-                max-width: 250px;
-                height: 92px;
-
-                border-radius: 10px;
-                background-color: $primary-color;
-                background-image: url(../img/GraphicBalance.svg);
-                background-repeat: no-repeat;
-                background-position-x: 100%;
-                background-position-y: 100%;
-                background-size: 80%;
-
-                color: set-text-color($color-txt);
-
-                @extend .flexSpace-evenlyColumn;
-
-                .TxtBalance {
-                    @extend .flexSpace-between;
-
-                    width: 90%;
-                    max-width: 200px;
-                    height: 20px;
-
-                    font-family: "Gilroy", sans-serif;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 12px;
-
-                    display: flex;
-                }
-
-                .fa-ellipsis-h {
-                    font-size: 20px;
-                }
-
-                .valuebalance {
-                    width: 90%;
-                    max-width: 200px;
-
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 17px;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .percentageBalance {
-                    width: 90%;
-                    max-width: 200px;
-
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 10px;
-                    line-height: 12px;
-
-                    display: flex;
-
-                    color: #34e4b5;
-                }
-            }
-
-            .totalExpence {
-                width: 100%;
-                max-width: 250px;
-                height: 92px;
-
-                border-radius: 10px;
-                background-color: $primary-color;
-                background-image: url(../img/GraphicExpence.svg);
-                background-repeat: no-repeat;
-                background-position-x: 100%;
-                background-position-y: 100%;
-                background-size: 80%;
-
-                color: set-text-color($color-txt);
-
-                @extend .flexSpace-evenlyColumn;
-
-                .TxtExpence {
-                    @extend .flexSpace-between;
-
-                    width: 90%;
-                    max-width: 200px;
-                    height: 20px;
-
-                    font-family: "Gilroy", sans-serif;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 12px;
-
-                    display: flex;
-                }
-
-                .fa-ellipsis-h {
-                    font-size: 20px;
-                }
-
-                .valueExpence {
-                    width: 90%;
-                    max-width: 200px;
-
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 17px;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .percentageExpence {
-                    width: 90%;
-                    max-width: 200px;
-
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 10px;
-                    line-height: 12px;
-
-                    display: flex;
-
-                    color: #DC2430;
-                }
-            }
-
-            .totalSavings {
-                width: 100%;
-                max-width: 250px;
-                height: 92px;
-
-                border-radius: 10px;
-                background-color: $primary-color;
-                background-image: url(../img/GraphicSavings.svg);
-                background-repeat: no-repeat;
-                background-position-x: 100%;
-                background-position-y: 100%;
-                background-size: 80%;
-
-                color: set-text-color($color-txt);
-
-                @extend .flexSpace-evenlyColumn;
-
-                .TxtSavings {
-                    @extend .flexSpace-between;
-
-                    width: 90%;
-                    max-width: 200px;
-                    height: 20px;
-
-                    font-family: "Gilroy", sans-serif;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 12px;
-
-                    display: flex;
-                }
-
-                .fa-ellipsis-h {
-                    font-size: 20px;
-                }
-
-                .valueSavings {
-                    width: 90%;
-                    max-width: 200px;
-
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 17px;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .percentageSavings {
-                    width: 90%;
-                    max-width: 200px;
-
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 10px;
-                    line-height: 12px;
-
-                    display: flex;
-
-                    color: #34e4b5;
-                }
-            }
-        }
-
-        .content_Outlay {
-            width: 100%;
-            height: 230px;
-
-            border-radius: 10px;
-            background-color: $primary-color;
-
-            @extend .flexSpace-evenlyColumn;
-
-            color: set-text-color($color-txt);
-
-            .TxtOutlay {
-                @extend .flexSpace-between;
-
-                width: 95%;
-                height: 20px;
-
-                p {
-                    font-family: "Gilroy", sans-serif;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 15px;
-                    line-height: 12px;
-
-                    display: flex;
-                }
-
-                .btnOutlay {
-                    width: 40%;
-                    max-width: 309px;
-                    height: 20px;
-
-                    @extend .flexSpace-between;
-
-                    .Previousmonth {
-                        width: 90px;
-                        height: 100%;
-
-                        @extend .flexSpace-between;
-
-                        .fa-circle {
-                            font-size: 6px;
-
-                            color: #894ba9;
-                        }
-
-                        p {
-                            font-family: "Gilroy", sans-serif;
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10px;
-                            line-height: 12px;
-                        }
-                    }
-
-                    .Selectedmonth {
-                        width: 90px;
-                        height: 100%;
-
-                        @extend .flexSpace-between;
-
-                        .fa-circle {
-                            font-size: 6px;
-
-                            color: #e03a45;
-                        }
-
-                        p {
-                            font-family: "Gilroy", sans-serif;
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10px;
-                            line-height: 12px;
-                        }
-                    }
-
-                    button {
-                        cursor: pointer;
-                        width: 80px;
-                        height: 20px;
-
-                        border: none;
-                        color: set-text-color($color-txt);
-                        background: #1d1e2c;
-                        border-radius: 20px;
-
-                        font-family: "Gilroy", sans-serif;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 10px;
-                        line-height: 12px;
-                    }
-                }
-            }
-
-            .OutlayGraphic {
-                width: 95%;
-                height: 150px;
-
-                @extend .flexSpace-between;
-
-                .OutlayGraphic_numberleft {
-                    width: 25%;
-                    max-width: 45px;
-                    height: 100%;
-
-                    @extend .flexSpace-betweenColumn;
-
-                    p {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 11px;
-                        line-height: 9px;
-                        display: flex;
-                        align-items: center;
-
-                        color: set-text-color($color-txt);
-                    }
-                }
-
-                .OutlayGraphic_image {
-                    width: 100%;
-                    height: 150px;
-
-                    background-image: url(../img/OutlayGraphic.svg);
-                    background-repeat: no-repeat;
-                    background-size: 100%;
-                }
-            }
-
-            .OutlayGraphic_numberdown {
-                width: 95%;
-                height: 15px;
-
-                @extend .flexSpace-between;
-
-                .numberdown {
-                    width: 93.5%;
-                    height: 15px;
-
-                    @extend .flexSpace-between;
-
-                    p {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 8px;
-                        line-height: 9px;
-                        display: flex;
-
-                        color: set-text-color($color-txt);
-                    }
-                }
-            }
-        }
-
-        .Income {
-            width: 100%;
-            height: 177px;
-
-            border-radius: 10px;
-            background-color: $color-body;
-
-            @extend .flexSpace-between;
-
-            .Income_graphic {
-                width: 57%;
-                max-width: 500px;
-                height: 100%;
-
-                background-color: $primary-color;
-                @extend .flexSpace-aroundColumn;
-
-                border-radius: 10px;
-
-                p {
-                    width: 97%;
-                    height: 30px;
-
-                    @extend .flexSpace-between;
-
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 16px;
-                    display: flex;
-                    align-items: center;
-
-                    color: set-text-color($color-txt);
-                }
-
-                button {
-                    width: 80%;
-                    max-width: 100px;
-                    height: 27px;
-
-                    @extend .flexSpace-evenly;
-
-                    background: #1d1e2c;
-                    border: none;
-                    border-radius: 20px;
-                    cursor: pointer;
-
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 11px;
-                    line-height: 8px;
-
-                    display: flex;
-                    align-items: center;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .IncomeGraphic {
-                    width: 97%;
-                    height: 92.08px;
-
-                    @extend .flexSpace-between;
-
-                    .IncomeGraphic_numberleft {
-                        width: 25%;
-                        max-width: 45px;
-                        height: 92.06px;
-
-                        @extend .flexSpace-betweenColumn;
-
-                        p {
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 11px;
-                            line-height: 9px;
-                            display: flex;
-                            align-items: center;
-
-                            color: set-text-color($color-txt);
-                        }
-                    }
-
-                    .IncomeGraphic_Rectangle {
-                        width: 89%;
-                        height: 92.06px;
-
-                        background-repeat: no-repeat;
-                        background-size: 100%;
-
-                        @extend .flexSpace-around;
-
-                        .Rectangle {
-                            width: 10px;
-                            height: 100%;
-
-                            background-color: #1d1e2c;
-                            border-radius: 100px;
-
-                            @extend .flex-end;
-
-                            .Rectangle-Jan {
-                                width: 100%;
-                                height: 41.57px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Fab {
-                                width: 100%;
-                                height: 65.72px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Mar {
-                                width: 100%;
-                                height: 57.73px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Apr {
-                                width: 100%;
-                                height: 62.35px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-May {
-                                width: 100%;
-                                height: 62.35px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Jun {
-                                width: 100%;
-                                height: 36.95px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Jul {
-                                width: 100%;
-                                height: 50.8px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Aug {
-                                width: 100%;
-                                height: 62.35px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Sep {
-                                width: 100%;
-                                height: 36.95px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Oct {
-                                width: 100%;
-                                height: 64.66px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Nov {
-                                width: 100%;
-                                height: 50.8px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-
-                            .Rectangle-Dec {
-                                width: 100%;
-                                height: 42.66px;
-
-                                background: linear-gradient(59.45deg, #dc2430 -58.34%, #db2379 19.04%, #7b4397 140.91%);
-                                border-radius: 100px;
-                            }
-                        }
-                    }
-                }
-                .IncomeGraphic_numberdown {
-                    width: 97%;
-                    height: 15px;
-
-                    @extend .flexSpace-between;
-
-                    .Incomenumberdown {
-                        width: 89%;
-                        height: 15px;
-
-                        @extend .flexSpace-around;
-
-                        p {
-                            width: 19px;
-                            height: 100%;
-                            font-style: normal;
-                            font-weight: normal;
-                            font-size: 10px;
-
-                            color: set-text-color($color-txt);
-                        }
-                    }
-                }
-            }
-
-            .Income_Transactions {
-                width: 40%;
-                max-width: 453px;
-                height: 100%;
-
-                background-color: $primary-color;
-
-                @extend .flexSpace-aroundColumn;
-
-                border-radius: 10px;
-
-                img {
-                    width: 75%;
-                }
-
-                p {
-                    width: 90%;
-                    height: 30px;
-
-                    @extend .flexSpace-between;
-
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 16px;
-                    display: flex;
-                    align-items: center;
-
-                    color: set-text-color($color-txt);
-                }
-
-                .fa-ellipsis-h {
-                    font-size: 15px;
-                    color: set-text-color($color-txt);
-
-                    cursor: pointer;
-                }
-
-                .Income_RefuelingGasoline {
-                    width: 90%;
-                    height: 37px;
-
-                    @extend .flexSpace-between;
-                    border-bottom: 1px solid #1d1e2c;
-
-                    p {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-
-                        color: set-text-color($color-txt);
-                    }
-
-                    h6 {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-
-                        color: #e03a45;
-                    }
-                }
-
-                .Income_PurchaseOfFurniture {
-                    width: 90%;
-                    height: 37px;
-
-                    @extend .flexSpace-between;
-
-                    border-bottom: 1px solid #1d1e2c;
-
-                    p {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-
-                        color: set-text-color($color-txt);
-                    }
-
-                    h6 {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-
-                        color: #e03a45;
-                    }
-                }
-
-                .Income_CashRefundForTickets {
-                    width: 90%;
-                    height: 37px;
-
-                    @extend .flexSpace-between;
-
-                    p {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-
-                        color: set-text-color($color-txt);
-                    }
-
-                    h6 {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 13px;
-                        line-height: 12px;
-                        display: flex;
-                        align-items: center;
-
-                        color: #34e4b5;
-                    }
-                }
-            }
-        }
-    }
+.content {
+	width: 76%;
+	max-width: 900px;
+	height: 100%;
+
+	.container_content {
+		width: 100%;
+		height: 100%;
+
+		@extend .flexSpace-betweenColumn;
+
+		.box_total {
+			width: 100%;
+			height: 20%;
+
+			@extend .flexSpace-between;
+
+			.total_balance {
+				width: 32%;
+				max-width: 370px;
+				height: 100%;
+
+				@extend .flexSpace-evenlyColumn;
+
+				background-color: $primary-color-dark;
+				border-radius: 10px;
+
+				background-image: url(/img/GraphicBalance.svg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background-position-y: 100%;
+				background-position-x: 100%;
+
+				.balance_title {
+					width: 93%;
+					height: 40px;
+					@extend .flexSpace-between;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.fa-ellipsis-h {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				.balance_txt {
+					width: 93%;
+					height: 60%;
+
+					h4 {
+						width: 100%;
+						height: 40%;
+
+						@extend .flex-startColumn;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 19px;
+						line-height: 17px;
+
+						color: #dbdfea;
+					}
+
+					h5 {
+						width: 25%;
+						height: 40%;
+
+						@extend .flexSpace-between;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: bold;
+						font-size: 15px;
+						line-height: 12px;
+
+						color: #34e4b5;
+					}
+
+					.fa-level-up-alt {
+						font-size: 10px;
+						color: #34e4b5;
+					}
+				}
+			}
+
+			.total_expence {
+				width: 32%;
+				max-width: 380px;
+				height: 100%;
+
+				@extend .flexSpace-evenlyColumn;
+
+				background-color: $primary-color-dark;
+				border-radius: 10px;
+
+				background-image: url(/img/GraphicExpence.svg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background-position-y: 100%;
+				background-position-x: 100%;
+
+				.expence_title {
+					width: 93%;
+					height: 40px;
+					@extend .flexSpace-between;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.fa-ellipsis-h {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				.expence_txt {
+					width: 93%;
+					height: 60%;
+
+					h4 {
+						width: 100%;
+						height: 40%;
+
+						@extend .flex-startColumn;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 19px;
+						line-height: 17px;
+
+						color: #dbdfea;
+					}
+
+					h5 {
+						width: 25%;
+						height: 40%;
+
+						@extend .flexSpace-between;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: bold;
+						font-size: 15px;
+						line-height: 12px;
+
+						color: #e03a45;
+					}
+
+					.fa-level-up-alt {
+						font-size: 10px;
+						color: #e03a45;
+					}
+				}
+			}
+
+			.total_savings {
+				width: 32%;
+				max-width: 380px;
+				height: 100%;
+
+				@extend .flexSpace-evenlyColumn;
+
+				background-color: $primary-color-dark;
+				border-radius: 10px;
+
+				background-image: url(/img/GraphicSavings.svg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background-position-y: 100%;
+				background-position-x: 100%;
+
+				.savings_title {
+					width: 93%;
+					height: 40px;
+					@extend .flexSpace-between;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.fa-ellipsis-h {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: set-text-color(#dbdfea);
+					}
+				}
+
+				.savings_txt {
+					width: 93%;
+					height: 60%;
+
+					h4 {
+						width: 100%;
+						height: 40%;
+
+						@extend .flex-startColumn;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 19px;
+						line-height: 17px;
+
+						color: #dbdfea;
+					}
+
+					h5 {
+						width: 25%;
+						height: 40%;
+
+						@extend .flexSpace-between;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: bold;
+						font-size: 15px;
+						line-height: 12px;
+
+						color: #34e4b5;
+					}
+
+					.fa-level-up-alt {
+						font-size: 10px;
+						color: #34e4b5;
+					}
+				}
+			}
+		}
+
+		.box_outlay {
+			width: 100%;
+			height: 46%;
+
+			@extend .flexSpace-evenlyColumn;
+
+			background-color: $primary-color-dark;
+			border-radius: 10px;
+
+			.title_outlatGraphic {
+				width: 95%;
+				height: 10%;
+
+				@extend .flexSpace-between;
+
+				p {
+					font-family: "Gilroy", sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 14px;
+					line-height: 16px;
+					display: flex;
+					align-items: center;
+
+					color: #dbdfea;
+				}
+
+				.btnGraphic {
+					width: 315px;
+					height: 100%;
+
+					@extend .flexSpace-between;
+
+					.btnPreviousMonth {
+						width: 100px;
+						height: 100%;
+
+						@extend .flexSpace-between;
+
+						.fa-circle {
+							width: 10px;
+							height: 10px;
+
+							@extend .flexCenter;
+
+							font-size: 10px;
+							color: $circle-rebeccapurple-color;
+						}
+
+						p {
+							font-family: "Gilroy", sans-serif;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 12px;
+							line-height: 9px;
+							display: flex;
+							align-items: center;
+
+							color: #dbdfea;
+						}
+					}
+
+					.btnSelectedMonth {
+						width: 100px;
+						height: 100%;
+
+						@extend .flexSpace-between;
+
+						.fa-circle {
+							width: 10px;
+							height: 10px;
+
+							@extend .flexCenter;
+
+							font-size: 10px;
+							color: $circle-red-color;
+						}
+
+						p {
+							font-family: "Gilroy", sans-serif;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 12px;
+							line-height: 9px;
+							display: flex;
+							align-items: center;
+
+							color: #dbdfea;
+						}
+					}
+
+					.btnSelectDate {
+						width: 100px;
+						height: 100%;
+						background: #1d1e2c;
+						border-radius: 20px;
+						border: none;
+
+						@extend .flexSpace-evenly;
+
+						.fa-angle-down {
+							width: 10px;
+							height: 10px;
+
+							@extend .flexCenter;
+
+							font-size: 10px;
+							color: #dbdfea;
+						}
+
+						p {
+							font-family: "Gilroy", sans-serif;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 12px;
+							line-height: 9px;
+							display: flex;
+							align-items: center;
+
+							color: #dbdfea;
+						}
+					}
+				}
+			}
+
+			.outlay_graphic {
+				width: 95%;
+				height: 70%;
+
+				@extend .flexSpace-between;
+
+				.number_left {
+					width: 7%;
+					height: 100%;
+
+					@extend .flexalign-StartColumn;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+
+				.graphic_center {
+					width: 93%;
+					height: 100%;
+
+					background-image: url(/img/OutlayGraphic.svg);
+					background-repeat: no-repeat;
+					background-size: 100%;
+					background-position-x: 100%;
+				}
+			}
+
+			.number_bottom {
+				width: 97%;
+				height: 9%;
+
+				@extend .flexSpace-between;
+
+				.numbers {
+					width: 93%;
+					height: 100%;
+
+					@extend .flexSpace-between;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 12px;
+						line-height: 9px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+				}
+			}
+		}
+
+		.box_income {
+			width: 100%;
+			height: 32%;
+
+			@extend .flexSpace-between;
+
+			.boxincome_graphic {
+				width: 55%;
+				height: 100%;
+
+				@extend .flexSpace-aroundColumn;
+
+				background-color: $primary-color-dark;
+				border-radius: 10px;
+
+				.income_title {
+					width: 95%;
+					height: 32px;
+
+					@extend .flexSpace-between;
+					border-radius: 10px;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 16px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					button {
+						width: 90px;
+						height: 25px;
+
+						@extend .flexSpace-evenly;
+
+						background: #1d1e2c;
+						border-radius: 20px;
+						border: none;
+
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 10px;
+						line-height: 8px;
+
+						display: flex;
+						align-items: center;
+						cursor: pointer;
+
+						color: #dbdfea;
+					}
+				}
+
+				.box_incomeGraphic {
+					width: 95%;
+					height: 55%;
+
+					@extend .flexSpace-between;
+
+					.number_leftIncome {
+						width: 10%;
+						height: 100%;
+
+						.number_leftIncome {
+							width: 7%;
+							height: 100%;
+
+							@extend .flexalign-StartColumn;
+
+							p {
+								font-family: "Gilroy", sans-serif;
+								font-style: normal;
+								font-weight: normal;
+								font-size: 12px;
+								line-height: 9px;
+								display: flex;
+								align-items: center;
+
+								color: #dbdfea;
+							}
+						}
+					}
+
+					.income_center {
+						width: 89%;
+						height: 100%;
+
+						@extend .flexSpace-between;
+
+						.Income-Jan {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Jan-Bar {
+								width: 100%;
+								height: 65px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Feb {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Feb-Bar {
+								width: 100%;
+								height: 41px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Mar {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Mar-Bar {
+								width: 100%;
+								height: 57px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Apr {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Apr-Bar {
+								width: 100%;
+								height: 62px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-May {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.May-Bar {
+								width: 100%;
+								height: 62px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Jun {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Jun-Bar {
+								width: 100%;
+								height: 36px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Jul {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Jul-Bar {
+								width: 100%;
+								height: 50px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Aug {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Aug-Bar {
+								width: 100%;
+								height: 62px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Sep {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Sep-Bar {
+								width: 100%;
+								height: 36px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Oct {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Oct-Bar {
+								width: 100%;
+								height: 64px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Nov {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Nov-Bar {
+								width: 100%;
+								height: 50px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+
+						.Income-Dec {
+							width: 11px;
+							height: 100%;
+
+							@extend .flex-end;
+
+							background-color: $color-body-dark;
+							border-radius: 999px;
+
+							.Dec-Bar {
+								width: 100%;
+								height: 42px;
+
+								background: linear-gradient(360deg, #dc2430 0%, #db2379 51.04%, #7b4397 100%);
+								border-radius: 999px;
+							}
+						}
+					}
+				}
+
+				.number_bottomIncome {
+					width: 95%;
+					height: 20px;
+
+					@extend .flexSpace-between;
+
+					.numbers_bottom {
+						width: 90%;
+						height: 100%;
+
+						@extend .flexSpace-between;
+
+						p {
+							font-family: "Gilroy", sans-serif;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 12px;
+							line-height: 8px;
+
+							display: flex;
+							align-items: center;
+
+							color: #dbdfea;
+						}
+					}
+				}
+			}
+
+			.boxincome_LatestTransactions {
+				width: 44.2%;
+				height: 100%;
+
+				@extend .flexSpace-evenlyColumn;
+
+				background-color: $primary-color-dark;
+				border-radius: 10px;
+
+				.Transactions_title {
+					width: 93%;
+					height: 15px;
+
+					@extend .flexSpace-between;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 16px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					.fa-ellipsis-h {
+						color: #dbdfea;
+					}
+				}
+
+				.RefuelingGasoline {
+					width: 93%;
+					height: 40px;
+
+					@extend .flexSpace-between;
+
+					border-bottom: 2px solid #1d1e2c;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					h6 {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #e03a45;
+					}
+				}
+
+				.PurchaseOfFurniture {
+					width: 93%;
+					height: 40px;
+
+					@extend .flexSpace-between;
+
+					border-bottom: 2px solid #1d1e2c;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					h6 {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #e03a45;
+					}
+				}
+
+				.CashRefundForTickets {
+					width: 93%;
+					height: 40px;
+
+					@extend .flexSpace-between;
+
+					p {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #dbdfea;
+					}
+
+					h6 {
+						font-family: "Gilroy", sans-serif;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 12px;
+						display: flex;
+						align-items: center;
+
+						color: #34e4b5;
+					}
+				}
+			}
+		} //balance_title
+	}
 }
 
-/* 
-                                animation-name: example;
-                                animation-duration: 10s;
-                                animation-iteration-count: infinite;
-                                @keyframes example {
-                                    0%   {height: 41.57px;}
-                                    5%  {height: 42.57px;}
-                                    10%  {height: 43.57px;}
-                                    15%  {height: 44.57px;}
-                                    20% {height: 45.57px;}
-                                    25%   {height: 46.57px;}
-                                    30%  {height: 47.57px;}
-                                    40%  {height: 48.57px;}
-                                    45%  {height: 49.57px;}
-                                    50% {height: 50px;}
-                                }
-*/
+.content.light-content {
+	background-color: $primary-color-light;
+}
