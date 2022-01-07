@@ -12,7 +12,6 @@
 
 <br>
 
-![2022-01-05_14-59](https://user-images.githubusercontent.com/96999326/148266036-1578fdb6-b36d-4cf6-8716-a52f8b7cba4b.png)
 
 <br>
 
