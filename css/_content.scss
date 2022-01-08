@@ -45,7 +45,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.fa-ellipsis-h {
@@ -57,7 +57,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 				}
 
@@ -74,14 +74,14 @@
 						font-family: "Gilroy", sans-serif;
 						font-style: normal;
 						font-weight: 600;
-						font-size: 19px;
+						font-size: 16px;
 						line-height: 17px;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					h5 {
-						width: 25%;
+						width: 20%;
 						height: 40%;
 
 						@extend .flexSpace-between;
@@ -89,7 +89,7 @@
 						font-family: "Gilroy", sans-serif;
 						font-style: normal;
 						font-weight: bold;
-						font-size: 15px;
+						font-size: 13px;
 						line-height: 12px;
 
 						color: #34e4b5;
@@ -100,6 +100,10 @@
 						color: #34e4b5;
 					}
 				}
+			}
+
+			.total_balance.total_balance-light{
+				background-color: $primary-color-light;
 			}
 
 			.total_expence {
@@ -132,7 +136,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.fa-ellipsis-h {
@@ -144,7 +148,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 				}
 
@@ -161,14 +165,14 @@
 						font-family: "Gilroy", sans-serif;
 						font-style: normal;
 						font-weight: 600;
-						font-size: 19px;
+						font-size: 16px;
 						line-height: 17px;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					h5 {
-						width: 25%;
+						width: 20%;
 						height: 40%;
 
 						@extend .flexSpace-between;
@@ -176,7 +180,7 @@
 						font-family: "Gilroy", sans-serif;
 						font-style: normal;
 						font-weight: bold;
-						font-size: 15px;
+						font-size: 13px;
 						line-height: 12px;
 
 						color: #e03a45;
@@ -187,6 +191,10 @@
 						color: #e03a45;
 					}
 				}
+			}
+
+			.total_expence.total_expence-light{
+				background-color: $primary-color-light;
 			}
 
 			.total_savings {
@@ -219,7 +227,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.fa-ellipsis-h {
@@ -231,7 +239,7 @@
 						display: flex;
 						align-items: center;
 
-						color: set-text-color(#dbdfea);
+						color: set-text-color($color-font-dark);
 					}
 				}
 
@@ -248,14 +256,14 @@
 						font-family: "Gilroy", sans-serif;
 						font-style: normal;
 						font-weight: 600;
-						font-size: 19px;
+						font-size: 16px;
 						line-height: 17px;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					h5 {
-						width: 25%;
+						width: 20%;
 						height: 40%;
 
 						@extend .flexSpace-between;
@@ -263,7 +271,7 @@
 						font-family: "Gilroy", sans-serif;
 						font-style: normal;
 						font-weight: bold;
-						font-size: 15px;
+						font-size: 13px;
 						line-height: 12px;
 
 						color: #34e4b5;
@@ -274,6 +282,10 @@
 						color: #34e4b5;
 					}
 				}
+			}
+
+			.total_savings.total_savings-light{
+				background-color: $primary-color-light;
 			}
 		}
 
@@ -301,7 +313,7 @@
 					display: flex;
 					align-items: center;
 
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 
 				.btnGraphic {
@@ -330,12 +342,12 @@
 							font-family: "Gilroy", sans-serif;
 							font-style: normal;
 							font-weight: normal;
-							font-size: 12px;
+							font-size: 10px;
 							line-height: 9px;
 							display: flex;
 							align-items: center;
 
-							color: #dbdfea;
+							color: $color-font-dark;
 						}
 					}
 
@@ -359,12 +371,12 @@
 							font-family: "Gilroy", sans-serif;
 							font-style: normal;
 							font-weight: normal;
-							font-size: 12px;
+							font-size: 10px;
 							line-height: 9px;
 							display: flex;
 							align-items: center;
 
-							color: #dbdfea;
+							color: $color-font-dark;
 						}
 					}
 
@@ -384,7 +396,7 @@
 							@extend .flexCenter;
 
 							font-size: 10px;
-							color: #dbdfea;
+							color: $color-font-dark;
 						}
 
 						p {
@@ -396,7 +408,7 @@
 							display: flex;
 							align-items: center;
 
-							color: #dbdfea;
+							color: $color-font-dark;
 						}
 					}
 				}
@@ -423,7 +435,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 				}
 
@@ -459,10 +471,14 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 				}
 			}
+		}
+
+		.box_outlay.box_outlay-light{
+			background-color: $primary-color-light;
 		}
 
 		.box_income {
@@ -496,7 +512,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					button {
@@ -519,7 +535,7 @@
 						align-items: center;
 						cursor: pointer;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 				}
 
@@ -548,7 +564,7 @@
 								display: flex;
 								align-items: center;
 
-								color: #dbdfea;
+								color: $color-font-dark;
 							}
 						}
 					}
@@ -799,10 +815,14 @@
 							display: flex;
 							align-items: center;
 
-							color: #dbdfea;
+							color: $color-font-dark;
 						}
 					}
 				}
+			}
+			
+			.boxincome_graphic.boxincome_graphic-light{
+				background-color: $primary-color-light;
 			}
 
 			.boxincome_LatestTransactions {
@@ -829,11 +849,11 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.fa-ellipsis-h {
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 				}
 
@@ -854,7 +874,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					h6 {
@@ -887,7 +907,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					h6 {
@@ -918,7 +938,11 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
+					}
+
+					p.light-color {
+						color: $color-font-light;
 					}
 
 					h6 {
@@ -934,10 +958,10 @@
 					}
 				}
 			}
-		} //balance_title
-	}
-}
 
-.content.light-content {
-	background-color: $primary-color-light;
+			.boxincome_LatestTransactions.boxincome_LatestTransactions-light{
+				background-color: $primary-color-light;
+			}
+		} 
+	}
 }

@@ -25,7 +25,7 @@
 				@extend .flexSpace-between;
 
 				.fa-ellipsis-h {
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 
 				p {
@@ -37,13 +37,17 @@
 					display: flex;
 					align-items: center;
 
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 			}
 
 			img {
 				width: 90%;
 			}
+		}
+
+		.Card.Card-light{
+			background-color: $primary-color-light;
 		}
 
 		.Anallytics {
@@ -70,7 +74,7 @@
 					display: flex;
 					align-items: center;
 
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 
 				button {
@@ -93,7 +97,7 @@
 					align-items: center;
 					cursor: pointer;
 
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 			}
 
@@ -122,7 +126,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.startsGraphic {
@@ -161,7 +165,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.footingsGraphic {
@@ -200,7 +204,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.electricalGraphic {
@@ -239,7 +243,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.framingMaterialGraphic {
@@ -278,7 +282,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.finishLaborGraphic {
@@ -317,7 +321,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.HardwareGraphic {
@@ -356,7 +360,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.FramingGraphic {
@@ -395,7 +399,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.TileInstallationGraphic {
@@ -434,7 +438,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.RoofingGraphic {
@@ -473,7 +477,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.AppliancesInstallGraphic {
@@ -512,7 +516,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.InsulationGraphic {
@@ -551,7 +555,7 @@
 						display: flex;
 						align-items: center;
 
-						color: #dbdfea;
+						color: $color-font-dark;
 					}
 
 					.InteriorPaintingGraphic {
@@ -589,7 +593,7 @@
 					display: flex;
 					align-items: center;
 
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 
 				h6 {
@@ -601,9 +605,13 @@
 					display: flex;
 					align-items: center;
 
-					color: #dbdfea;
+					color: $color-font-dark;
 				}
 			}
+		}
+
+		.Anallytics.Anallytics-light{
+			background-color: $primary-color-light;
 		}
 	}
 }
