@@ -13,7 +13,7 @@ $reset-time: 150ms;
 $circle-red-color: #9b4343;
 $circle-rebeccapurple-color: #894ba9;
 
-@function set-text-color($color) {
+@function set-text-dark($color) {
 	@if lightness($color) > 50 {
 		@return #dbdfea;
 	} @else {

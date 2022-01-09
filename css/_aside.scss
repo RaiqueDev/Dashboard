@@ -46,10 +46,6 @@
 			}
 		}
 
-		.Card.Card-light{
-			background-color: $primary-color-light;
-		}
-
 		.Anallytics {
 			width: 100%;
 			height: 64%;
@@ -609,13 +605,5 @@
 				}
 			}
 		}
-
-		.Anallytics.Anallytics-light{
-			background-color: $primary-color-light;
-		}
 	}
-}
-
-.aside.light-aside {
-	background-color: $primary-color-light;
 }

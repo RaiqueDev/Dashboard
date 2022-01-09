@@ -1,7 +1,7 @@
 .nav {
 	width: 210px;
 	height: 100%;
-	background-color: $primary-color-dark;
+
 	border-radius: 20px 0px 0px 20px;
 
 	.container_nav {
@@ -19,7 +19,7 @@
 
 			border-bottom: 1px solid #1d1e2c;
 
-			h1 {
+			.TitleLogo {
 				font-family: "Gilroy", sans-serif;
 				font-style: normal;
 				font-weight: bold;
@@ -30,10 +30,10 @@
 
 				color: $color-font-dark;
 			}
-		}
 
-		.Logo.Logo-light{
-			color: $color-font-light;
+			.TitleLogo.TitleLogo-light{
+				color: $color-font-light;
+			}
 		}
 
 		.nav_options {
@@ -67,10 +67,6 @@
 
 						@extend .flexCenter;
 					}
-					
-					.fa-chart-pie.fa-chart-pie-light{
-						color: $color-font-light;
-					}
 
 					.p-Dashboard {
 						width: 67%;
@@ -85,10 +81,6 @@
 						align-items: center;
 
 						color: $color-font-dark;
-					}
-
-					.p-Dashboard.p-Dashboard-light{
-						color: $color-font-light;
 					}
 				}
 
@@ -134,10 +126,6 @@
 
 						color: $color-font-dark;
 					}
-
-					.p-Profile.p-Profile-light{
-						color: $color-font-light;
-					}
 				}
 
 				&:hover {
@@ -181,10 +169,6 @@
 						align-items: center;
 
 						color: $color-font-dark;
-					}
-
-					.p-Messages.p-Messages-light{
-						color: $color-font-light;
 					}
 				}
 
@@ -230,10 +214,6 @@
 
 						color: $color-font-dark;
 					}
-
-					.p-Transactions.p-Transactions-light{
-						color: $color-font-light;
-					}
 				}
 
 				&:hover {
@@ -277,10 +257,6 @@
 						align-items: center;
 
 						color: $color-font-dark;
-					}
-
-					.p-Mywallet.p-Mywallet-light{
-						color: $color-font-light;
 					}
 				}
 
@@ -326,10 +302,6 @@
 
 						color: $color-font-dark;
 					}
-
-					.p-Payment.p-Payment-light{
-						color: $color-font-light;
-					}
 				}
 
 				&:hover {
@@ -373,10 +345,6 @@
 						align-items: center;
 
 						color: $color-font-dark;
-					}
-
-					.p-Investment.p-Investment-light{
-						color: $color-font-light;
 					}
 				}
 
@@ -422,16 +390,16 @@
 
 						color: $color-font-dark;
 					}
-
-					.p-Reports.p-Reports-light{
-						color: $color-font-light;
-					}
 				}
 
 				&:hover {
 					background: #1d1e2c;
 				}
 			}
+		}
+
+		.nav_options.nav_options-light{
+			border-bottom: 1px solid #f5f6fa;
 		}
 
 		.nav_settings {
@@ -480,10 +448,6 @@
 
 						color: $color-font-dark;
 					}
-
-					.p-Settings.p-Settings-light{
-						color: $color-font-light;
-					}
 				}
 
 				&:hover {
@@ -527,10 +491,6 @@
 						align-items: center;
 
 						color: $color-font-dark;
-					}
-
-					.p-Support.p-Support-light{
-						color: $color-font-light;
 					}
 				}
 
@@ -583,10 +543,6 @@
 
 						color: $color-font-dark;
 					}
-
-					.p-Logout.p-Logout-light{
-						color: $color-font-light;
-					}
 				}
 
 				&:hover {
@@ -594,13 +550,5 @@
 				}
 			}
 		}
-
-		.nav_Logout.light-color{
-			background-color: #fba;
-		}
 	}
-}
-
-.nav.light-nav {
-	background-color: $primary-color-light;
 }

@@ -78,7 +78,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-around, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .settings .icon_name, .nav .container_nav .nav_settings .support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name {
+.flexSpace-around, .header .container_header .header_infos, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .settings .icon_name, .nav .container_nav .nav_settings .support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .header .container_header .header_infos, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total {
+.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,7 +319,7 @@ body .container.light-container {
   height: 100%;
 }
 
-.header .container_header .header_helloName h1 {
+.header .container_header .header_helloName .h1_helloName {
   font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -331,61 +331,16 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #dbdfea;
+  color: #fff;
 }
 
 .header .container_header .header_infos {
-  width: 350px;
+  width: 300px;
   height: 100%;
 }
 
-.header .container_header .header_infos input[type="checkbox"] {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-.header .container_header .header_infos label {
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 42px;
-  height: 18px;
-  background: #1d1e2c;
-  float: right;
-  border-radius: 100px;
-  position: relative;
-}
-
-.header .container_header .header_infos label::after {
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: 3px;
-  width: 15px;
-  height: 15px;
-  background: -webkit-gradient(linear, left top, right top, from(#DC2430), color-stop(99.99%, #7B4397));
-  background: linear-gradient(90deg, #DC2430 0%, #7B4397 99.99%);
-  border-radius: 90px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.header .container_header .header_infos input:checked + label {
-  background-color: #1d1e2c;
-}
-
-.header .container_header .header_infos input:checked + label::after {
-  left: calc(100% - 5px);
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-}
-
-.header .container_header .header_infos label:active:after {
-  width: 45px;
-}
-
 .header .container_header .header_infos .search-box {
-  border: solid 2px #fff;
+  border: solid 2px #dbdfea;
   display: inline-block;
   position: relative;
   border-radius: 50px;
@@ -402,7 +357,7 @@ body .container.light-container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 50px;
-  background-color: #24263a;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   -webkit-transition: width 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
   transition: width 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
@@ -459,7 +414,7 @@ body .container.light-container {
 .header .container_header .header_infos .search-box button[type="reset"]:before, .header .container_header .header_infos .search-box button[type="reset"]:after {
   content: "";
   height: 12px;
-  border-left: solid 2px #fff;
+  border-left: solid 2px #dbdfea;
   position: absolute;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -494,18 +449,13 @@ body .container.light-container {
 
 .header .container_header .header_infos .fa-angle-down {
   font-size: 18px;
-  color: #fff;
+  color: #f5f6fa;
   cursor: pointer;
-}
-
-.header.light-header {
-  background-color: #fff;
 }
 
 .nav {
   width: 210px;
   height: 100%;
-  background-color: #24263a;
   border-radius: 20px 0px 0px 20px;
 }
 
@@ -522,7 +472,7 @@ body .container.light-container {
   border-bottom: 1px solid #1d1e2c;
 }
 
-.nav .container_nav .Logo h1 {
+.nav .container_nav .Logo .TitleLogo {
   font-family: "Gilroy", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -537,7 +487,7 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .Logo.Logo-light {
+.nav .container_nav .Logo .TitleLogo.TitleLogo-light {
   color: #364A63;
 }
 
@@ -568,10 +518,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie.fa-chart-pie-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_options .dashboard .icon_name .p-Dashboard {
   width: 67%;
   height: 100%;
@@ -587,10 +533,6 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.nav .container_nav .nav_options .dashboard .icon_name .p-Dashboard.p-Dashboard-light {
-  color: #364A63;
 }
 
 .nav .container_nav .nav_options .dashboard:hover {
@@ -634,10 +576,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Userprofiles .icon_name .p-Profile.p-Profile-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_options .Userprofiles:hover {
   background: #1d1e2c;
 }
@@ -677,10 +615,6 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.nav .container_nav .nav_options .Messages .icon_name .p-Messages.p-Messages-light {
-  color: #364A63;
 }
 
 .nav .container_nav .nav_options .Messages:hover {
@@ -724,10 +658,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Transactions .icon_name .p-Transactions.p-Transactions-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_options .Transactions:hover {
   background: #1d1e2c;
 }
@@ -767,10 +697,6 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.nav .container_nav .nav_options .Mywallet .icon_name .p-Mywallet.p-Mywallet-light {
-  color: #364A63;
 }
 
 .nav .container_nav .nav_options .Mywallet:hover {
@@ -814,10 +740,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Payment .icon_name .p-Payment.p-Payment-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_options .Payment:hover {
   background: #1d1e2c;
 }
@@ -857,10 +779,6 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.nav .container_nav .nav_options .Investment .icon_name .p-Investment.p-Investment-light {
-  color: #364A63;
 }
 
 .nav .container_nav .nav_options .Investment:hover {
@@ -904,12 +822,12 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Reports .icon_name .p-Reports.p-Reports-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_options .Reports:hover {
   background: #1d1e2c;
+}
+
+.nav .container_nav .nav_options.nav_options-light {
+  border-bottom: 1px solid #f5f6fa;
 }
 
 .nav .container_nav .nav_settings {
@@ -956,10 +874,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_settings .settings .icon_name .p-Settings.p-Settings-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_settings .settings:hover {
   background: #1d1e2c;
 }
@@ -999,10 +913,6 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.nav .container_nav .nav_settings .support .icon_name .p-Support.p-Support-light {
-  color: #364A63;
 }
 
 .nav .container_nav .nav_settings .support:hover {
@@ -1051,20 +961,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_Logout .Logout .icon_name .p-Logout.p-Logout-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_Logout .Logout:hover {
   background: #1d1e2c;
-}
-
-.nav .container_nav .nav_Logout.light-color {
-  background-color: #fba;
-}
-
-.nav.light-nav {
-  background-color: #fff;
 }
 
 .content {
@@ -1163,10 +1061,6 @@ body .container.light-container {
   color: #34e4b5;
 }
 
-.content .container_content .box_total .total_balance.total_balance-light {
-  background-color: #fff;
-}
-
 .content .container_content .box_total .total_expence {
   width: 32%;
   max-width: 380px;
@@ -1247,10 +1141,6 @@ body .container.light-container {
   color: #e03a45;
 }
 
-.content .container_content .box_total .total_expence.total_expence-light {
-  background-color: #fff;
-}
-
 .content .container_content .box_total .total_savings {
   width: 32%;
   max-width: 380px;
@@ -1296,7 +1186,7 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #dbdfea;
+  color: set-text-color(#dbdfea);
 }
 
 .content .container_content .box_total .total_savings .savings_txt {
@@ -1329,10 +1219,6 @@ body .container.light-container {
 .content .container_content .box_total .total_savings .savings_txt .fa-level-up-alt {
   font-size: 10px;
   color: #34e4b5;
-}
-
-.content .container_content .box_total .total_savings.total_savings-light {
-  background-color: #fff;
 }
 
 .content .container_content .box_outlay {
@@ -1368,7 +1254,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth {
-  width: 100px;
+  width: 85px;
   height: 100%;
 }
 
@@ -1395,7 +1281,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth {
-  width: 100px;
+  width: 85px;
   height: 100%;
 }
 
@@ -1508,10 +1394,6 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.content .container_content .box_outlay.box_outlay-light {
-  background-color: #fff;
 }
 
 .content .container_content .box_income {
@@ -1808,10 +1690,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.content .container_content .box_income .boxincome_graphic.boxincome_graphic-light {
-  background-color: #fff;
-}
-
 .content .container_content .box_income .boxincome_LatestTransactions {
   width: 44.2%;
   height: 100%;
@@ -1954,10 +1832,6 @@ body .container.light-container {
   color: #34e4b5;
 }
 
-.content .container_content .box_income .boxincome_LatestTransactions.boxincome_LatestTransactions-light {
-  background-color: #fff;
-}
-
 .aside {
   width: 30%;
   max-width: 250px;
@@ -2002,10 +1876,6 @@ body .container.light-container {
 
 .aside .container_aside .Card img {
   width: 90%;
-}
-
-.aside .container_aside .Card.Card-light {
-  background-color: #fff;
 }
 
 .aside .container_aside .Anallytics {
@@ -2552,13 +2422,5 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
-}
-
-.aside .container_aside .Anallytics.Anallytics-light {
-  background-color: #fff;
-}
-
-.aside.light-aside {
-  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

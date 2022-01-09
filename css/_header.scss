@@ -20,7 +20,7 @@
 
 			@extend .flexCenter;
 
-			h1 {
+			.h1_helloName {
 				font-family: "Gilroy", sans-serif;
 				font-style: normal;
 				font-weight: 500;
@@ -29,60 +29,18 @@
 				display: flex;
 				align-items: center;
 
-				color: $color-font-dark;
+				color: $primary-color-light;
 			}
 		}
 
 		.header_infos {
-			width: 350px;
+			width: 300px;
 			height: 100%;
 
-			@extend .flexSpace-between;
-
-			input[type="checkbox"] {
-				height: 0;
-				width: 0;
-				visibility: hidden;
-			}
-
-			label {
-				cursor: pointer;
-				text-indent: -9999px;
-				width: 42px;
-				height: 18px;
-				background: $color-body-dark;
-				float: right;
-				border-radius: 100px;
-				position: relative;
-			}
-
-			label::after {
-				content: "";
-				position: absolute;
-				top: 1px;
-				left: 3px;
-				width: 15px;
-				height: 15px;
-				background: linear-gradient(90deg, #DC2430 0%, #7B4397 99.99%);
-				border-radius: 90px;
-				transition: 0.3s;
-			}
-
-			input:checked + label {
-				background-color: $color-body-dark;
-			}
-
-			input:checked + label::after {
-				left: calc(100% - 5px);
-				transform: translateX(-100%);
-			}
-
-			label:active:after {
-				width: 45px;
-			}
+			@extend .flexSpace-around;
 
 			.search-box {
-				border: solid 2px #fff;
+				border: solid 2px set-text-dark($primary-color-light);
 				display: inline-block;
 				position: relative;
 				border-radius: 50px;
@@ -96,7 +54,7 @@
 					border: none;
 					box-sizing: border-box;
 					border-radius: 50px;
-					background-color: $primary-color-dark;
+					background-color: rgba(0, 0, 0, 0);
 					color: white;
 					transition: width $search-time cubic-bezier(0.68, -0.55, 0.27, 1.55) $reset-time;
 					&:focus {
@@ -139,7 +97,7 @@
 					&:after {
 						content: "";
 						height: 12px;
-						border-left: solid 2px #fff;
+						border-left: solid 2px set-text-dark($primary-color-light);
 						position: absolute;
 						transform: rotate(-45deg);
 					}
@@ -155,7 +113,7 @@
 
 			.fa-bell {
 				font-size: 24px;
-				color: #fff;
+				color: $primary-color-light;
 				cursor: pointer;
 			}
 
@@ -172,12 +130,9 @@
 
 			.fa-angle-down {
 				font-size: 18px;
-				color: #fff;
+				color: $color-body-light;
 				cursor: pointer;
 			}
 		}
 	}
-}
-.header.light-header {
-	background-color: $primary-color-light;
 }
