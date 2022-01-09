@@ -12,7 +12,7 @@
 
 <br>
 
-![DashboardThemeDark](https://user-images.githubusercontent.com/96999326/148663976-3a63e9f0-1e62-425c-81c0-a8a19005ae6f.png)
+![Captura de tela de 2022-01-09 14-58-05](https://user-images.githubusercontent.com/96999326/148694406-ac2fddca-dfd0-4aa4-a58a-7a6193bf6a78.png)
 
 <br>
 
