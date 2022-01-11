@@ -11,8 +11,10 @@
 <h2 color="#FFD91E"> PROJETO EM DESENVOLVIMENTO </h2>
 
 <br>
+<h2 color="#FFD91E"> D A S H B O A R D </h2>
+![Captura de tela de 2022-01-11 18-10-28](https://user-images.githubusercontent.com/96999326/149022047-af04e309-f32d-446c-84a0-5a48329a4103.png)
 
-![Captura de tela de 2022-01-09 14-58-05](https://user-images.githubusercontent.com/96999326/148694406-ac2fddca-dfd0-4aa4-a58a-7a6193bf6a78.png)
+<h2 color="#FFD91E"> S E T T I N G S </h2>
 ![Captura de tela de 2022-01-10 22-09-00](https://user-images.githubusercontent.com/96999326/148863602-2dfc7919-e0d3-4d5d-88c6-988c26ab6f45.png)
 
 <br>
