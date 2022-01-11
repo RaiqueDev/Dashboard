@@ -17,7 +17,7 @@
 
 <h2 color="#FFD91E"> S E T T I N G S </h2>
 
-![Captura de tela de 2022-01-10 22-09-00](https://user-images.githubusercontent.com/96999326/148863602-2dfc7919-e0d3-4d5d-88c6-988c26ab6f45.png)
+![Captura de tela de 2022-01-11 18-13-08](https://user-images.githubusercontent.com/96999326/149022465-17e888da-a18f-4fc6-9ea4-a74de4fe6aa2.png)
 
 <br>
 
