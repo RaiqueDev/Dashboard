@@ -32,14 +32,13 @@
         background-position-x: 100%;
 
         .balance_title {
-          width: 93%;
+          width: 92%;
           height: 40px;
           @extend .flexSpace-between;
 
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
+            font-family: sans-serif;
+            font-style: 900;
             font-size: 14px;
             line-height: 12px;
             display: flex;
@@ -49,7 +48,7 @@
           }
 
           .fa-ellipsis-h {
-            font-family: "Gilroy", sans-serif;
+            font-family: sans-serif;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -62,7 +61,7 @@
         }
 
         .balance_txt {
-          width: 93%;
+          width: 92%;
           height: 60%;
 
           h4 {
@@ -71,8 +70,7 @@
 
             @extend .flex-startColumn;
 
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
+            font-family: sans-serif;
             font-weight: 600;
             font-size: 16px;
             line-height: 17px;
@@ -86,8 +84,7 @@
 
             @extend .flexSpace-between;
 
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
+            font-family: sans-serif;
             font-weight: bold;
             font-size: 13px;
             line-height: 12px;
@@ -119,14 +116,13 @@
         background-position-x: 100%;
 
         .expence_title {
-          width: 93%;
+          width: 92%;
           height: 40px;
           @extend .flexSpace-between;
 
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
+            font-family: sans-serif;
+            font-style: 900;
             font-size: 14px;
             line-height: 12px;
             display: flex;
@@ -173,8 +169,7 @@
 
             @extend .flexSpace-between;
 
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
+            font-family: sans-serif;
             font-weight: bold;
             font-size: 13px;
             line-height: 12px;
@@ -206,14 +201,13 @@
         background-position-x: 100%;
 
         .savings_title {
-          width: 93%;
+          width: 92%;
           height: 40px;
           @extend .flexSpace-between;
 
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
+            font-family: sans-serif;
+            font-style: 900;
             font-size: 14px;
             line-height: 12px;
             display: flex;
@@ -260,8 +254,7 @@
 
             @extend .flexSpace-between;
 
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
+            font-family: sans-serif;
             font-weight: bold;
             font-size: 13px;
             line-height: 12px;
@@ -287,15 +280,15 @@
       border-radius: 10px;
 
       .title_outlatGraphic {
-        width: 95%;
+        width: 97%;
         height: 10%;
 
         @extend .flexSpace-between;
 
         p {
-          font-family: "Gilroy", sans-serif;
+          font-family: sans-serif;
           font-style: normal;
-          font-weight: normal;
+          font-weight: 600;
           font-size: 14px;
           line-height: 16px;
           display: flex;
@@ -311,7 +304,7 @@
           @extend .flexSpace-between;
 
           .btnPreviousMonth {
-            width: 85px;
+            width: 90px;
             height: 100%;
 
             @extend .flexSpace-between;
@@ -327,9 +320,9 @@
             }
 
             p {
-              font-family: "Gilroy", sans-serif;
+              font-family: sans-serif;
               font-style: normal;
-              font-weight: normal;
+              font-weight: 600;
               font-size: 10px;
               line-height: 9px;
               display: flex;
@@ -340,7 +333,7 @@
           }
 
           .btnSelectedMonth {
-            width: 85px;
+            width: 90px;
             height: 100%;
 
             @extend .flexSpace-between;
@@ -356,9 +349,9 @@
             }
 
             p {
-              font-family: "Gilroy", sans-serif;
+              font-family: sans-serif;
               font-style: normal;
-              font-weight: normal;
+              font-weight: 600;
               font-size: 10px;
               line-height: 9px;
               display: flex;
@@ -388,10 +381,10 @@
             }
 
             p {
-              font-family: "Gilroy", sans-serif;
+              font-family: sans-serif;
               font-style: normal;
-              font-weight: normal;
-              font-size: 12px;
+              font-weight: 600;
+              font-size: 11px;
               line-height: 9px;
               display: flex;
               align-items: center;
@@ -403,7 +396,7 @@
       }
 
       .outlay_graphic {
-        width: 95%;
+        width: 97%;
         height: 70%;
 
         @extend .flexSpace-between;
@@ -415,9 +408,8 @@
           @extend .flexalign-StartColumn;
 
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
+            font-family: sans-serif;
+            font-style: 900;
             font-size: 12px;
             line-height: 9px;
             display: flex;
@@ -451,9 +443,8 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
+            font-family: sans-serif;
+            font-style: 400;
             font-size: 12px;
             line-height: 9px;
             display: flex;
@@ -488,9 +479,9 @@
           border-radius: 10px;
 
           p {
-            font-family: "Gilroy", sans-serif;
+            font-family: sans-serif;
             font-style: normal;
-            font-weight: normal;
+            font-weight: 600;
             font-size: 14px;
             line-height: 16px;
             display: flex;
@@ -509,9 +500,9 @@
             border-radius: 20px;
             border: none;
 
-            font-family: "Gilroy", sans-serif;
+            font-family: sans-serif;
             font-style: normal;
-            font-weight: normal;
+            font-weight: 600;
             font-size: 10px;
             line-height: 8px;
 
@@ -791,7 +782,6 @@
 
             p {
               font-family: "Gilroy", sans-serif;
-              font-style: normal;
               font-weight: normal;
               font-size: 12px;
               line-height: 8px;
@@ -815,15 +805,15 @@
         border-radius: 10px;
 
         .Transactions_title {
-          width: 93%;
+          width: 92%;
           height: 15px;
 
           @extend .flexSpace-between;
 
           p {
-            font-family: "Gilroy", sans-serif;
+            font-family: sans-serif;
             font-style: normal;
-            font-weight: normal;
+            font-weight: 600;
             font-size: 14px;
             line-height: 16px;
             display: flex;
@@ -838,18 +828,15 @@
         }
 
         .RefuelingGasoline {
-          width: 93%;
-          height: 40px;
+          width: 92%;
+          height: 25px;
 
           @extend .flexSpace-between;
 
-          border-bottom: 2px solid #1d1e2c;
-
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 300;
+            font-size: 13px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -858,10 +845,9 @@
           }
 
           h6 {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 15px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -871,18 +857,15 @@
         }
 
         .PurchaseOfFurniture {
-          width: 93%;
-          height: 40px;
+          width: 92%;
+          height: 25px;
 
           @extend .flexSpace-between;
 
-          border-bottom: 2px solid #1d1e2c;
-
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 300;
+            font-size: 13px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -891,7 +874,7 @@
           }
 
           h6 {
-            font-family: "Gilroy", sans-serif;
+            font-family: sans-serif;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -905,15 +888,14 @@
 
         .CashRefundForTickets {
           width: 93%;
-          height: 40px;
+          height: 25px;
 
           @extend .flexSpace-between;
 
           p {
-            font-family: "Gilroy", sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 300;
+            font-size: 13px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -926,7 +908,7 @@
           }
 
           h6 {
-            font-family: "Gilroy", sans-serif;
+            font-family: sans-serif;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;

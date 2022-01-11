@@ -1,4 +1,4 @@
-.flexCenter, .header, .header .container_header .header_helloName, .nav .container_nav .Logo, .nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie, .nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie, .nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt, .nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt, .nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet, .nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd, .nav .container_nav .nav_options .Investment .icon_name .fa-chart-line, .nav .container_nav .nav_options .Reports .icon_name .fa-clipboard, .nav .container_nav .nav_settings .Settings .icon_name .fa-cog, .nav .container_nav .nav_settings .Support .icon_name .fa-question-circle, .nav .container_nav .nav_Logout .Logout .icon_name .fa-sign-out-alt, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate .fa-angle-down, .settings .container_settings .settings_main .btn-txt-confirm button, .Profile-info, .Profile-info .My-profile .Box-txtProfile .boxPorcent, .Profile-info .My-profile .btnProfile, .infos, .infos .infos-options .appereances .appereances-icon, .infos .infos-options .account-settings .account-settings-icon, .infos .infos-options .security .security-icon {
+.flexCenter, .header, .header .container_header .header_helloName, .nav .container_nav .Logo, .nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie, .nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie, .nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt, .nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt, .nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet, .nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd, .nav .container_nav .nav_options .Investment .icon_name .fa-chart-line, .nav .container_nav .nav_options .Reports .icon_name .fa-clipboard, .nav .container_nav .nav_settings .Settings .icon_name .fa-cog, .nav .container_nav .nav_settings .Support .icon_name .fa-question-circle, .nav .container_nav .nav_Logout .Logout .icon_name .fa-sign-out-alt, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate .fa-angle-down, .settings .container_settings .settings_main .btn-txt-confirm button, .Profile-info, .Profile-info .My-profile .Box-txtProfile .boxPorcent, .Profile-info .My-profile .btnProfile, .infos, .infos .infos-options .appereances .appereances-icon, .infos .infos-options .account-settings .account-settings-icon, .infos .infos-options .security .security-icon, .appereances .container_appereances .appereances_main .box-editor-btn .box-btn .btn-save, .appereances .container_appereances .appereances_main .box-editor-btn .box-btn .btn-LiveTest, .appereances .container_appereances .appereances_main .box-Settings .icon-settings, .appereances .container_appereances .appereances_main .box-Settings .icon-pen, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .icon-settings, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .icon-pen, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-logo, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-logo, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .addAvatar .add, .aside_appereances .container_asideAppereances, .aside_appereances .container_asideAppereances .personalAssistant .Box-personalBTNS .personal-Widget, .aside_appereances .container_asideAppereances .personalAssistant .Box-personalBTNS .personal-chat, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatMain-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,7 @@
           justify-content: center;
 }
 
-.flex-start {
+.flex-start, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-1 .box-imgProfile, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-2 .box-imgProfile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@
           justify-content: center;
 }
 
-.flex-startColumn, .content .container_content .box_total .total_balance .balance_txt h4, .content .container_content .box_total .total_expence .expence_txt h4, .content .container_content .box_total .total_savings .savings_txt h4, .settings .container_settings .settings_main .settings-title, .settings .container_settings .settings_main .settings-personalInfo {
+.flex-startColumn, .content .container_content .box_total .total_balance .balance_txt h4, .content .container_content .box_total .total_expence .expence_txt h4, .content .container_content .box_total .total_savings .savings_txt h4, .settings .container_settings .settings_main .settings-title, .settings .container_settings .settings_main .settings-personalInfo, .appereances .container_appereances .appereances_main .icon-return, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .addAvatar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,7 +50,7 @@
           justify-content: center;
 }
 
-.flex-endColumn {
+.flex-endColumn, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +66,7 @@
           justify-content: center;
 }
 
-.flexSpace-evenly, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate, .content .container_content .box_income .boxincome_graphic .income_title button, .aside .container_aside .Anallytics .Anallytics_title button {
+.flexSpace-evenly, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate, .content .container_content .box_income .boxincome_graphic .income_title button, .aside .container_aside .Anallytics .Anallytics_title button, .appereances .container_appereances .appereances_main .box-editor-btn, .appereances .container_appereances .appereances_main .box-editor-btn .box-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-around, .header .container_header .header_infos, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .Settings .icon_name, .nav .container_nav .nav_settings .Support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name {
+.flexSpace-around, .header .container_header .header_infos, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .Settings .icon_name, .nav .container_nav .nav_settings .Support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total, .settings .container_settings .settings_main .settings-inputs, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney, .settings .container_settings .settings_main .btn-txt-confirm, .Profile-info .My-profile .Box-txtProfile, .infos .infos-options .appereances, .infos .infos-options .account-settings, .infos .infos-options .security {
+.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total, .settings .container_settings .settings_main .settings-inputs, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney, .settings .container_settings .settings_main .btn-txt-confirm, .Profile-info .My-profile .Box-txtProfile, .infos .infos-options .appereances, .infos .infos-options .appereances .appereances-txt h1, .infos .infos-options .account-settings, .infos .infos-options .account-settings .account-settings-txt h1, .infos .infos-options .security, .infos .infos-options .security .security-txt h1, .appereances .container_appereances .appereances_main .box-Settings, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .avatar, .aside_appereances .container_asideAppereances .personalAssistant .Box-personalBTNS, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-1, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-aroundColumn, .content .container_content .box_income .boxincome_graphic, .aside .container_aside .Card, .aside .container_aside .Anallytics, .infos .infos-options {
+.flexSpace-aroundColumn, .content .container_content .box_income .boxincome_graphic, .aside .container_aside .Card, .aside .container_aside .Anallytics, .infos .infos-options, .appereances .container_appereances .appereances_main, .aside_appereances .container_asideAppereances .personalAssistant, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +132,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-betweenColumn, .content .container_content, .aside .container_aside, .aside .container_aside .Anallytics .Anallytics_Graphic, .settings .container_settings, .settings .container_settings .settings_main, .settings .container_settings .settings_main .settings-Notifications, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 {
+.flexSpace-betweenColumn, .content .container_content, .aside .container_aside, .aside .container_aside .Anallytics .Anallytics_Graphic, .settings .container_settings, .settings .container_settings .settings_main, .settings .container_settings .settings_main .settings-Notifications, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2, .appereances .container_appereances, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +148,7 @@
           justify-content: space-between;
 }
 
-.flexalign-StartColumn, body .container .main, .content .container_content .box_outlay .outlay_graphic .number_left, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome, .settings .container_settings .settings_main .settings-inputs .inputs-1, .infos .infos-options .appereances .appereances-txt, .infos .infos-options .account-settings .account-settings-txt, .infos .infos-options .security .security-txt {
+.flexalign-StartColumn, body .container .main, .content .container_content .box_outlay .outlay_graphic .number_left, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome, .settings .container_settings .settings_main .settings-inputs .inputs-1, .settings .container_settings .settings_main .settings-inputs .inputs-1 .inputFirstName, .settings .container_settings .settings_main .settings-inputs .inputs-1 .inputEmail, .settings .container_settings .settings_main .settings-inputs .inputs-2 .inputLastName, .infos .infos-options .appereances .appereances-txt, .infos .infos-options .account-settings .account-settings-txt, .infos .infos-options .security .security-txt, .appereances .container_appereances .appereances_main .box-editor-btn .editor-txt, .appereances .container_appereances .appereances_main .box-Settings .settings-txt, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .settings-txt, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-title, .appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-title, .aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container .chat-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,7 +474,7 @@ body .container.light-container {
 }
 
 .nav .container_nav .Logo .TitleLogo {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -521,10 +521,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .dashboard .icon_name .p-Dashboard {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,10 +564,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Userprofiles .icon_name .p-Profile {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -607,10 +607,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Messages .icon_name .p-Messages {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,10 +650,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Transactions .icon_name .p-Transactions {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -693,10 +693,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Mywallet .icon_name .p-Mywallet {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -736,10 +736,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Payment .icon_name .p-Payment {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -779,10 +779,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Investment .icon_name .p-Investment {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -822,10 +822,10 @@ body .container.light-container {
 .nav .container_nav .nav_options .Reports .icon_name .p-Reports {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -838,10 +838,6 @@ body .container.light-container {
 
 .nav .container_nav .nav_options .ReportsClick {
   background-color: #1d1e2c;
-}
-
-.nav .container_nav .nav_options.nav_options-light {
-  border-bottom: 1px solid #f5f6fa;
 }
 
 .nav .container_nav .nav_settings {
@@ -876,10 +872,10 @@ body .container.light-container {
 .nav .container_nav .nav_settings .Settings .icon_name .p-Settings {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -919,10 +915,10 @@ body .container.light-container {
 .nav .container_nav .nav_settings .Support .icon_name .p-Support {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -965,10 +961,10 @@ body .container.light-container {
 .nav .container_nav .nav_Logout .Logout .icon_name .p-Logout {
   width: 67%;
   height: 100%;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1013,14 +1009,13 @@ body .container.light-container {
 }
 
 .content .container_content .box_total .total_balance .balance_title {
-  width: 93%;
+  width: 92%;
   height: 40px;
 }
 
 .content .container_content .box_total .total_balance .balance_title p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: sans-serif;
+  font-style: 900;
   font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
@@ -1033,7 +1028,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_total .total_balance .balance_title .fa-ellipsis-h {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1048,15 +1043,14 @@ body .container.light-container {
 }
 
 .content .container_content .box_total .total_balance .balance_txt {
-  width: 93%;
+  width: 92%;
   height: 60%;
 }
 
 .content .container_content .box_total .total_balance .balance_txt h4 {
   width: 100%;
   height: 40%;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
+  font-family: sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 17px;
@@ -1066,8 +1060,7 @@ body .container.light-container {
 .content .container_content .box_total .total_balance .balance_txt h5 {
   width: 20%;
   height: 40%;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
+  font-family: sans-serif;
   font-weight: bold;
   font-size: 13px;
   line-height: 12px;
@@ -1093,14 +1086,13 @@ body .container.light-container {
 }
 
 .content .container_content .box_total .total_expence .expence_title {
-  width: 93%;
+  width: 92%;
   height: 40px;
 }
 
 .content .container_content .box_total .total_expence .expence_title p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: sans-serif;
+  font-style: 900;
   font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
@@ -1146,8 +1138,7 @@ body .container.light-container {
 .content .container_content .box_total .total_expence .expence_txt h5 {
   width: 20%;
   height: 40%;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
+  font-family: sans-serif;
   font-weight: bold;
   font-size: 13px;
   line-height: 12px;
@@ -1173,14 +1164,13 @@ body .container.light-container {
 }
 
 .content .container_content .box_total .total_savings .savings_title {
-  width: 93%;
+  width: 92%;
   height: 40px;
 }
 
 .content .container_content .box_total .total_savings .savings_title p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: sans-serif;
+  font-style: 900;
   font-size: 14px;
   line-height: 12px;
   display: -webkit-box;
@@ -1226,8 +1216,7 @@ body .container.light-container {
 .content .container_content .box_total .total_savings .savings_txt h5 {
   width: 20%;
   height: 40%;
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
+  font-family: sans-serif;
   font-weight: bold;
   font-size: 13px;
   line-height: 12px;
@@ -1247,14 +1236,14 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic {
-  width: 95%;
+  width: 97%;
   height: 10%;
 }
 
 .content .container_content .box_outlay .title_outlatGraphic p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
@@ -1272,7 +1261,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth {
-  width: 85px;
+  width: 90px;
   height: 100%;
 }
 
@@ -1284,9 +1273,9 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 10px;
   line-height: 9px;
   display: -webkit-box;
@@ -1299,7 +1288,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth {
-  width: 85px;
+  width: 90px;
   height: 100%;
 }
 
@@ -1311,9 +1300,9 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 10px;
   line-height: 9px;
   display: -webkit-box;
@@ -1341,10 +1330,10 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1356,7 +1345,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .outlay_graphic {
-  width: 95%;
+  width: 97%;
   height: 70%;
 }
 
@@ -1366,9 +1355,8 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .outlay_graphic .number_left p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: sans-serif;
+  font-style: 900;
   font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
@@ -1400,9 +1388,8 @@ body .container.light-container {
 }
 
 .content .container_content .box_outlay .number_bottom .numbers p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: sans-serif;
+  font-style: 400;
   font-size: 12px;
   line-height: 9px;
   display: -webkit-box;
@@ -1433,9 +1420,9 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_graphic .income_title p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
@@ -1453,9 +1440,9 @@ body .container.light-container {
   background: #1d1e2c;
   border-radius: 20px;
   border: none;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 10px;
   line-height: 8px;
   display: -webkit-box;
@@ -1695,7 +1682,6 @@ body .container.light-container {
 
 .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom p {
   font-family: "Gilroy", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 8px;
@@ -1716,14 +1702,14 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title {
-  width: 93%;
+  width: 92%;
   height: 15px;
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
@@ -1740,16 +1726,14 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline {
-  width: 93%;
-  height: 40px;
-  border-bottom: 2px solid #1d1e2c;
+  width: 92%;
+  height: 25px;
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1761,10 +1745,9 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline h6 {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 15px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1776,16 +1759,14 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture {
-  width: 93%;
-  height: 40px;
-  border-bottom: 2px solid #1d1e2c;
+  width: 92%;
+  height: 25px;
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1797,7 +1778,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture h6 {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1813,14 +1794,13 @@ body .container.light-container {
 
 .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets {
   width: 93%;
-  height: 40px;
+  height: 25px;
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets p {
-  font-family: "Gilroy", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 13px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1836,7 +1816,7 @@ body .container.light-container {
 }
 
 .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets h6 {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1878,9 +1858,9 @@ body .container.light-container {
 }
 
 .aside .container_aside .Card .MyCard_title p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
@@ -1909,9 +1889,9 @@ body .container.light-container {
 }
 
 .aside .container_aside .Anallytics .Anallytics_title p {
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   display: -webkit-box;
@@ -1929,9 +1909,9 @@ body .container.light-container {
   background: #1d1e2c;
   border-radius: 20px;
   border: none;
-  font-family: "Gilroy", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 10px;
   line-height: 8px;
   display: -webkit-box;
@@ -2470,7 +2450,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 31px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2491,7 +2471,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2506,7 +2486,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2519,7 +2499,7 @@ body .container.light-container {
 
 .settings .container_settings .settings_main .settings-inputs {
   width: 95%;
-  height: 170px;
+  height: 200px;
   border-bottom: 2px solid #1d1e2c;
 }
 
@@ -2528,11 +2508,16 @@ body .container.light-container {
   height: 100%;
 }
 
-.settings .container_settings .settings_main .settings-inputs .inputs-1 label {
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputFirstName {
+  width: 100%;
+  height: 40%;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputFirstName label {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11.5px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2543,8 +2528,8 @@ body .container.light-container {
   color: #ffffff;
 }
 
-.settings .container_settings .settings_main .settings-inputs .inputs-1 input[type="text"],
-.settings .container_settings .settings_main .settings-inputs .inputs-1 select {
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputFirstName input[type="text"],
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputFirstName select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -2553,13 +2538,63 @@ body .container.light-container {
           box-sizing: border-box;
   max-width: 284px;
   height: 45px;
-  border: 1px solid #ffffff;
+  border: 1.9px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
   border-radius: 12px;
   outline: none;
 }
 
-.settings .container_settings .settings_main .settings-inputs .inputs-1 input[type="submit"] {
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputFirstName input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputEmail {
+  width: 100%;
+  height: 40%;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputEmail label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.5px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputEmail input[type="email"],
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputEmail select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 284px;
+  height: 45px;
+  border: 1.9px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 .inputEmail input[type="submit"] {
   width: 100%;
   background-color: #4caf50;
   color: white;
@@ -2576,11 +2611,17 @@ body .container.light-container {
   height: 100%;
 }
 
-.settings .container_settings .settings_main .settings-inputs .inputs-2 label {
+.settings .container_settings .settings_main .settings-inputs .inputs-2 .inputLastName {
+  width: 100%;
+  height: 40%;
+  margin-top: 10px;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-2 .inputLastName label {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11.5px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2591,8 +2632,8 @@ body .container.light-container {
   color: #ffffff;
 }
 
-.settings .container_settings .settings_main .settings-inputs .inputs-2 input[type="text"],
-.settings .container_settings .settings_main .settings-inputs .inputs-2 select {
+.settings .container_settings .settings_main .settings-inputs .inputs-2 .inputLastName input[type="text"],
+.settings .container_settings .settings_main .settings-inputs .inputs-2 .inputLastName select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -2601,13 +2642,14 @@ body .container.light-container {
           box-sizing: border-box;
   max-width: 284px;
   height: 45px;
-  border: 1px solid #ffffff;
+  border: 1.9px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
   border-radius: 12px;
   outline: none;
 }
 
-.settings .container_settings .settings_main .settings-inputs .inputs-2 input[type="submit"] {
+.settings .container_settings .settings_main .settings-inputs .inputs-2 .inputLastName input[type="submit"] {
   width: 100%;
   background-color: #4caf50;
   color: white;
@@ -2621,7 +2663,7 @@ body .container.light-container {
 
 .settings .container_settings .settings_main .settings-Notifications {
   width: 95%;
-  height: 130px;
+  height: 150px;
   border-bottom: 2px solid #1d1e2c;
 }
 
@@ -2634,7 +2676,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2649,7 +2691,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2729,14 +2771,14 @@ body .container.light-container {
   height: 16px;
   top: 2px;
   left: 2px;
-  background-color: #0064fa;
+  background-color: #bdc3f9;
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2799,19 +2841,18 @@ body .container.light-container {
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment #check-2 + label:after {
-  background: #fff;
+  background: #bdc3f9;
   width: 16px;
   height: 16px;
   top: 2px;
   left: 2px;
-  background-color: #0064fa;
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2879,19 +2920,18 @@ body .container.light-container {
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password #check-3 + label:after {
-  background: #fff;
+  background: #bdc3f9;
   width: 16px;
   height: 16px;
   top: 2px;
   left: 2px;
-  background-color: #0064fa;
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2954,19 +2994,18 @@ body .container.light-container {
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp #check-4 + label:after {
-  background: #fff;
+  background: #bdc3f9;
   width: 16px;
   height: 16px;
   top: 2px;
   left: 2px;
-  background-color: #0064fa;
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3034,19 +3073,18 @@ body .container.light-container {
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly #check-5 + label:after {
-  background: #fff;
+  background: #bdc3f9;
   width: 16px;
   height: 16px;
   top: 2px;
   left: 2px;
-  background-color: #0064fa;
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3109,19 +3147,18 @@ body .container.light-container {
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney #check-6 + label:after {
-  background: #fff;
+  background: #bdc3f9;
   width: 16px;
   height: 16px;
   top: 2px;
   left: 2px;
-  background-color: #0064fa;
 }
 
 .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 11px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3141,8 +3178,8 @@ body .container.light-container {
 .settings .container_settings .settings_main .btn-txt-confirm p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 12px;
   line-height: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3156,16 +3193,16 @@ body .container.light-container {
 .settings .container_settings .settings_main .btn-txt-confirm button {
   width: 196px;
   height: 37px;
-  background: rgba(123, 67, 151, 0.8);
+  background: linear-gradient(91.19deg, #FF005C -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 23px;
   border: none;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 12px;
   line-height: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3186,7 +3223,8 @@ body .container.light-container {
 .Profile-info .My-profile {
   width: 87%;
   height: 87%;
-  background-color: #0064fa;
+  background: -webkit-gradient(linear, left top, right top, from(#DC2430), color-stop(99.99%, #7B4397));
+  background: linear-gradient(90deg, #DC2430 0%, #7B4397 99.99%);
   border-radius: 15px;
 }
 
@@ -3198,7 +3236,7 @@ body .container.light-container {
 .Profile-info .My-profile .Box-txtProfile .boxPorcent {
   width: 60px;
   height: 60px;
-  background: rgba(160, 198, 244, 0.7);
+  background: linear-gradient(91.19deg, #FF005C -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
   border-radius: 999px;
   border: 4px solid #fff;
 }
@@ -3207,7 +3245,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3224,12 +3262,12 @@ body .container.light-container {
 }
 
 .Profile-info .My-profile .Box-txtProfile .boxTitle h1 {
-  width: 90%;
+  width: 100%;
   height: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3244,7 +3282,7 @@ body .container.light-container {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 17px;
   color: #bdc3f9;
 }
@@ -3254,7 +3292,7 @@ body .container.light-container {
   height: 35px;
   border-radius: 99px;
   border: none;
-  background-color: #fff;
+  background: linear-gradient(91.19deg, #FF005C -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -3267,7 +3305,7 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #0064fa;
+  color: #fff;
 }
 
 .infos {
@@ -3286,7 +3324,8 @@ body .container.light-container {
 .infos .infos-options .appereances {
   width: 100%;
   height: 45px;
-  border-bottom: 2px solid #1d1e2c;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .infos .infos-options .appereances .appereances-icon {
@@ -3298,7 +3337,7 @@ body .container.light-container {
 
 .infos .infos-options .appereances .appereances-icon .fa-heart {
   font-size: 18px;
-  color: #fff;
+  color: #929292;
 }
 
 .infos .infos-options .appereances .appereances-txt {
@@ -3307,6 +3346,7 @@ body .container.light-container {
 }
 
 .infos .infos-options .appereances .appereances-txt h1 {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -3318,7 +3358,12 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #929292;
+}
+
+.infos .infos-options .appereances .appereances-txt .fa-long-arrow-alt-right {
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .infos .infos-options .appereances .appereances-txt p {
@@ -3333,12 +3378,13 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #929292;
 }
 
 .infos .infos-options .account-settings {
   width: 100%;
   height: 45px;
+  cursor: pointer;
 }
 
 .infos .infos-options .account-settings .account-settings-icon {
@@ -3359,6 +3405,7 @@ body .container.light-container {
 }
 
 .infos .infos-options .account-settings .account-settings-txt h1 {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -3371,6 +3418,11 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #ffffff;
+}
+
+.infos .infos-options .account-settings .account-settings-txt .fa-long-arrow-alt-right {
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .infos .infos-options .account-settings .account-settings-txt p {
@@ -3385,12 +3437,13 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .infos .infos-options .security {
   width: 100%;
   height: 45px;
+  cursor: pointer;
 }
 
 .infos .infos-options .security .security-icon {
@@ -3402,7 +3455,7 @@ body .container.light-container {
 
 .infos .infos-options .security .security-icon .fa-user-secret {
   font-size: 18px;
-  color: #fff;
+  color: #929292;
 }
 
 .infos .infos-options .security .security-txt {
@@ -3411,6 +3464,7 @@ body .container.light-container {
 }
 
 .infos .infos-options .security .security-txt h1 {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -3422,7 +3476,12 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #929292;
+}
+
+.infos .infos-options .security .security-txt .fa-long-arrow-alt-right {
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .infos .infos-options .security .security-txt p {
@@ -3437,6 +3496,636 @@ body .container.light-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #929292;
+}
+
+.appereances {
+  width: 66%;
+  max-width: 700px;
+  height: 100%;
+}
+
+.appereances .container_appereances {
+  width: 100%;
+  height: 100%;
+}
+
+.appereances .container_appereances .appereances_main {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #24263a;
+}
+
+.appereances .container_appereances .appereances_main .icon-return {
+  width: 97%;
+  height: 15px;
+}
+
+.appereances .container_appereances .appereances_main .icon-return .fa-long-arrow-alt-left {
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn {
+  width: 97%;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn .editor-txt {
+  width: 45%;
+  height: 60%;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn .editor-txt h1 {
+  width: 100%;
+  height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn .editor-txt p {
+  height: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn .box-btn {
+  width: 45%;
+  height: 100%;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn .box-btn .btn-save {
+  width: 120px;
+  height: 41px;
+  background: linear-gradient(91.19deg, #ff005c -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-editor-btn .box-btn .btn-LiveTest {
+  width: 120px;
+  height: 41px;
+  background: #fff;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1e2434;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings {
+  width: 97%;
+  height: 80px;
+  background-color: #333548;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .icon-settings {
+  width: 10%;
+  height: 50%;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .icon-settings .fa-sliders-h {
+  font-size: 17px;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .settings-txt {
+  width: 80%;
+  height: 60%;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .settings-txt h1 {
+  width: 100%;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .settings-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .icon-pen {
+  width: 10%;
+  height: 50%;
+}
+
+.appereances .container_appereances .appereances_main .box-Settings .icon-pen .fa-pen-fancy {
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances {
+  width: 97%;
+  height: 320px;
+  border-radius: 10px;
+  background-color: #333548;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt {
+  width: 100%;
+  height: 70px;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .icon-settings {
+  width: 10%;
+  height: 50%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .icon-settings .fa-eye-dropper {
+  font-size: 17px;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .settings-txt {
+  width: 80%;
+  height: 70%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .settings-txt h1 {
+  width: 100%;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .settings-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .icon-pen {
+  width: 10%;
+  height: 50%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-txt .icon-pen .fa-pen-fancy {
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar {
+  width: 100%;
+  height: 75%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme {
+  width: 45%;
+  height: 85%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt {
+  width: 100%;
+  height: 60px;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-logo {
+  width: 15%;
+  height: 100%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-logo .fa-globe-americas {
+  font-size: 18px;
+  color: #001aff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-title {
+  width: 60%;
+  height: 60%;
+  text-align: center;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .theme-title p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .theme-txt .fa-info-circle {
+  font-size: 18px;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-theme .box-theme_color {
+  width: 100%;
+  height: 60%;
+  background-color: #001aff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar {
+  width: 45%;
+  height: 85%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt {
+  width: 100%;
+  height: 60px;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-logo {
+  width: 15%;
+  height: 100%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-logo .fa-globe-americas {
+  font-size: 18px;
+  color: #001aff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-title {
+  width: 50%;
+  height: 60%;
+  text-align: center;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .theme-title p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .theme-txt .fa-info-circle {
+  font-size: 18px;
+  color: #fff;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon {
+  width: 100%;
+  height: 60%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon {
+  width: 80%;
+  height: 100%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .avatar {
+  width: 100%;
+  height: 50%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .avatar img {
+  width: 20%;
+  border: 1px solid #001aff;
+  border-radius: 999px;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .addAvatar {
+  width: 100%;
+  height: 50%;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .addAvatar .add {
+  width: 35px;
+  height: 35px;
+  border-radius: 999px;
+  background-color: #dbdfea;
+}
+
+.appereances .container_appereances .appereances_main .box-appereances .box-appereances-theme-avatar .box-appereances-avatar .box-avatar_icon .avatar_icon .addAvatar .add .fa-plus {
+  font-size: 17px;
+  color: #001aff;
+}
+
+.aside_appereances {
+  width: 50%;
+  max-width: 400px;
+  height: 100%;
+}
+
+.aside_appereances .container_asideAppereances {
+  width: 100%;
+  height: 100%;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant {
+  width: 100%;
+  height: 100%;
+  background-color: #24263a;
+  border-radius: 10px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-personalBTNS {
+  width: 60%;
+  height: 50px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-personalBTNS .personal-Widget {
+  width: 45%;
+  height: 70%;
+  background: #ffffff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #24263a;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-personalBTNS .personal-chat {
+  width: 45%;
+  height: 70%;
+  background: linear-gradient(91.19deg, #ff005c -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #ffffff;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat {
+  width: 75%;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 17px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header {
+  width: 100%;
+  height: 15%;
+  background: linear-gradient(91.19deg, #ff005c -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
+  border-radius: 17px 17px 0px 0px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container {
+  width: 90%;
+  height: 60%;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container img {
+  width: 45px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container .chat-txt {
+  width: 75%;
+  height: 100%;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container .chat-txt h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-header .chatHeader-container .chat-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main {
+  width: 100%;
+  height: 85%;
+  background: #ffffff;
+  border-radius: 0px 0px 17px 17px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatMain-title {
+  width: 50%;
+  height: 20px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatMain-title p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1e2434;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-1 {
+  width: 90%;
+  height: 70px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-1 .box-imgProfile {
+  width: 15%;
+  height: 100%;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-1 .box-imgProfile img {
+  width: 30px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-1 .box-Messages {
+  width: 82%;
+  height: 100%;
+  background: #dbdfea;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 13px 0px 13px 13px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-2 {
+  width: 90%;
+  height: 70px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-2 .box-imgProfile {
+  width: 15%;
+  height: 100%;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-2 .box-imgProfile img {
+  width: 30px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main .chatbox-2 .box-Messages {
+  width: 82%;
+  height: 100%;
+  background: #dbdfea;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 13px 13px 13px;
+}
+
+.aside_appereances .container_asideAppereances .personalAssistant .Box-chat .chat-main #txt {
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  background: #dbdfea;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
 }
 /*# sourceMappingURL=main.css.map */

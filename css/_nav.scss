@@ -1,573 +1,569 @@
 .nav {
-	width: 210px;
-	height: 100%;
-
-	border-radius: 20px 0px 0px 20px;
-
-	background-color: $primary-color-dark;
-
-	.container_nav {
-		width: 100%;
-		height: 100%;
-		max-height: 576px;
-
-		margin-top: 9px;
-
-		.Logo {
-			width: 100%;
-			height: 68px;
-
-			@extend .flexCenter;
-
-			border-bottom: 1px solid #1d1e2c;
-
-			.TitleLogo {
-				font-family: "Gilroy", sans-serif;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 15px;
-				line-height: 18px;
-				display: flex;
-				align-items: center;
-
-				color: $color-font-dark;
-			}
-		}
-
-		.nav_options {
-			width: 100%;
-			height: 60%;
-			max-height: 450px;
-
-			@extend .flexalign-EndColumnEvenly;
-
-			border-bottom: 1px solid #1d1e2c;
-
-			.dashboard {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				background-color: #1d1e2c;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-chart-pie {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Dashboard {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.dashboardClick{
-				background-color: #1d1e2c;
-			}
-			
-			.Userprofiles {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-user-tie {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Profile {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.UserprofilesClick{
-				background-color: #1d1e2c;
-			}
-
-			.Messages {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-comment-alt {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Messages {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.MessagesClick{
-				background-color: #1d1e2c;
-			}
-
-			.Transactions {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-money-check-alt {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Transactions {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.TransactionsClick{
-				background-color: #1d1e2c;
-			}
-
-			.Mywallet {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-wallet {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Mywallet {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.MywalletClick{
-				background-color: #1d1e2c;
-			}
-
-			.Payment {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-hand-holding-usd {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Payment {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.PaymentClick{
-				background-color: #1d1e2c;
-			}
-
-			.Investment {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-chart-line {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Investment {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.InvestmentClick{
-				background-color: #1d1e2c;
-			}
-
-			.Reports {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-clipboard {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Reports {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.ReportsClick{
-				background-color: #1d1e2c;
-			}
-		}
-
-		.nav_options.nav_options-light{
-			border-bottom: 1px solid #f5f6fa;
-		}
-
-		.nav_settings {
-			width: 100%;
-			height: 55%;
-			max-height: 90px;
-
-			@extend .flexalign-EndColumnEvenly;
-
-			border-bottom: 1px solid #1d1e2c;
-
-			.Settings {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-					@extend .flexSpace-around;
-
-					.fa-cog {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Settings {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.SettingsClick{
-				background-color: #1d1e2c;
-			}
-
-			.Support {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-				text-decoration: none;
-				outline: none;
-
-				.icon_name {
-					width: 90%;
-					height: 35px;
-
-					@extend .flexSpace-around;
-
-					.fa-question-circle {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Support {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-			
-			.SupportClick{
-				background-color: #1d1e2c;
-			}
-		}
-
-		.nav_Logout {
-			width: 100%;
-			height: 55px;
-
-			@extend .flexalign-EndColumnEvenly;
-
-			.Logout {
-				width: 100%;
-				max-width: 173px;
-				height: 35px;
-
-				border-radius: 100px 0px 0px 100px;
-				cursor: pointer;
-
-				.icon_name {
-					width: 90%;
-					height: 100%;
-
-					@extend .flexSpace-around;
-
-					.fa-sign-out-alt {
-						font-size: 18px;
-						width: 25%;
-						height: 100%;
-						color: $color-font-dark;
-
-						@extend .flexCenter;
-					}
-
-					.p-Logout {
-						width: 67%;
-						height: 100%;
-
-						font-family: "Gilroy", sans-serif;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 15px;
-						line-height: 12px;
-						display: flex;
-						align-items: center;
-
-						color: $color-font-dark;
-					}
-				}
-			}
-
-			.LogoutClick{
-				background-color: #1d1e2c;
-			}
-		}
-	}
+  width: 210px;
+  height: 100%;
+
+  border-radius: 20px 0px 0px 20px;
+
+  background-color: $primary-color-dark;
+
+  .container_nav {
+    width: 100%;
+    height: 100%;
+    max-height: 576px;
+
+    margin-top: 9px;
+
+    .Logo {
+      width: 100%;
+      height: 68px;
+
+      @extend .flexCenter;
+
+      border-bottom: 1px solid #1d1e2c;
+
+      .TitleLogo {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+
+        color: $color-font-dark;
+      }
+    }
+
+    .nav_options {
+      width: 100%;
+      height: 60%;
+      max-height: 450px;
+
+      @extend .flexalign-EndColumnEvenly;
+
+      border-bottom: 1px solid #1d1e2c;
+
+      .dashboard {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        background-color: #1d1e2c;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-chart-pie {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Dashboard {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .dashboardClick {
+        background-color: #1d1e2c;
+      }
+
+      .Userprofiles {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-user-tie {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Profile {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .UserprofilesClick {
+        background-color: #1d1e2c;
+      }
+
+      .Messages {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-comment-alt {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Messages {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .MessagesClick {
+        background-color: #1d1e2c;
+      }
+
+      .Transactions {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-money-check-alt {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Transactions {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .TransactionsClick {
+        background-color: #1d1e2c;
+      }
+
+      .Mywallet {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-wallet {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Mywallet {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .MywalletClick {
+        background-color: #1d1e2c;
+      }
+
+      .Payment {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-hand-holding-usd {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Payment {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .PaymentClick {
+        background-color: #1d1e2c;
+      }
+
+      .Investment {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-chart-line {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Investment {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .InvestmentClick {
+        background-color: #1d1e2c;
+      }
+
+      .Reports {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-clipboard {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Reports {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .ReportsClick {
+        background-color: #1d1e2c;
+      }
+    }
+
+    .nav_settings {
+      width: 100%;
+      height: 55%;
+      max-height: 90px;
+
+      @extend .flexalign-EndColumnEvenly;
+
+      border-bottom: 1px solid #1d1e2c;
+
+      .Settings {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+          @extend .flexSpace-around;
+
+          .fa-cog {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Settings {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .SettingsClick {
+        background-color: #1d1e2c;
+      }
+
+      .Support {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+
+        .icon_name {
+          width: 90%;
+          height: 35px;
+
+          @extend .flexSpace-around;
+
+          .fa-question-circle {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Support {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .SupportClick {
+        background-color: #1d1e2c;
+      }
+    }
+
+    .nav_Logout {
+      width: 100%;
+      height: 55px;
+
+      @extend .flexalign-EndColumnEvenly;
+
+      .Logout {
+        width: 100%;
+        max-width: 173px;
+        height: 35px;
+
+        border-radius: 100px 0px 0px 100px;
+        cursor: pointer;
+
+        .icon_name {
+          width: 90%;
+          height: 100%;
+
+          @extend .flexSpace-around;
+
+          .fa-sign-out-alt {
+            font-size: 18px;
+            width: 25%;
+            height: 100%;
+            color: $color-font-dark;
+
+            @extend .flexCenter;
+          }
+
+          .p-Logout {
+            width: 67%;
+            height: 100%;
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13.5px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+
+            color: $color-font-dark;
+          }
+        }
+      }
+
+      .LogoutClick {
+        background-color: #1d1e2c;
+      }
+    }
+  }
 }

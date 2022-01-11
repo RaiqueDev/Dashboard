@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/3db1c49f69.js" crossorigin="anonymous"></script>
+
+  <title>A P P E R E A N C E S</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="container_nav">
+        <div class="Logo">
+          <h1 class="TitleLogo">Your Logo</h1>
+        </div>
+        <div class="nav_options">
+          <a class="dashboard" href="index.html">
+            <div onclick="dashboardOn()">
+              <div class="icon_name">
+                <i class="fas fa-chart-pie"></i>
+                <p class="p-Dashboard">Dashboard</p>
+              </div>
+            </div>
+          </a>
+          <div onclick="profileOn()" class="Userprofiles">
+            <div class="icon_name">
+              <i class="fas fa-user-tie"></i>
+              <p class="p-Profile">User profiles</p>
+            </div>
+          </div>
+          <div onclick="messagesOn()" class="Messages">
+            <div class="icon_name">
+              <i class="fas fa-comment-alt"></i>
+              <p class="p-Messages">Messages</p>
+            </div>
+          </div>
+          <div onclick="TransactionsOn()" class="Transactions">
+            <div class="icon_name">
+              <i class="fas fa-money-check-alt"></i>
+              <p class="p-Transactions">Transactions</p>
+            </div>
+          </div>
+          <div onclick="MywalletOn()" class="Mywallet">
+            <div class="icon_name">
+              <i class="fas fa-wallet"></i>
+              <p class="p-Mywallet">My wallet</p>
+            </div>
+          </div>
+          <div onclick="PaymentOn()" class="Payment">
+            <div class="icon_name">
+              <i class="fas fa-hand-holding-usd"></i>
+              <p class="p-Payment">Payment</p>
+            </div>
+          </div>
+          <div onclick="InvestmentOn()" class="Investment">
+            <div class="icon_name">
+              <i class="fas fa-chart-line"></i>
+              <p class="p-Investment">Investment</p>
+            </div>
+          </div>
+          <div onclick="ReportsOn()" class="Reports">
+            <div class="icon_name">
+              <i class="fas fa-clipboard"></i>
+              <p class="p-Reports">Reports</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav_settings">
+          <div onclick="SettingsOn()" class="Settings">
+            <div class="icon_name">
+              <i class="fas fa-cog"></i>
+              <p class="p-Settings">Settings</p>
+            </div>
+          </div>
+          <div onclick="SupportOn()" class="Support">
+            <div class="icon_name">
+              <i class="fas fa-question-circle"></i>
+              <p class="p-Support">Support</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav_Logout">
+          <div onclick="LogoutOn()" class="Logout">
+            <div class="icon_name">
+              <i class="fas fa-sign-out-alt"></i>
+              <p class="p-Logout">Log out</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header">
+        <div class="container_header">
+          <div class="header_helloName">
+            <h1 class="h1_helloName">Hello, Drax</h1>
+          </div>
+          <div class="header_infos">
+
+            <form class="search-box">
+              <input type="text" placeholder=" " />
+              <button type="reset"></button>
+            </form>
+
+            <i class="fas fa-bell"></i>
+
+            <div class="header_profile">
+              <img src="img/ImgProfile.svg" alt="Profile">
+            </div>
+
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container_main">
+        <div class="appereances">
+          <div class="container_appereances">
+            <div class="appereances_main">
+              <a href="settings.html" class="icon-return">
+                <i class="fas fa-long-arrow-alt-left"></i>
+              </a>
+              <div class="box-editor-btn">
+                <div class="editor-txt">
+                  <h1>Editor</h1>
+                  <p>Change the chat apperance of your bot</p>
+                </div>
+                <div class="box-btn">
+                  <button class="btn-save">
+                    Save
+                  </button>
+                  <button class="btn-LiveTest">
+                    Live Test
+                  </button>
+                </div>
+              </div>
+              <div class="box-Settings">
+                <div class="icon-settings">
+                  <i class="fas fa-sliders-h"></i>
+                </div>
+                <div class="settings-txt">
+                  <h1>Settings</h1>
+                  <p>Choose the name adn a description for your bot</p>
+                </div>
+                <div class="icon-pen">
+                  <i class="fas fa-pen-fancy"></i>
+                </div>
+              </div>
+              <div class="box-appereances">
+                <div class="box-appereances-txt">
+                  <div class="icon-settings">
+                    <i class="fas fa-eye-dropper"></i>
+                  </div>
+                  <div class="settings-txt">
+                    <h1>Settings</h1>
+                    <p>Choose the name adn a description for your bot</p>
+                  </div>
+                  <div class="icon-pen">
+                    <i class="fas fa-pen-fancy"></i>
+                  </div>
+                </div>
+                <div class="box-appereances-theme-avatar">
+                  <div class="box-appereances-theme">
+                    <div class="theme-txt">
+                      <div class="theme-logo">
+                        <i class="fas fa-globe-americas"></i>
+                      </div>
+                      <div class="theme-title">
+                        <h1>Theme color</h1>
+                        <p>Copy an HEX Code</p>
+                      </div>
+                      <div class="theme-logo">
+                        <i class="fas fa-info-circle"></i>
+                      </div>
+                    </div>
+                    <div class="box-theme_color">
+
+                    </div>
+                  </div>
+                  <div class="box-appereances-avatar">
+                    <div class="theme-txt">
+                      <div class="theme-logo">
+                        <i class="fas fa-globe-americas"></i>
+                      </div>
+                      <div class="theme-title">
+                        <h1>Theme color</h1>
+                        <p>Copy an HEX Code</p>
+                      </div>
+                      <div class="theme-logo">
+                        <i class="fas fa-info-circle"></i>
+                      </div>
+                    </div>
+                    <div class="box-avatar_icon">
+                      <div class="avatar_icon">
+                        <div class="avatar">
+                          <img src="img/ImgProfile.svg" alt="">
+                          <img src="img/ImgProfile.svg" alt="">
+                          <img src="img/ImgProfile.svg" alt="">
+                        </div>
+                        <div class="addAvatar">
+                          <div class="add">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside_appereances">
+          <div class="container_asideAppereances">
+            <div class="personalAssistant">
+              <div class="Box-personalBTNS">
+                <button class="personal-Widget">
+                  Widget
+                </button>
+                <button class="personal-chat">
+                  Chat
+                </button>
+              </div>
+              <div class="Box-chat">
+                <div class="chat-header">
+                  <div class="chatHeader-container">
+                    <img src="img/ImgProfile.svg" alt="">
+                    <div class="chat-txt">
+                      <h1>Your Personal Assistant</h1>
+                      <p>Chat Test</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat-main">
+                  <div class="chatMain-title">
+                    <p>Powered by UserBot</p>
+                  </div>
+                  <div class="chatbox-1">
+                    <div class="box-Messages">
+                    </div>
+                    <div class="box-imgProfile">
+                      <img src="img/ImgProfile.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="chatbox-2">
+                    <div class="box-imgProfile">
+                      <img src="img/ImgProfile.svg" alt="">
+                    </div>
+                    <div class="box-Messages">
+                    </div>
+                  </div>
+                  <input type="text" id="txt" name="txt" placeholder="Type your message here...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="nav.js"></script>
+
+</html>
