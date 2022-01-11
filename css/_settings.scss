@@ -1,0 +1,970 @@
+.settings {
+  width: 76%;
+  max-width: 900px;
+  height: 100%;
+
+  .container_settings {
+    width: 100%;
+    height: 100%;
+
+    @extend .flexSpace-betweenColumn;
+
+    .settings_main {
+      width: 100%;
+      height: 100%;
+
+      @extend .flexSpace-betweenColumn;
+
+      background-color: $primary-color-dark;
+      border-radius: 10px;
+
+      .settings-title {
+        width: 95%;
+        height: 50px;
+
+        border-bottom: 2px solid #1d1e2c;
+        @extend .flex-startColumn;
+
+        h1 {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 21px;
+          line-height: 31px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+
+      .settings-personalInfo {
+        width: 95%;
+        height: 70px;
+
+        border-bottom: 2px solid #1d1e2c;
+        @extend .flex-startColumn;
+
+        h1 {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 19px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+
+      .settings-inputs {
+        width: 95%;
+        height: 170px;
+
+        border-bottom: 2px solid #1d1e2c;
+        @extend .flexSpace-between;
+
+        .inputs-1 {
+          width: 50%;
+          height: 100%;
+
+          @extend .flexalign-StartColumn;
+
+          label {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+
+            color: #ffffff;
+          }
+
+          input[type="text"],
+          select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+            max-width: 284px;
+            height: 45px;
+
+            border: 1px solid #ffffff;
+            box-sizing: border-box;
+            border-radius: 12px;
+            outline: none;
+          }
+
+          input[type="submit"] {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+          }
+        }
+
+        .inputs-2 {
+          width: 50%;
+          height: 100%;
+
+          label {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+
+            color: #ffffff;
+          }
+
+          input[type="text"],
+          select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+            max-width: 284px;
+            height: 45px;
+
+            border: 1px solid #ffffff;
+            box-sizing: border-box;
+            border-radius: 12px;
+            outline: none;
+          }
+
+          input[type="submit"] {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+          }
+        }
+      }
+
+      .settings-Notifications {
+        width: 95%;
+        height: 130px;
+
+        border-bottom: 2px solid #1d1e2c;
+        @extend .flexSpace-betweenColumn;
+
+        .Notifications-txt {
+          width: 100%;
+          height: 50px;
+
+          h1 {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: #ffffff;
+          }
+
+          p {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+
+            color: #ffffff;
+          }
+        }
+
+        .Notifications-Check {
+          width: 100%;
+          height: 80px;
+
+          display: flex;
+
+          .box-check-1 {
+            width: 23%;
+            height: 100%;
+
+            @extend .flexSpace-betweenColumn;
+
+            .checked-Withdrow {
+              width: 100%;
+              height: 50%;
+
+              @extend .flexSpace-between;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"] + label {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+              }
+              input[type="checkbox"] + label:after,
+              input[type="checkbox"] + label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 20px;
+                height: 20px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+              }
+              #check-1:checked + label.green {
+                background: #aedcae;
+              }
+              #check-1:checked + label.green:after {
+                background: #5cb85c;
+              }
+              #check-1:checked + label:after {
+                left: calc(100% - 18px);
+              }
+              #check-1 + label {
+                background: #ddd;
+              }
+              #check-1 + label:after {
+                background: #fff;
+                width: 16px;
+                height: 16px;
+                top: 2px;
+                left: 2px;
+                background-color: #0064fa;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+
+                color: #ffffff;
+
+                width: 70%;
+              }
+            }
+
+            .checked-Payment {
+              width: 100%;
+              height: 50%;
+
+              @extend .flexSpace-between;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"] + label {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+              }
+              input[type="checkbox"] + label:after,
+              input[type="checkbox"] + label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 20px;
+                height: 20px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+              }
+              #check-2:checked + label.green {
+                background: #aedcae;
+              }
+              #check-2:checked + label.green:after {
+                background: #5cb85c;
+              }
+              #check-2:checked + label:after {
+                left: calc(100% - 18px);
+              }
+              #check-2 + label {
+                background: #ddd;
+              }
+              #check-2 + label:after {
+                background: #fff;
+                width: 16px;
+                height: 16px;
+                top: 2px;
+                left: 2px;
+                background-color: #0064fa;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+
+                color: #ffffff;
+
+                width: 70%;
+              }
+            }
+          }
+
+          .box-check-2 {
+            width: 23%;
+            height: 100%;
+
+            @extend .flexSpace-betweenColumn;
+
+            .checked-Password {
+              width: 100%;
+              height: 50%;
+
+              @extend .flexSpace-between;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"] + label {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+              }
+              input[type="checkbox"] + label:after,
+              input[type="checkbox"] + label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 20px;
+                height: 20px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+              }
+              #check-3:checked + label.green {
+                background: #aedcae;
+              }
+              #check-3:checked + label.green:after {
+                background: #5cb85c;
+              }
+              #check-3:checked + label:after {
+                left: calc(100% - 18px);
+              }
+              #check-3 + label {
+                background: #ddd;
+              }
+              #check-3 + label:after {
+                background: #fff;
+                width: 16px;
+                height: 16px;
+                top: 2px;
+                left: 2px;
+                background-color: #0064fa;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+
+                color: #ffffff;
+
+                width: 70%;
+              }
+            }
+
+            .checked-TopUp {
+              width: 100%;
+              height: 50%;
+
+              @extend .flexSpace-between;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"] + label {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+              }
+              input[type="checkbox"] + label:after,
+              input[type="checkbox"] + label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 20px;
+                height: 20px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+              }
+              #check-4:checked + label.green {
+                background: #aedcae;
+              }
+              #check-4:checked + label.green:after {
+                background: #5cb85c;
+              }
+              #check-4:checked + label:after {
+                left: calc(100% - 18px);
+              }
+              #check-4 + label {
+                background: #ddd;
+              }
+              #check-4 + label:after {
+                background: #fff;
+                width: 16px;
+                height: 16px;
+                top: 2px;
+                left: 2px;
+                background-color: #0064fa;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+
+                color: #ffffff;
+
+                width: 70%;
+              }
+            }
+          }
+
+          .box-check-3 {
+            width: 23%;
+            height: 100%;
+
+            @extend .flexSpace-evenlyColumn;
+
+            .checked-Weekly {
+              width: 100%;
+              height: 50%;
+
+              @extend .flexSpace-between;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"] + label {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+              }
+              input[type="checkbox"] + label:after,
+              input[type="checkbox"] + label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 20px;
+                height: 20px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+              }
+              #check-5:checked + label.green {
+                background: #aedcae;
+              }
+              #check-5:checked + label.green:after {
+                background: #5cb85c;
+              }
+              #check-5:checked + label:after {
+                left: calc(100% - 18px);
+              }
+              #check-5 + label {
+                background: #ddd;
+              }
+              #check-5 + label:after {
+                background: #fff;
+                width: 16px;
+                height: 16px;
+                top: 2px;
+                left: 2px;
+                background-color: #0064fa;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+
+                color: #ffffff;
+
+                width: 70%;
+              }
+            }
+
+            .checked-SendMoney {
+              width: 100%;
+              height: 50%;
+
+              @extend .flexSpace-between;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+              input[type="checkbox"] + label {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+              }
+              input[type="checkbox"] + label:after,
+              input[type="checkbox"] + label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 20px;
+                height: 20px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                cursor: pointer;
+              }
+              #check-6:checked + label.green {
+                background: #aedcae;
+              }
+              #check-6:checked + label.green:after {
+                background: #5cb85c;
+              }
+              #check-6:checked + label:after {
+                left: calc(100% - 18px);
+              }
+              #check-6 + label {
+                background: #ddd;
+              }
+              #check-6 + label:after {
+                background: #fff;
+                width: 16px;
+                height: 16px;
+                top: 2px;
+                left: 2px;
+                background-color: #0064fa;
+              }
+
+              p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+
+                color: #ffffff;
+
+                width: 70%;
+              }
+            }
+          }
+        }
+      }
+
+      .btn-txt-confirm {
+        width: 95%;
+        height: 60px;
+
+        @extend .flexSpace-between;
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 19px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+
+        button {
+          width: 196px;
+          height: 37px;
+
+          @extend .flexCenter;
+
+          background: rgba(123, 67, 151, 0.8);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 23px;
+          border: none;
+          cursor: pointer;
+
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 15px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.Profile-info {
+  width: 100%;
+  height: 35%;
+
+  @extend .flexCenter;
+
+  background-color: $primary-color-dark;
+  border-radius: 10px;
+
+  .My-profile {
+    width: 87%;
+    height: 87%;
+
+    @extend .flexSpace-evenlyColumn;
+
+    background-color: #0064fa;
+    border-radius: 15px;
+
+    .Box-txtProfile {
+      width: 90%;
+      height: 80px;
+
+      @extend .flexSpace-between;
+
+      .boxPorcent {
+        width: 60px;
+        height: 60px;
+
+        @extend .flexCenter;
+
+        background: rgba(160, 198, 244, 0.7);
+        border-radius: 999px;
+        border: 4px solid #fff;
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+
+      .boxTitle {
+        width: 65%;
+        height: 100%;
+
+        h1 {
+          width: 90%;
+          height: 20px;
+
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 12px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 11px;
+          line-height: 17px;
+
+          color: #bdc3f9;
+        }
+      }
+    }
+
+    .btnProfile {
+      width: 80%;
+      height: 35px;
+
+      @extend .flexCenter;
+
+      border-radius: 99px;
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 12px;
+      display: flex;
+      align-items: center;
+
+      color: #0064fa;
+    }
+  }
+}
+
+.infos {
+  width: 100%;
+  height: 64%;
+
+  @extend .flexCenter;
+
+  background-color: $primary-color-dark;
+  border-radius: 10px;
+
+  .infos-options {
+    width: 87%;
+    height: 94%;
+
+    @extend .flexSpace-aroundColumn;
+
+    border-radius: 15px;
+
+    .appereances {
+      width: 100%;
+      height: 45px;
+
+      @extend .flexSpace-between;
+      border-bottom: 2px solid #1d1e2c;
+
+      .appereances-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
+
+        @extend .flexCenter;
+
+        background: #1d1e2c;
+
+        .fa-heart {
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+
+      .appereances-txt {
+        width: 75%;
+        height: 100%;
+
+        @extend .flexalign-StartColumn;
+
+        h1 {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 11px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+    }
+
+    .account-settings {
+      width: 100%;
+      height: 45px;
+      @extend .flexSpace-between;
+
+      .account-settings-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
+
+        @extend .flexCenter;
+
+        background: #1d1e2c;
+
+        .fa-user-alt {
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+
+      .account-settings-txt {
+        width: 75%;
+        height: 100%;
+
+        @extend .flexalign-StartColumn;
+
+        h1 {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 11px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+    }
+
+    .security {
+      width: 100%;
+      height: 45px;
+      @extend .flexSpace-between;
+
+      .security-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
+
+        @extend .flexCenter;
+
+        background: #1d1e2c;
+
+        .fa-user-secret {
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+
+      .security-txt {
+        width: 75%;
+        height: 100%;
+
+        @extend .flexalign-StartColumn;
+
+        h1 {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+
+        p {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 11px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

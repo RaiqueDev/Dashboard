@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/3db1c49f69.js" crossorigin="anonymous"></script>
+
+  <title>S E T T I N G S</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="container_nav">
+        <div class="Logo">
+          <h1 class="TitleLogo">Your Logo</h1>
+        </div>
+        <div class="nav_options">
+          <a class="dashboard" href="index.html">
+            <div onclick="dashboardOn()">
+              <div class="icon_name">
+                <i class="fas fa-chart-pie"></i>
+                <p class="p-Dashboard">Dashboard</p>
+              </div>
+            </div>
+          </a>
+          <div onclick="profileOn()" class="Userprofiles">
+            <div class="icon_name">
+              <i class="fas fa-user-tie"></i>
+              <p class="p-Profile">User profiles</p>
+            </div>
+          </div>
+          <div onclick="messagesOn()" class="Messages">
+            <div class="icon_name">
+              <i class="fas fa-comment-alt"></i>
+              <p class="p-Messages">Messages</p>
+            </div>
+          </div>
+          <div onclick="TransactionsOn()" class="Transactions">
+            <div class="icon_name">
+              <i class="fas fa-money-check-alt"></i>
+              <p class="p-Transactions">Transactions</p>
+            </div>
+          </div>
+          <div onclick="MywalletOn()" class="Mywallet">
+            <div class="icon_name">
+              <i class="fas fa-wallet"></i>
+              <p class="p-Mywallet">My wallet</p>
+            </div>
+          </div>
+          <div onclick="PaymentOn()" class="Payment">
+            <div class="icon_name">
+              <i class="fas fa-hand-holding-usd"></i>
+              <p class="p-Payment">Payment</p>
+            </div>
+          </div>
+          <div onclick="InvestmentOn()" class="Investment">
+            <div class="icon_name">
+              <i class="fas fa-chart-line"></i>
+              <p class="p-Investment">Investment</p>
+            </div>
+          </div>
+          <div onclick="ReportsOn()" class="Reports">
+            <div class="icon_name">
+              <i class="fas fa-clipboard"></i>
+              <p class="p-Reports">Reports</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav_settings">
+          <div onclick="SettingsOn()" class="Settings">
+            <div class="icon_name">
+              <i class="fas fa-cog"></i>
+              <p class="p-Settings">Settings</p>
+            </div>
+          </div>
+          <div onclick="SupportOn()" class="Support">
+            <div class="icon_name">
+              <i class="fas fa-question-circle"></i>
+              <p class="p-Support">Support</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav_Logout">
+          <div onclick="LogoutOn()" class="Logout">
+            <div class="icon_name">
+              <i class="fas fa-sign-out-alt"></i>
+              <p class="p-Logout">Log out</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header">
+        <div class="container_header">
+          <div class="header_helloName">
+            <h1 class="h1_helloName">Hello, Drax</h1>
+          </div>
+          <div class="header_infos">
+
+            <form class="search-box">
+              <input type="text" placeholder=" " />
+              <button type="reset"></button>
+            </form>
+
+            <i class="fas fa-bell"></i>
+
+            <div class="header_profile">
+              <img src="img/ImgProfile.svg" alt="Profile">
+            </div>
+
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container_main">
+        <div class="settings">
+          <div class="container_settings">
+            <div class="settings_main">
+              <div class="settings-title">
+                <h1>Account Settings</h1>
+              </div>
+              <div class="settings-personalInfo">
+                <h1>Personal informations</h1>
+                <p>Lorem ipsum color sit amet, consectetur adipiscing</p>
+              </div>
+              <div class="settings-inputs">
+                <div class="inputs-1">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Raique">
+
+                  <label for="lname">Email Address</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Raique.dev@gmail.com">
+                </div>
+                <div class="inputs-2">
+                  <label for="fname">Last Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Dev">
+                </div>
+              </div>
+              <div class="settings-Notifications">
+                <div class="Notifications-txt">
+                  <h1>Notifications</h1>
+                  <p>Choose type of notifications you wont to receive</p>
+                </div>
+                <div class="Notifications-Check">
+                  <div class="box-check-1">
+                    <div class="checked-Withdrow">
+                      <input type="checkbox" id="check-1">
+                      <label for="check-1" class="green"></label>
+
+                      <p>Withdrow Activity</p>
+                    </div>
+                    <div class="checked-Payment">
+                      <input type="checkbox" id="check-2">
+                      <label for="check-2" class="green"></label>
+
+                      <p>Payment Success</p>
+                    </div>
+                  </div>
+                  <div class="box-check-2">
+                    <div class="checked-Password">
+                      <input type="checkbox" id="check-3">
+                      <label for="check-3" class="green"></label>
+
+                      <p>Password Change</p>
+                    </div>
+                    <div class="checked-TopUp">
+                      <input type="checkbox" id="check-4">
+                      <label for="check-4" class="green"></label>
+
+                      <p>Top Up Sucess</p>
+                    </div>
+                  </div>
+                  <div class="box-check-3">
+                    <div class="checked-Weekly">
+                      <input type="checkbox" id="check-5">
+                      <label for="check-5" class="green"></label>
+
+                      <p>Weekly Report</p>
+                    </div>
+                    <div class="checked-SendMoney">
+                      <input type="checkbox" id="check-6">
+                      <label for="check-6" class="green"></label>
+
+                      <p>Send Money Success</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="btn-txt-confirm">
+                <p>Discord Changes</p>
+                <button>Save Changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="container_aside">
+            <div class="Profile-info">
+              <div class="My-profile">
+                <div class="Box-txtProfile">
+                  <div class="boxPorcent">
+                    <p>75%</p>
+                  </div>
+                  <div class="boxTitle">
+                    <h1>Profile informations</h1>
+                    <p>Complete your profile to unlock all lectures</p>
+                  </div>
+                </div>
+                <button class="btnProfile">
+                  Complete My Profile
+                </button>
+              </div>
+            </div>
+            <div class="infos">
+              <div class="infos-options">
+                <div class="appereances">
+                  <div class="appereances-icon">
+                    <i class="fas fa-heart"></i>
+                  </div>
+                  <div class="appereances-txt">
+                    <h1>Appereances</h1>
+                    <p>Dark and Light Mode, Font size</p>
+                  </div>
+                </div>
+                <div class="account-settings">
+                  <div class="account-settings-icon">
+                    <i class="fas fa-user-alt"></i>
+                  </div>
+                  <div class="account-settings-txt">
+                    <h1>Appereances</h1>
+                    <p>Dark and Light Mode, Font size</p>
+                  </div>
+                </div>
+                <div class="security">
+                  <div class="security-icon">
+                    <i class="fas fa-user-secret"></i>
+                  </div>
+                  <div class="security-txt">
+                    <h1>Security</h1>
+                    <p>Change password, 2FA</p>
+                  </div>
+                </div>
+                <div class="appereances">
+                  <div class="appereances-icon">
+                    <i class="fas fa-heart"></i>
+                  </div>
+                  <div class="appereances-txt">
+                    <h1>Appereances</h1>
+                    <p>Dark and Light Mode, Font size</p>
+                  </div>
+                </div>
+                <div class="account-settings">
+                  <div class="account-settings-icon">
+                    <i class="fas fa-user-alt"></i>
+                  </div>
+                  <div class="account-settings-txt">
+                    <h1>Appereances</h1>
+                    <p>Dark and Light Mode, Font size</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="nav.js"></script>
+
+</html>

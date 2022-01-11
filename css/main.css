@@ -1,4 +1,4 @@
-.flexCenter, .header, .header .container_header .header_helloName, .nav .container_nav .Logo, .nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie, .nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie, .nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt, .nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt, .nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet, .nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd, .nav .container_nav .nav_options .Investment .icon_name .fa-chart-line, .nav .container_nav .nav_options .Reports .icon_name .fa-clipboard, .nav .container_nav .nav_settings .settings .icon_name .fa-cog, .nav .container_nav .nav_settings .support .icon_name .fa-question-circle, .nav .container_nav .nav_Logout .Logout .icon_name .fa-sign-out-alt, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate .fa-angle-down {
+.flexCenter, .header, .header .container_header .header_helloName, .nav .container_nav .Logo, .nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie, .nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie, .nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt, .nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt, .nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet, .nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd, .nav .container_nav .nav_options .Investment .icon_name .fa-chart-line, .nav .container_nav .nav_options .Reports .icon_name .fa-clipboard, .nav .container_nav .nav_settings .Settings .icon_name .fa-cog, .nav .container_nav .nav_settings .Support .icon_name .fa-question-circle, .nav .container_nav .nav_Logout .Logout .icon_name .fa-sign-out-alt, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth .fa-circle, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectDate .fa-angle-down, .settings .container_settings .settings_main .btn-txt-confirm button, .Profile-info, .Profile-info .My-profile .Box-txtProfile .boxPorcent, .Profile-info .My-profile .btnProfile, .infos, .infos .infos-options .appereances .appereances-icon, .infos .infos-options .account-settings .account-settings-icon, .infos .infos-options .security .security-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@
           justify-content: center;
 }
 
-.flex-startColumn, .content .container_content .box_total .total_balance .balance_txt h4, .content .container_content .box_total .total_expence .expence_txt h4, .content .container_content .box_total .total_savings .savings_txt h4 {
+.flex-startColumn, .content .container_content .box_total .total_balance .balance_txt h4, .content .container_content .box_total .total_expence .expence_txt h4, .content .container_content .box_total .total_savings .savings_txt h4, .settings .container_settings .settings_main .settings-title, .settings .container_settings .settings_main .settings-personalInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-around, .header .container_header .header_infos, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .settings .icon_name, .nav .container_nav .nav_settings .support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name {
+.flexSpace-around, .header .container_header .header_infos, .nav .container_nav .nav_options .dashboard .icon_name, .nav .container_nav .nav_options .Userprofiles .icon_name, .nav .container_nav .nav_options .Messages .icon_name, .nav .container_nav .nav_options .Transactions .icon_name, .nav .container_nav .nav_options .Mywallet .icon_name, .nav .container_nav .nav_options .Payment .icon_name, .nav .container_nav .nav_options .Investment .icon_name, .nav .container_nav .nav_options .Reports .icon_name, .nav .container_nav .nav_settings .Settings .icon_name, .nav .container_nav .nav_settings .Support .icon_name, .nav .container_nav .nav_Logout .Logout .icon_name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total {
+.flexSpace-between, body .container, body .container .main .container_main, .header .container_header, .content .container_content .box_total, .content .container_content .box_total .total_balance .balance_title, .content .container_content .box_total .total_balance .balance_txt h5, .content .container_content .box_total .total_expence .expence_title, .content .container_content .box_total .total_expence .expence_txt h5, .content .container_content .box_total .total_savings .savings_title, .content .container_content .box_total .total_savings .savings_txt h5, .content .container_content .box_outlay .title_outlatGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnPreviousMonth, .content .container_content .box_outlay .title_outlatGraphic .btnGraphic .btnSelectedMonth, .content .container_content .box_outlay .outlay_graphic, .content .container_content .box_outlay .number_bottom, .content .container_content .box_outlay .number_bottom .numbers, .content .container_content .box_income, .content .container_content .box_income .boxincome_graphic .income_title, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .income_center, .content .container_content .box_income .boxincome_graphic .number_bottomIncome, .content .container_content .box_income .boxincome_graphic .number_bottomIncome .numbers_bottom, .content .container_content .box_income .boxincome_LatestTransactions .Transactions_title, .content .container_content .box_income .boxincome_LatestTransactions .RefuelingGasoline, .content .container_content .box_income .boxincome_LatestTransactions .PurchaseOfFurniture, .content .container_content .box_income .boxincome_LatestTransactions .CashRefundForTickets, .aside .container_aside .Card .MyCard_title, .aside .container_aside .Anallytics .Anallytics_title, .aside .container_aside .Anallytics .Anallytics_Graphic .stairs_group, .aside .container_aside .Anallytics .Anallytics_Graphic .footings_group, .aside .container_aside .Anallytics .Anallytics_Graphic .electrical_group, .aside .container_aside .Anallytics .Anallytics_Graphic .framingMaterial_group, .aside .container_aside .Anallytics .Anallytics_Graphic .finishLabor_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Hardware_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Framing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .TileInstallation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Roofing_group, .aside .container_aside .Anallytics .Anallytics_Graphic .AppliancesInstall_group, .aside .container_aside .Anallytics .Anallytics_Graphic .Insulation_group, .aside .container_aside .Anallytics .Anallytics_Graphic .InteriorPainting_group, .aside .container_aside .Anallytics .Anallystics_Total, .settings .container_settings .settings_main .settings-inputs, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney, .settings .container_settings .settings_main .btn-txt-confirm, .Profile-info .My-profile .Box-txtProfile, .infos .infos-options .appereances, .infos .infos-options .account-settings, .infos .infos-options .security {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +101,7 @@
           justify-content: space-between;
 }
 
-.flexSpace-evenlyColumn, .content .container_content .box_total .total_balance, .content .container_content .box_total .total_expence, .content .container_content .box_total .total_savings, .content .container_content .box_outlay, .content .container_content .box_income .boxincome_LatestTransactions {
+.flexSpace-evenlyColumn, .content .container_content .box_total .total_balance, .content .container_content .box_total .total_expence, .content .container_content .box_total .total_savings, .content .container_content .box_outlay, .content .container_content .box_income .boxincome_LatestTransactions, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3, .Profile-info .My-profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@
           justify-content: space-evenly;
 }
 
-.flexSpace-aroundColumn, .content .container_content .box_income .boxincome_graphic, .aside .container_aside .Card, .aside .container_aside .Anallytics {
+.flexSpace-aroundColumn, .content .container_content .box_income .boxincome_graphic, .aside .container_aside .Card, .aside .container_aside .Anallytics, .infos .infos-options {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +132,7 @@
       justify-content: space-around;
 }
 
-.flexSpace-betweenColumn, .content .container_content, .aside .container_aside, .aside .container_aside .Anallytics .Anallytics_Graphic {
+.flexSpace-betweenColumn, .content .container_content, .aside .container_aside, .aside .container_aside .Anallytics .Anallytics_Graphic, .settings .container_settings, .settings .container_settings .settings_main, .settings .container_settings .settings_main .settings-Notifications, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1, .settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +148,7 @@
           justify-content: space-between;
 }
 
-.flexalign-StartColumn, body .container .main, .content .container_content .box_outlay .outlay_graphic .number_left, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome {
+.flexalign-StartColumn, body .container .main, .content .container_content .box_outlay .outlay_graphic .number_left, .content .container_content .box_income .boxincome_graphic .box_incomeGraphic .number_leftIncome .number_leftIncome, .settings .container_settings .settings_main .settings-inputs .inputs-1, .infos .infos-options .appereances .appereances-txt, .infos .infos-options .account-settings .account-settings-txt, .infos .infos-options .security .security-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,6 +457,7 @@ body .container.light-container {
   width: 210px;
   height: 100%;
   border-radius: 20px 0px 0px 20px;
+  background-color: #24263a;
 }
 
 .nav .container_nav {
@@ -487,10 +488,6 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .Logo .TitleLogo.TitleLogo-light {
-  color: #364A63;
-}
-
 .nav .container_nav .nav_options {
   width: 100%;
   height: 60%;
@@ -504,11 +501,14 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .dashboard .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .dashboard .icon_name .fa-chart-pie {
@@ -535,8 +535,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .dashboard:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .dashboardClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Userprofiles {
@@ -545,11 +545,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Userprofiles .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Userprofiles .icon_name .fa-user-tie {
@@ -576,8 +578,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Userprofiles:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .UserprofilesClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Messages {
@@ -586,11 +588,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Messages .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Messages .icon_name .fa-comment-alt {
@@ -617,8 +621,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Messages:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .MessagesClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Transactions {
@@ -627,11 +631,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Transactions .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Transactions .icon_name .fa-money-check-alt {
@@ -658,8 +664,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Transactions:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .TransactionsClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Mywallet {
@@ -668,11 +674,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Mywallet .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Mywallet .icon_name .fa-wallet {
@@ -699,8 +707,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Mywallet:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .MywalletClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Payment {
@@ -709,11 +717,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Payment .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Payment .icon_name .fa-hand-holding-usd {
@@ -740,8 +750,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Payment:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .PaymentClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Investment {
@@ -750,11 +760,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Investment .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Investment .icon_name .fa-chart-line {
@@ -781,8 +793,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Investment:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .InvestmentClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options .Reports {
@@ -791,11 +803,13 @@ body .container.light-container {
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
 .nav .container_nav .nav_options .Reports .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
 .nav .container_nav .nav_options .Reports .icon_name .fa-clipboard {
@@ -822,8 +836,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_options .Reports:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_options .ReportsClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_options.nav_options-light {
@@ -837,27 +851,29 @@ body .container.light-container {
   border-bottom: 1px solid #1d1e2c;
 }
 
-.nav .container_nav .nav_settings .settings {
+.nav .container_nav .nav_settings .Settings {
   width: 100%;
   max-width: 173px;
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
-.nav .container_nav .nav_settings .settings .icon_name {
+.nav .container_nav .nav_settings .Settings .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
-.nav .container_nav .nav_settings .settings .icon_name .fa-cog {
+.nav .container_nav .nav_settings .Settings .icon_name .fa-cog {
   font-size: 18px;
   width: 25%;
   height: 100%;
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_settings .settings .icon_name .p-Settings {
+.nav .container_nav .nav_settings .Settings .icon_name .p-Settings {
   width: 67%;
   height: 100%;
   font-family: "Gilroy", sans-serif;
@@ -874,31 +890,33 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_settings .settings:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_settings .SettingsClick {
+  background-color: #1d1e2c;
 }
 
-.nav .container_nav .nav_settings .support {
+.nav .container_nav .nav_settings .Support {
   width: 100%;
   max-width: 173px;
   height: 35px;
   border-radius: 100px 0px 0px 100px;
   cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
-.nav .container_nav .nav_settings .support .icon_name {
+.nav .container_nav .nav_settings .Support .icon_name {
   width: 90%;
-  height: 100%;
+  height: 35px;
 }
 
-.nav .container_nav .nav_settings .support .icon_name .fa-question-circle {
+.nav .container_nav .nav_settings .Support .icon_name .fa-question-circle {
   font-size: 18px;
   width: 25%;
   height: 100%;
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_settings .support .icon_name .p-Support {
+.nav .container_nav .nav_settings .Support .icon_name .p-Support {
   width: 67%;
   height: 100%;
   font-family: "Gilroy", sans-serif;
@@ -915,8 +933,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_settings .support:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_settings .SupportClick {
+  background-color: #1d1e2c;
 }
 
 .nav .container_nav .nav_Logout {
@@ -961,8 +979,8 @@ body .container.light-container {
   color: #dbdfea;
 }
 
-.nav .container_nav .nav_Logout .Logout:hover {
-  background: #1d1e2c;
+.nav .container_nav .nav_Logout .LogoutClick {
+  background-color: #1d1e2c;
 }
 
 .content {
@@ -2422,5 +2440,1003 @@ body .container.light-container {
       -ms-flex-align: center;
           align-items: center;
   color: #dbdfea;
+}
+
+.settings {
+  width: 76%;
+  max-width: 900px;
+  height: 100%;
+}
+
+.settings .container_settings {
+  width: 100%;
+  height: 100%;
+}
+
+.settings .container_settings .settings_main {
+  width: 100%;
+  height: 100%;
+  background-color: #24263a;
+  border-radius: 10px;
+}
+
+.settings .container_settings .settings_main .settings-title {
+  width: 95%;
+  height: 50px;
+  border-bottom: 2px solid #1d1e2c;
+}
+
+.settings .container_settings .settings_main .settings-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-personalInfo {
+  width: 95%;
+  height: 70px;
+  border-bottom: 2px solid #1d1e2c;
+}
+
+.settings .container_settings .settings_main .settings-personalInfo h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-personalInfo p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-inputs {
+  width: 95%;
+  height: 170px;
+  border-bottom: 2px solid #1d1e2c;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 {
+  width: 50%;
+  height: 100%;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 input[type="text"],
+.settings .container_settings .settings_main .settings-inputs .inputs-1 select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 284px;
+  height: 45px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-1 input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-2 {
+  width: 50%;
+  height: 100%;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-2 label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-2 input[type="text"],
+.settings .container_settings .settings_main .settings-inputs .inputs-2 select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 284px;
+  height: 45px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+}
+
+.settings .container_settings .settings_main .settings-inputs .inputs-2 input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications {
+  width: 95%;
+  height: 130px;
+  border-bottom: 2px solid #1d1e2c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-txt {
+  width: 100%;
+  height: 50px;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-txt h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 {
+  width: 23%;
+  height: 100%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow {
+  width: 100%;
+  height: 50%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow input[type="checkbox"] {
+  display: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow input[type="checkbox"] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow input[type="checkbox"] + label:after,
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow #check-1:checked + label.green {
+  background: #aedcae;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow #check-1:checked + label.green:after {
+  background: #5cb85c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow #check-1:checked + label:after {
+  left: calc(100% - 18px);
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow #check-1 + label {
+  background: #ddd;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow #check-1 + label:after {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #0064fa;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Withdrow p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  width: 70%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment {
+  width: 100%;
+  height: 50%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment input[type="checkbox"] {
+  display: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment input[type="checkbox"] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment input[type="checkbox"] + label:after,
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment #check-2:checked + label.green {
+  background: #aedcae;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment #check-2:checked + label.green:after {
+  background: #5cb85c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment #check-2:checked + label:after {
+  left: calc(100% - 18px);
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment #check-2 + label {
+  background: #ddd;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment #check-2 + label:after {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #0064fa;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-1 .checked-Payment p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  width: 70%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 {
+  width: 23%;
+  height: 100%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password {
+  width: 100%;
+  height: 50%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password input[type="checkbox"] {
+  display: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password input[type="checkbox"] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password input[type="checkbox"] + label:after,
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password #check-3:checked + label.green {
+  background: #aedcae;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password #check-3:checked + label.green:after {
+  background: #5cb85c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password #check-3:checked + label:after {
+  left: calc(100% - 18px);
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password #check-3 + label {
+  background: #ddd;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password #check-3 + label:after {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #0064fa;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-Password p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  width: 70%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp {
+  width: 100%;
+  height: 50%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp input[type="checkbox"] {
+  display: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp input[type="checkbox"] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp input[type="checkbox"] + label:after,
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp #check-4:checked + label.green {
+  background: #aedcae;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp #check-4:checked + label.green:after {
+  background: #5cb85c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp #check-4:checked + label:after {
+  left: calc(100% - 18px);
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp #check-4 + label {
+  background: #ddd;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp #check-4 + label:after {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #0064fa;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-2 .checked-TopUp p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  width: 70%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 {
+  width: 23%;
+  height: 100%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly {
+  width: 100%;
+  height: 50%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly input[type="checkbox"] {
+  display: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly input[type="checkbox"] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly input[type="checkbox"] + label:after,
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly #check-5:checked + label.green {
+  background: #aedcae;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly #check-5:checked + label.green:after {
+  background: #5cb85c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly #check-5:checked + label:after {
+  left: calc(100% - 18px);
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly #check-5 + label {
+  background: #ddd;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly #check-5 + label:after {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #0064fa;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-Weekly p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  width: 70%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney {
+  width: 100%;
+  height: 50%;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney input[type="checkbox"] {
+  display: none;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney input[type="checkbox"] + label {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney input[type="checkbox"] + label:after,
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney #check-6:checked + label.green {
+  background: #aedcae;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney #check-6:checked + label.green:after {
+  background: #5cb85c;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney #check-6:checked + label:after {
+  left: calc(100% - 18px);
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney #check-6 + label {
+  background: #ddd;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney #check-6 + label:after {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  background-color: #0064fa;
+}
+
+.settings .container_settings .settings_main .settings-Notifications .Notifications-Check .box-check-3 .checked-SendMoney p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  width: 70%;
+}
+
+.settings .container_settings .settings_main .btn-txt-confirm {
+  width: 95%;
+  height: 60px;
+}
+
+.settings .container_settings .settings_main .btn-txt-confirm p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.settings .container_settings .settings_main .btn-txt-confirm button {
+  width: 196px;
+  height: 37px;
+  background: rgba(123, 67, 151, 0.8);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.Profile-info {
+  width: 100%;
+  height: 35%;
+  background-color: #24263a;
+  border-radius: 10px;
+}
+
+.Profile-info .My-profile {
+  width: 87%;
+  height: 87%;
+  background-color: #0064fa;
+  border-radius: 15px;
+}
+
+.Profile-info .My-profile .Box-txtProfile {
+  width: 90%;
+  height: 80px;
+}
+
+.Profile-info .My-profile .Box-txtProfile .boxPorcent {
+  width: 60px;
+  height: 60px;
+  background: rgba(160, 198, 244, 0.7);
+  border-radius: 999px;
+  border: 4px solid #fff;
+}
+
+.Profile-info .My-profile .Box-txtProfile .boxPorcent p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.Profile-info .My-profile .Box-txtProfile .boxTitle {
+  width: 65%;
+  height: 100%;
+}
+
+.Profile-info .My-profile .Box-txtProfile .boxTitle h1 {
+  width: 90%;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.Profile-info .My-profile .Box-txtProfile .boxTitle p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+  color: #bdc3f9;
+}
+
+.Profile-info .My-profile .btnProfile {
+  width: 80%;
+  height: 35px;
+  border-radius: 99px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0064fa;
+}
+
+.infos {
+  width: 100%;
+  height: 64%;
+  background-color: #24263a;
+  border-radius: 10px;
+}
+
+.infos .infos-options {
+  width: 87%;
+  height: 94%;
+  border-radius: 15px;
+}
+
+.infos .infos-options .appereances {
+  width: 100%;
+  height: 45px;
+  border-bottom: 2px solid #1d1e2c;
+}
+
+.infos .infos-options .appereances .appereances-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+  background: #1d1e2c;
+}
+
+.infos .infos-options .appereances .appereances-icon .fa-heart {
+  font-size: 18px;
+  color: #fff;
+}
+
+.infos .infos-options .appereances .appereances-txt {
+  width: 75%;
+  height: 100%;
+}
+
+.infos .infos-options .appereances .appereances-txt h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.infos .infos-options .appereances .appereances-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.infos .infos-options .account-settings {
+  width: 100%;
+  height: 45px;
+}
+
+.infos .infos-options .account-settings .account-settings-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+  background: #1d1e2c;
+}
+
+.infos .infos-options .account-settings .account-settings-icon .fa-user-alt {
+  font-size: 18px;
+  color: #fff;
+}
+
+.infos .infos-options .account-settings .account-settings-txt {
+  width: 75%;
+  height: 100%;
+}
+
+.infos .infos-options .account-settings .account-settings-txt h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.infos .infos-options .account-settings .account-settings-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.infos .infos-options .security {
+  width: 100%;
+  height: 45px;
+}
+
+.infos .infos-options .security .security-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+  background: #1d1e2c;
+}
+
+.infos .infos-options .security .security-icon .fa-user-secret {
+  font-size: 18px;
+  color: #fff;
+}
+
+.infos .infos-options .security .security-txt {
+  width: 75%;
+  height: 100%;
+}
+
+.infos .infos-options .security .security-txt h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.infos .infos-options .security .security-txt p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

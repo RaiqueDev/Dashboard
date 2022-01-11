@@ -2,451 +2,453 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://kit.fontawesome.com/3db1c49f69.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/3db1c49f69.js" crossorigin="anonymous"></script>
 
-	<title>D A S H B O A R D</title>
+  <title>D A S H B O A R D</title>
 
-	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-	<div class="container">
-		<div class="nav">
-			<div class="container_nav">
-				<div class="Logo">
-					<h1 class="TitleLogo">Your Logo</h1>
-				</div>
-				<div class="nav_options">
-					<div class="dashboard">
-						<div class="icon_name">
-							<i class="fas fa-chart-pie"></i>
-							<p class="p-Dashboard">Dashboard</p>
-						</div>
-					</div>
-					<div class="Userprofiles">
-						<div class="icon_name">
-							<i class="fas fa-user-tie"></i>
-							<p class="p-Profile">User profiles</p>
-						</div>
-					</div>
-					<div class="Messages">
-						<div class="icon_name">
-							<i class="fas fa-comment-alt"></i>
-							<p class="p-Messages">Messages</p>
-						</div>
-					</div>
-					<div class="Transactions">
-						<div class="icon_name">
-							<i class="fas fa-money-check-alt"></i>
-							<p class="p-Transactions">Transactions</p>
-						</div>
-					</div>
-					<div class="Mywallet">
-						<div class="icon_name">
-							<i class="fas fa-wallet"></i>
-							<p class="p-Mywallet">My wallet</p>
-						</div>
-					</div>
-					<div class="Payment">
-						<div class="icon_name">
-							<i class="fas fa-hand-holding-usd"></i>
-							<p class="p-Payment">Payment</p>
-						</div>
-					</div>
-					<div class="Investment">
-						<div class="icon_name">
-							<i class="fas fa-chart-line"></i>
-							<p class="p-Investment">Investment</p>
-						</div>
-					</div>
-					<div class="Reports">
-						<div class="icon_name">
-							<i class="fas fa-clipboard"></i>
-							<p class="p-Reports">Reports</p>
-						</div>
-					</div>
-				</div>
-				<div class="nav_settings">
-					<div class="settings">
-						<div class="icon_name">
-							<i class="fas fa-cog"></i>
-							<p class="p-Settings">Settings</p>
-						</div>
-					</div>
-					<div class="support">
-						<div class="icon_name">
-							<i class="fas fa-question-circle"></i>
-							<p class="p-Support">Support</p>
-						</div>
-					</div>
-				</div>
-				<div class="nav_Logout">
-					<div class="Logout">
-						<div class="icon_name">
-							<i class="fas fa-sign-out-alt"></i>
-							<p class="p-Logout">Log out</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="main">
-			<div class="header">
-				<div class="container_header">
-					<div class="header_helloName">
-						<h1 class="h1_helloName">Hello, Drax</h1>
-					</div>
-					<div class="header_infos">
+  <div class="container">
+    <div class="nav">
+      <div class="container_nav">
+        <div class="Logo">
+          <h1 class="TitleLogo">Your Logo</h1>
+        </div>
+        <div class="nav_options">
+          <div onclick="dashboardOn()" class="dashboard">
+            <div class="icon_name">
+              <i class="fas fa-chart-pie"></i>
+              <p class="p-Dashboard">Dashboard</p>
+            </div>
+          </div>
+          <div onclick="profileOn()" class="Userprofiles">
+            <div class="icon_name">
+              <i class="fas fa-user-tie"></i>
+              <p class="p-Profile">User profiles</p>
+            </div>
+          </div>
+          <div onclick="messagesOn()" class="Messages">
+            <div class="icon_name">
+              <i class="fas fa-comment-alt"></i>
+              <p class="p-Messages">Messages</p>
+            </div>
+          </div>
+          <div onclick="TransactionsOn()" class="Transactions">
+            <div class="icon_name">
+              <i class="fas fa-money-check-alt"></i>
+              <p class="p-Transactions">Transactions</p>
+            </div>
+          </div>
+          <div onclick="MywalletOn()" class="Mywallet">
+            <div class="icon_name">
+              <i class="fas fa-wallet"></i>
+              <p class="p-Mywallet">My wallet</p>
+            </div>
+          </div>
+          <div onclick="PaymentOn()" class="Payment">
+            <div class="icon_name">
+              <i class="fas fa-hand-holding-usd"></i>
+              <p class="p-Payment">Payment</p>
+            </div>
+          </div>
+          <div onclick="InvestmentOn()" class="Investment">
+            <div class="icon_name">
+              <i class="fas fa-chart-line"></i>
+              <p class="p-Investment">Investment</p>
+            </div>
+          </div>
+          <div onclick="ReportsOn()" class="Reports">
+            <div class="icon_name">
+              <i class="fas fa-clipboard"></i>
+              <p class="p-Reports">Reports</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav_settings">
+          <a class="Settings" href="settings.html">
+            <div onclick="SettingsOn()">
+              <div class="icon_name">
+                <i class="fas fa-cog"></i>
+                <p class="p-Settings">Settings</p>
+              </div>
+            </div>
+          </a>
+          <div onclick="SupportOn()" class="Support">
+            <div class="icon_name">
+              <i class="fas fa-question-circle"></i>
+              <p class="p-Support">Support</p>
+            </div>
+          </div>
+        </div>
+        <div class="nav_Logout">
+          <div onclick="LogoutOn()" class="Logout">
+            <div class="icon_name">
+              <i class="fas fa-sign-out-alt"></i>
+              <p class="p-Logout">Log out</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header">
+        <div class="container_header">
+          <div class="header_helloName">
+            <h1 class="h1_helloName">Hello, Drax</h1>
+          </div>
+          <div class="header_infos">
 
-						<form class="search-box">
+            <form class="search-box">
               <input type="text" placeholder=" " />
               <button type="reset"></button>
-						</form>
+            </form>
 
-						<i class="fas fa-bell"></i>
+            <i class="fas fa-bell"></i>
 
-						<div class="header_profile">
-							<img src="img/ImgProfile.svg" alt="Profile">
-						</div>
+            <div class="header_profile">
+              <img src="img/ImgProfile.svg" alt="Profile">
+            </div>
 
-						<i class="fas fa-angle-down"></i>
-					</div>
-				</div>
-			</div>
-			<div class="container_main">
-				<div class="content">
-					<div class="container_content">
-						<div class="box_total">
-							<div class="total_balance">
-								<div class="balance_title">
-									<p>Latest Transactions</p>
-									<i class="fas fa-ellipsis-h"></i>
-								</div>
-								<div class="balance_txt">
-									<h4>$ 19,750</h4>
-									<h5> <i class="fas fa-level-up-alt"></i> 11.94%</h5>
-								</div>
-							</div>
-							<div class="total_expence">
-								<div class="expence_title">
-									<p>Total Expence</p>
-									<i class="fas fa-ellipsis-h"></i>
-								</div>
-								<div class="expence_txt">
-									<h4>$ 11,375</h4>
-									<h5> <i class="fas fa-level-up-alt"></i> 19.91%</h5>
-								</div>
-							</div>
-							<div class="total_savings">
-								<div class="savings_title">
-									<p>Total Savings</p>
-									<i class="fas fa-ellipsis-h"></i>
-								</div>
-								<div class="savings_txt">
-									<h4>$ 8400</h4>
-									<h5> <i class="fas fa-level-up-alt"></i> 21.17%</h5>
-								</div>
-							</div>
-						</div>
-						<div class="box_outlay">
-							<div class="title_outlatGraphic">
-								<p>Outlay</p>
-								<div class="btnGraphic">
-									<div class="btnPreviousMonth">
-										<i class="fas fa-circle"></i>
-										<p>Previous month</p>
-									</div>
-									<div class="btnSelectedMonth">
-										<i class="fas fa-circle"></i>
-										<p>Selected month</p>
-									</div>
-									<button class="btnSelectDate">
-										<p>Appril 2021</p>
-										<i class="fas fa-angle-down"></i>
-									</button>
-								</div>
-							</div>
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container_main">
+        <div class="content">
+          <div class="container_content">
+            <div class="box_total">
+              <div class="total_balance">
+                <div class="balance_title">
+                  <p>Latest Transactions</p>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="balance_txt">
+                  <h4>$ 19,750</h4>
+                  <h5> <i class="fas fa-level-up-alt"></i> 11.94%</h5>
+                </div>
+              </div>
+              <div class="total_expence">
+                <div class="expence_title">
+                  <p>Total Expence</p>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="expence_txt">
+                  <h4>$ 11,375</h4>
+                  <h5> <i class="fas fa-level-up-alt"></i> 19.91%</h5>
+                </div>
+              </div>
+              <div class="total_savings">
+                <div class="savings_title">
+                  <p>Total Savings</p>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="savings_txt">
+                  <h4>$ 8400</h4>
+                  <h5> <i class="fas fa-level-up-alt"></i> 21.17%</h5>
+                </div>
+              </div>
+            </div>
+            <div class="box_outlay">
+              <div class="title_outlatGraphic">
+                <p>Outlay</p>
+                <div class="btnGraphic">
+                  <div class="btnPreviousMonth">
+                    <i class="fas fa-circle"></i>
+                    <p>Previous month</p>
+                  </div>
+                  <div class="btnSelectedMonth">
+                    <i class="fas fa-circle"></i>
+                    <p>Selected month</p>
+                  </div>
+                  <button class="btnSelectDate">
+                    <p>Appril 2021</p>
+                    <i class="fas fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
 
-							<div class="outlay_graphic">
-								<div class="number_left">
-									<p>$4000</p>
-									<p>$3000</p>
-									<p>$2000</p>
-									<p>$1000</p>
-									<p>$0</p>
-								</div>
-								<div class="graphic_center">
+              <div class="outlay_graphic">
+                <div class="number_left">
+                  <p>$4000</p>
+                  <p>$3000</p>
+                  <p>$2000</p>
+                  <p>$1000</p>
+                  <p>$0</p>
+                </div>
+                <div class="graphic_center">
 
-								</div>
-							</div>
-							<div class="number_bottom">
-								<span></span>
-								<div class="numbers">
-									<p>1</p>
-									<p>5</p>
-									<p>10</p>
-									<p>15</p>
-									<p>20</p>
-									<p>25</p>
-									<p>30</p>
-								</div>
-							</div>
-						</div>
-						<div class="box_income">
-							<div class="boxincome_graphic">
-								<div class="income_title">
-									<p>Income</p>
-									<button>Last Month <i class="fas fa-angle-down"></i></button>
-								</div>
-								<div class="box_incomeGraphic">
-									<div class="number_leftIncome">
-										<div class="number_leftIncome">
-											<p>$3000</p>
-											<p>$2000</p>
-											<p>$1000</p>
-											<p>$0</p>
-										</div>
-									</div>
-									<div class="income_center">
-										<div class="Income-Jan">
-											<div class="Jan-Bar">
+                </div>
+              </div>
+              <div class="number_bottom">
+                <span></span>
+                <div class="numbers">
+                  <p>1</p>
+                  <p>5</p>
+                  <p>10</p>
+                  <p>15</p>
+                  <p>20</p>
+                  <p>25</p>
+                  <p>30</p>
+                </div>
+              </div>
+            </div>
+            <div class="box_income">
+              <div class="boxincome_graphic">
+                <div class="income_title">
+                  <p>Income</p>
+                  <button>Last Month <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="box_incomeGraphic">
+                  <div class="number_leftIncome">
+                    <div class="number_leftIncome">
+                      <p>$3000</p>
+                      <p>$2000</p>
+                      <p>$1000</p>
+                      <p>$0</p>
+                    </div>
+                  </div>
+                  <div class="income_center">
+                    <div class="Income-Jan">
+                      <div class="Jan-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Feb">
-											<div class="Feb-Bar">
+                    <div class="Income-Feb">
+                      <div class="Feb-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Mar">
-											<div class="Mar-Bar">
+                    <div class="Income-Mar">
+                      <div class="Mar-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Apr">
-											<div class="Apr-Bar">
+                    <div class="Income-Apr">
+                      <div class="Apr-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-May">
-											<div class="May-Bar">
+                    <div class="Income-May">
+                      <div class="May-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Jun">
-											<div class="Jun-Bar">
+                    <div class="Income-Jun">
+                      <div class="Jun-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Jul">
-											<div class="Jul-Bar">
+                    <div class="Income-Jul">
+                      <div class="Jul-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Aug">
-											<div class="Aug-Bar">
+                    <div class="Income-Aug">
+                      <div class="Aug-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Sep">
-											<div class="Sep-Bar">
+                    <div class="Income-Sep">
+                      <div class="Sep-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Oct">
-											<div class="Oct-Bar">
+                    <div class="Income-Oct">
+                      <div class="Oct-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Nov">
-											<div class="Nov-Bar">
+                    <div class="Income-Nov">
+                      <div class="Nov-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-										<div class="Income-Dec">
-											<div class="Dec-Bar">
+                    <div class="Income-Dec">
+                      <div class="Dec-Bar">
 
-											</div>
-										</div>
+                      </div>
+                    </div>
 
-									</div>
-								</div>
-								<div class="number_bottomIncome">
-									<span></span>
-									<div class="numbers_bottom">
-										<p>Jan</p>
-										<p>Feb</p>
-										<p>Mar</p>
-										<p>Apr</p>
-										<p>May</p>
-										<p>Jun</p>
-										<p>Jul</p>
-										<p>Aug</p>
-										<p>Sep</p>
-										<p>Oct</p>
-										<p>Nov</p>
-										<p>Dec</p>
-									</div>
-								</div>
-							</div>
-							<div class="boxincome_LatestTransactions">
-								<div class="Transactions_title">
-									<p>Latest Transactions</p>
-									<i class="fas fa-ellipsis-h"></i>
-								</div>
-								<div class="RefuelingGasoline">
-									<p>Refueling gasoline</p>
-									<h6>-$201.34</h6>
-								</div>
-								<div class="PurchaseOfFurniture">
-									<p>Purchase of furniture</p>
-									<h6>-$567.14</h6>
-								</div>
-								<div class="CashRefundForTickets">
-									<p>Cash refund for tickets</p>
-									<h6>+$568.11</h6>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="aside">
-					<div class="container_aside">
-						<div class="Card">
-							<div class="MyCard_title">
-								<p>My Card</p>
-								<i class="fas fa-ellipsis-h"></i>
-							</div>
-							<img src="img/CardVisa.svg" alt="Card Visa">
-						</div>
-						<div class="Anallytics">
-							<div class="Anallytics_title">
-								<p>Anallytics</p>
-								<button>Last Month <i class="fas fa-angle-down"></i></button>
-							</div>
-							<div class="Anallytics_Graphic">
-								<div class="stairs_group">
-									<p>Stairs</p>
-									<div class="startsGraphic">
-										<div class="startsBar">
+                  </div>
+                </div>
+                <div class="number_bottomIncome">
+                  <span></span>
+                  <div class="numbers_bottom">
+                    <p>Jan</p>
+                    <p>Feb</p>
+                    <p>Mar</p>
+                    <p>Apr</p>
+                    <p>May</p>
+                    <p>Jun</p>
+                    <p>Jul</p>
+                    <p>Aug</p>
+                    <p>Sep</p>
+                    <p>Oct</p>
+                    <p>Nov</p>
+                    <p>Dec</p>
+                  </div>
+                </div>
+              </div>
+              <div class="boxincome_LatestTransactions">
+                <div class="Transactions_title">
+                  <p>Latest Transactions</p>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="RefuelingGasoline">
+                  <p>Refueling gasoline</p>
+                  <h6>-$201.34</h6>
+                </div>
+                <div class="PurchaseOfFurniture">
+                  <p>Purchase of furniture</p>
+                  <h6>-$567.14</h6>
+                </div>
+                <div class="CashRefundForTickets">
+                  <p>Cash refund for tickets</p>
+                  <h6>+$568.11</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="container_aside">
+            <div class="Card">
+              <div class="MyCard_title">
+                <p>My Card</p>
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+              <img src="img/CardVisa.svg" alt="Card Visa">
+            </div>
+            <div class="Anallytics">
+              <div class="Anallytics_title">
+                <p>Anallytics</p>
+                <button>Last Month <i class="fas fa-angle-down"></i></button>
+              </div>
+              <div class="Anallytics_Graphic">
+                <div class="stairs_group">
+                  <p>Stairs</p>
+                  <div class="startsGraphic">
+                    <div class="startsBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="footings_group">
-									<p>Footings</p>
-									<div class="footingsGraphic">
-										<div class="footingsBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="footings_group">
+                  <p>Footings</p>
+                  <div class="footingsGraphic">
+                    <div class="footingsBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="electrical_group">
-									<p>Electrical</p>
-									<div class="electricalGraphic">
-										<div class="electricalBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="electrical_group">
+                  <p>Electrical</p>
+                  <div class="electricalGraphic">
+                    <div class="electricalBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="framingMaterial_group">
-									<p>Framing Material</p>
-									<div class="framingMaterialGraphic">
-										<div class="framingMaterialBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="framingMaterial_group">
+                  <p>Framing Material</p>
+                  <div class="framingMaterialGraphic">
+                    <div class="framingMaterialBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="finishLabor_group">
-									<p>Finish Labor</p>
-									<div class="finishLaborGraphic">
-										<div class="finishLaborBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="finishLabor_group">
+                  <p>Finish Labor</p>
+                  <div class="finishLaborGraphic">
+                    <div class="finishLaborBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="Hardware_group">
-									<p>Hardware</p>
-									<div class="HardwareGraphic">
-										<div class="HardwareBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="Hardware_group">
+                  <p>Hardware</p>
+                  <div class="HardwareGraphic">
+                    <div class="HardwareBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="Framing_group">
-									<p>Framing</p>
-									<div class="FramingGraphic">
-										<div class="FramingBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="Framing_group">
+                  <p>Framing</p>
+                  <div class="FramingGraphic">
+                    <div class="FramingBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="TileInstallation_group">
-									<p>Tile Installation</p>
-									<div class="TileInstallationGraphic">
-										<div class="TileInstallationBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="TileInstallation_group">
+                  <p>Tile Installation</p>
+                  <div class="TileInstallationGraphic">
+                    <div class="TileInstallationBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="Roofing_group">
-									<p>Roofing</p>
-									<div class="RoofingGraphic">
-										<div class="RoofingBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="Roofing_group">
+                  <p>Roofing</p>
+                  <div class="RoofingGraphic">
+                    <div class="RoofingBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="AppliancesInstall_group">
-									<p>Appliances Install</p>
-									<div class="AppliancesInstallGraphic">
-										<div class="AppliancesInstallBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="AppliancesInstall_group">
+                  <p>Appliances Install</p>
+                  <div class="AppliancesInstallGraphic">
+                    <div class="AppliancesInstallBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="Insulation_group">
-									<p>Insulation</p>
-									<div class="InsulationGraphic">
-										<div class="InsulationBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="Insulation_group">
+                  <p>Insulation</p>
+                  <div class="InsulationGraphic">
+                    <div class="InsulationBar">
 
-										</div>
-									</div>
-								</div>
-								<div class="InteriorPainting_group">
-									<p>Interior Painting</p>
-									<div class="InteriorPaintingGraphic">
-										<div class="InteriorPaintingBar">
+                    </div>
+                  </div>
+                </div>
+                <div class="InteriorPainting_group">
+                  <p>Interior Painting</p>
+                  <div class="InteriorPaintingGraphic">
+                    <div class="InteriorPaintingBar">
 
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="Anallystics_Total">
-								<p>Total</p>
-								<h6>$17,355</h6>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Anallystics_Total">
+                <p>Total</p>
+                <h6>$17,355</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-<script src="theme.js"></script>
+<script src="nav.js"></script>
 
 </html>
