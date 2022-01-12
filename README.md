@@ -13,7 +13,7 @@
 <br>
 <h2 color="#FFD91E"> D A S H B O A R D </h2>
 
-![Captura de tela de 2022-01-11 18-10-28](https://user-images.githubusercontent.com/96999326/149022047-af04e309-f32d-446c-84a0-5a48329a4103.png)
+![Captura de tela de 2022-01-12 13-40-04](https://user-images.githubusercontent.com/96999326/149183324-9b8f9cd0-c4e5-4001-b7f8-c8ad61780090.png)
 
 <h2 color="#FFD91E"> S E T T I N G S </h2>
 
