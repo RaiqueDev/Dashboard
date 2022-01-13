@@ -22,4 +22,9 @@
 
 <br>
 
+<h2 color="#FFD91E"> S E T T I N G S </h2>
+
+![Captura de tela de 2022-01-12 21-46-07](https://user-images.githubusercontent.com/96999326/149245945-70a0f99e-9278-4690-a07e-d4b123a9e824.png)
+
+
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raique-ramos-328556210/)
