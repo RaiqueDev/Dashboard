@@ -13,13 +13,18 @@
 <br>
 <h2 color="#FFD91E"> D A S H B O A R D </h2>
 
-![Captura de tela de 2022-01-11 18-10-28](https://user-images.githubusercontent.com/96999326/149022047-af04e309-f32d-446c-84a0-5a48329a4103.png)
+![Captura de tela de 2022-01-12 13-40-04](https://user-images.githubusercontent.com/96999326/149183324-9b8f9cd0-c4e5-4001-b7f8-c8ad61780090.png)
 
 <h2 color="#FFD91E"> S E T T I N G S </h2>
 
-![Captura de tela de 2022-01-11 18-13-08](https://user-images.githubusercontent.com/96999326/149022465-17e888da-a18f-4fc6-9ea4-a74de4fe6aa2.png)
-![Captura de tela de 2022-01-11 18-15-29](https://user-images.githubusercontent.com/96999326/149022902-dee2bb88-59f7-4264-8160-4c30d08f3bb9.png)
+![Captura de tela de 2022-01-12 13-40-14](https://user-images.githubusercontent.com/96999326/149183510-4d2b105f-deb3-420a-a2ef-42c7e34f81ac.png)
+![Captura de tela de 2022-01-12 13-40-20](https://user-images.githubusercontent.com/96999326/149183665-5811b96b-73ad-42d0-93d7-ec0d4269d432.png)
 
 <br>
+
+<h2 color="#FFD91E"> S E T T I N G S </h2>
+
+![Captura de tela de 2022-01-12 21-46-07](https://user-images.githubusercontent.com/96999326/149245945-70a0f99e-9278-4690-a07e-d4b123a9e824.png)
+
 
 [![Blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raique-ramos-328556210/)
