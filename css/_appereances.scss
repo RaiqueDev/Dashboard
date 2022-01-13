@@ -25,6 +25,9 @@
 
         @extend .flex-startColumn;
 
+        text-decoration: none;
+        outline: none;
+        list-style: none;
         .fa-long-arrow-alt-left {
           font-size: 19px;
           color: #fff;
@@ -46,10 +49,10 @@
             width: 100%;
             height: 35px;
 
-            font-family: "Poppins", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 21px;
             line-height: 31px;
             display: flex;
             align-items: center;
@@ -59,7 +62,7 @@
 
           p {
             height: 15px;
-            font-family: "Poppins", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 500;
             font-size: 12px;
@@ -83,15 +86,15 @@
 
             @extend .flexCenter;
 
-            background: linear-gradient(91.19deg, #ff005c -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
+            background-color: #4caf50;
             border-radius: 14px;
             border: none;
             cursor: pointer;
 
-            font-family: "Poppins", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 600;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 19px;
             display: flex;
             align-items: center;
@@ -110,10 +113,10 @@
             border: none;
             cursor: pointer;
 
-            font-family: "Poppins", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 600;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 19px;
             display: flex;
             align-items: center;
@@ -128,7 +131,7 @@
         height: 80px;
 
         @extend .flexSpace-between;
-        background-color: #333548;
+        border: 2px solid #ffffff;
         box-sizing: border-box;
         border-radius: 10px;
 
@@ -154,7 +157,7 @@
             width: 100%;
             height: 20px;
 
-            font-family: "Poppins", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
@@ -166,7 +169,7 @@
           }
 
           p {
-            font-family: "Poppins", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 500;
             font-size: 12px;
@@ -197,7 +200,7 @@
         height: 320px;
 
         border-radius: 10px;
-        background-color: #333548;
+        border: 2px solid #ffffff;
 
         .box-appereances-txt {
           width: 100%;
@@ -227,7 +230,7 @@
               width: 100%;
               height: 20px;
 
-              font-family: "Poppins", sans-serif;
+              font-family: $font-all;
               font-style: normal;
               font-weight: 600;
               font-size: 18px;
@@ -239,10 +242,10 @@
             }
 
             p {
-              font-family: "Poppins", sans-serif;
+              font-family: $font-all;
               font-style: normal;
               font-weight: 500;
-              font-size: 13px;
+              font-size: 12px;
               line-height: 16px;
               display: flex;
               align-items: center;
@@ -274,7 +277,7 @@
           .box-appereances-theme {
             width: 45%;
             height: 85%;
-            
+
             @extend .flexSpace-betweenColumn;
 
             .theme-txt {
@@ -291,7 +294,7 @@
 
                 .fa-globe-americas {
                   font-size: 18px;
-                  color: #001aff;
+                  color: #4caf50;
                 }
               }
 
@@ -303,7 +306,7 @@
                 text-align: center;
 
                 h1 {
-                  font-family: "Poppins", sans-serif;
+                  font-family: $font-all;
                   font-style: normal;
                   font-weight: 600;
                   font-size: 17px;
@@ -314,14 +317,14 @@
                 }
 
                 p {
-                  font-family: 'Poppins', sans-serif;
+                  font-family: 'Pompiere', sans-serif;
                   font-style: normal;
                   font-weight: 600;
-                  font-size: 11px;
+                  font-size: 15px;
                   display: flex;
                   align-items: center;
 
-                  color: #fff;
+                  color: rgb(192, 192, 192);
                 }
               }
 
@@ -331,11 +334,17 @@
               }
             }
 
-            .box-theme_color{
+            .box-theme_color {
               width: 100%;
               height: 60%;
 
-              background-color: #001aff;
+              .theme-color {
+                width: 70%;
+                height: 100%;
+
+                background-color: #dbdfea;
+                border-radius: 10px;
+              }
             }
           }
 
@@ -359,7 +368,7 @@
 
                 .fa-globe-americas {
                   font-size: 18px;
-                  color: #001aff;
+                  color: #4caf50;
                 }
               }
 
@@ -371,7 +380,7 @@
                 text-align: center;
 
                 h1 {
-                  font-family: "Poppins", sans-serif;
+                  font-family: $font-all;
                   font-style: normal;
                   font-weight: 600;
                   font-size: 17px;
@@ -382,14 +391,14 @@
                 }
 
                 p {
-                  font-family: 'Poppins', sans-serif;
+                  font-family: 'Pompiere', sans-serif;
                   font-style: normal;
                   font-weight: 600;
-                  font-size: 11px;
+                  font-size: 15px;
                   display: flex;
                   align-items: center;
 
-                  color: #fff;
+                  color: rgb(192, 192, 192);
                 }
               }
 
@@ -399,38 +408,38 @@
               }
             }
 
-            .box-avatar_icon{
+            .box-avatar_icon {
               width: 100%;
               height: 60%;
 
               @extend .flex-endColumn;
 
-              .avatar_icon{
+              .avatar_icon {
                 width: 80%;
                 height: 100%;
 
                 @extend .flexSpace-betweenColumn;
 
-                .avatar{
+                .avatar {
                   width: 100%;
                   height: 50%;
 
                   @extend .flexSpace-between;
 
-                  img{
+                  img {
                     width: 20%;
                     border: 1px solid #001aff;
                     border-radius: 999px;
                   }
                 }
 
-                .addAvatar{
+                .addAvatar {
                   width: 100%;
                   height: 50%;
 
                   @extend .flex-startColumn;
 
-                  .add{
+                  .add {
                     width: 35px;
                     height: 35px;
 
@@ -439,7 +448,7 @@
                     border-radius: 999px;
                     background-color: #dbdfea;
 
-                    .fa-plus{
+                    .fa-plus {
                       font-size: 17px;
                       color: #001aff;
                     }
@@ -491,7 +500,7 @@
           border-radius: 999px;
           cursor: pointer;
 
-          font-family: "Poppins", sans-serif;
+          font-family: $font-all;
           font-style: normal;
           font-weight: 600;
           font-size: 12px;
@@ -508,12 +517,12 @@
 
           @extend .flexCenter;
 
-          background: linear-gradient(91.19deg, #ff005c -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
+          background: #4caf50;
           border: none;
           border-radius: 999px;
           cursor: pointer;
 
-          font-family: "Poppins", sans-serif;
+          font-family: $font-all;
           font-style: normal;
           font-weight: 600;
           font-size: 12px;
@@ -538,7 +547,7 @@
 
           @extend .flexCenter;
 
-          background: linear-gradient(91.19deg, #ff005c -18.08%, rgba(60, 0, 187, 0.294239) 154.23%);
+          background: #4caf50;
           border-radius: 17px 17px 0px 0px;
 
           .chatHeader-container {
@@ -599,10 +608,10 @@
 
             @extend .flexCenter;
             p {
-              font-family: "Poppins", sans-serif;
+              font-family: 'Pompiere', sans-serif;
               font-style: normal;
               font-weight: 600;
-              font-size: 9px;
+              font-size: 14px;
               line-height: 13px;
               display: flex;
               align-items: center;
@@ -666,6 +675,8 @@
           }
 
           #txt {
+            font-family: 'Pompiere', sans-serif;
+            font-size: 17px;
             width: 90%;
             height: 40px;
             padding-left: 10px;

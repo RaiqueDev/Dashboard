@@ -23,7 +23,7 @@
         @extend .flexSpace-evenlyColumn;
 
         background-color: $primary-color-dark;
-        border-radius: 10px;
+        border-radius: 6px;
 
         background-image: url(/img/GraphicBalance.svg);
         background-repeat: no-repeat;
@@ -32,14 +32,15 @@
         background-position-x: 100%;
 
         .balance_title {
-          width: 92%;
+          width: 90%;
           height: 40px;
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
-            font-style: 900;
-            font-size: 14px;
+            font-family: $font-all;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -48,7 +49,7 @@
           }
 
           .fa-ellipsis-h {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -61,7 +62,7 @@
         }
 
         .balance_txt {
-          width: 92%;
+          width: 90%;
           height: 60%;
 
           h4 {
@@ -70,9 +71,10 @@
 
             @extend .flex-startColumn;
 
-            font-family: sans-serif;
-            font-weight: 600;
-            font-size: 16px;
+            font-family: $font-all;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
             line-height: 17px;
 
             color: $color-font-dark;
@@ -84,16 +86,16 @@
 
             @extend .flexSpace-between;
 
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 13px;
+            font-family: $font-all;
+            font-weight: 700;
+            font-size: 14px;
             line-height: 12px;
 
             color: #34e4b5;
           }
 
           .fa-level-up-alt {
-            font-size: 10px;
+            font-size: 12px;
             color: #34e4b5;
           }
         }
@@ -107,7 +109,7 @@
         @extend .flexSpace-evenlyColumn;
 
         background-color: $primary-color-dark;
-        border-radius: 10px;
+        border-radius: 6px;
 
         background-image: url(/img/GraphicExpence.svg);
         background-repeat: no-repeat;
@@ -121,9 +123,10 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
-            font-style: 900;
-            font-size: 14px;
+            font-family: $font-all;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -132,7 +135,7 @@
           }
 
           .fa-ellipsis-h {
-            font-family: "Gilroy", sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -154,10 +157,10 @@
 
             @extend .flex-startColumn;
 
-            font-family: "Gilroy", sans-serif;
+            font-family: $font-all;
             font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
+            font-weight: 700;
+            font-size: 19px;
             line-height: 17px;
 
             color: $color-font-dark;
@@ -169,16 +172,16 @@
 
             @extend .flexSpace-between;
 
-            font-family: sans-serif;
+            font-family: $font-all;
             font-weight: bold;
-            font-size: 13px;
+            font-size: 14px;
             line-height: 12px;
 
             color: #e03a45;
           }
 
           .fa-level-up-alt {
-            font-size: 10px;
+            font-size: 12px;
             color: #e03a45;
           }
         }
@@ -192,7 +195,7 @@
         @extend .flexSpace-evenlyColumn;
 
         background-color: $primary-color-dark;
-        border-radius: 10px;
+        border-radius: 6px;
 
         background-image: url(/img/GraphicSavings.svg);
         background-repeat: no-repeat;
@@ -201,14 +204,15 @@
         background-position-x: 100%;
 
         .savings_title {
-          width: 92%;
+          width: 90%;
           height: 40px;
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
-            font-style: 900;
-            font-size: 14px;
+            font-family: $font-all;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
             line-height: 12px;
             display: flex;
             align-items: center;
@@ -217,20 +221,20 @@
           }
 
           .fa-ellipsis-h {
-            font-family: "Gilroy", sans-serif;
+            font-family: $font-all;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 600;
             font-size: 14px;
             line-height: 12px;
             display: flex;
             align-items: center;
 
-            color: set-text-color($color-font-dark);
+            color: $color-font-dark;
           }
         }
 
         .savings_txt {
-          width: 93%;
+          width: 90%;
           height: 60%;
 
           h4 {
@@ -239,10 +243,10 @@
 
             @extend .flex-startColumn;
 
-            font-family: "Gilroy", sans-serif;
+            font-family: $font-all;
             font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
+            font-weight: 700;
+            font-size: 19px;
             line-height: 17px;
 
             color: $color-font-dark;
@@ -254,16 +258,16 @@
 
             @extend .flexSpace-between;
 
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 13px;
+            font-family: $font-all;
+            font-weight: 700;
+            font-size: 14px;
             line-height: 12px;
 
             color: #34e4b5;
           }
 
           .fa-level-up-alt {
-            font-size: 10px;
+            font-size: 12px;
             color: #34e4b5;
           }
         }
@@ -272,12 +276,12 @@
 
     .box_outlay {
       width: 100%;
-      height: 46%;
+      height: 44%;
 
       @extend .flexSpace-evenlyColumn;
 
       background-color: $primary-color-dark;
-      border-radius: 10px;
+      border-radius: 6px;
 
       .title_outlatGraphic {
         width: 97%;
@@ -286,10 +290,10 @@
         @extend .flexSpace-between;
 
         p {
-          font-family: sans-serif;
+          font-family: $font-all;
           font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
+          font-weight: 700;
+          font-size: 16px;
           line-height: 16px;
           display: flex;
           align-items: center;
@@ -304,7 +308,7 @@
           @extend .flexSpace-between;
 
           .btnPreviousMonth {
-            width: 90px;
+            width: 85px;
             height: 100%;
 
             @extend .flexSpace-between;
@@ -320,10 +324,10 @@
             }
 
             p {
-              font-family: sans-serif;
+              font-family: $font-all;
               font-style: normal;
               font-weight: 600;
-              font-size: 10px;
+              font-size: 12px;
               line-height: 9px;
               display: flex;
               align-items: center;
@@ -333,7 +337,7 @@
           }
 
           .btnSelectedMonth {
-            width: 90px;
+            width: 85px;
             height: 100%;
 
             @extend .flexSpace-between;
@@ -349,10 +353,10 @@
             }
 
             p {
-              font-family: sans-serif;
+              font-family: $font-all;
               font-style: normal;
               font-weight: 600;
-              font-size: 10px;
+              font-size: 12px;
               line-height: 9px;
               display: flex;
               align-items: center;
@@ -381,10 +385,10 @@
             }
 
             p {
-              font-family: sans-serif;
+              font-family: $font-all;
               font-style: normal;
               font-weight: 600;
-              font-size: 11px;
+              font-size: 12.5px;
               line-height: 9px;
               display: flex;
               align-items: center;
@@ -408,9 +412,9 @@
           @extend .flexalign-StartColumn;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: 900;
-            font-size: 12px;
+            font-size: 13px;
             line-height: 9px;
             display: flex;
             align-items: center;
@@ -443,9 +447,9 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: 400;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 9px;
             display: flex;
             align-items: center;
@@ -459,17 +463,15 @@
     .box_income {
       width: 100%;
       height: 32%;
-
       @extend .flexSpace-between;
 
       .boxincome_graphic {
-        width: 55%;
+        width: 57%;
         height: 100%;
 
         @extend .flexSpace-aroundColumn;
-
         background-color: $primary-color-dark;
-        border-radius: 10px;
+        border-radius: 6px;
 
         .income_title {
           width: 95%;
@@ -479,10 +481,10 @@
           border-radius: 10px;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
+            font-weight: 700;
+            font-size: 16px;
             line-height: 16px;
             display: flex;
             align-items: center;
@@ -500,10 +502,10 @@
             border-radius: 20px;
             border: none;
 
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 600;
-            font-size: 10px;
+            font-size: 11.5px;
             line-height: 8px;
 
             display: flex;
@@ -517,7 +519,6 @@
         .box_incomeGraphic {
           width: 95%;
           height: 55%;
-
           @extend .flexSpace-between;
 
           .number_leftIncome {
@@ -531,10 +532,10 @@
               @extend .flexalign-StartColumn;
 
               p {
-                font-family: "Gilroy", sans-serif;
+                font-family: $font-all;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 12px;
+                font-size: 14px;
                 line-height: 9px;
                 display: flex;
                 align-items: center;
@@ -781,9 +782,9 @@
             @extend .flexSpace-between;
 
             p {
-              font-family: "Gilroy", sans-serif;
+              font-family: $font-all;
               font-weight: normal;
-              font-size: 12px;
+              font-size: 12.5px;
               line-height: 8px;
 
               display: flex;
@@ -796,13 +797,13 @@
       }
 
       .boxincome_LatestTransactions {
-        width: 44.2%;
+        width: 40%;
         height: 100%;
 
         @extend .flexSpace-evenlyColumn;
 
         background-color: $primary-color-dark;
-        border-radius: 10px;
+        border-radius: 6px;
 
         .Transactions_title {
           width: 92%;
@@ -811,7 +812,7 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 600;
             font-size: 14px;
@@ -834,7 +835,7 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-weight: 300;
             font-size: 13px;
             line-height: 12px;
@@ -845,7 +846,7 @@
           }
 
           h6 {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-weight: 900;
             font-size: 15px;
             line-height: 12px;
@@ -863,7 +864,7 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-weight: 300;
             font-size: 13px;
             line-height: 12px;
@@ -874,7 +875,7 @@
           }
 
           h6 {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -893,7 +894,7 @@
           @extend .flexSpace-between;
 
           p {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-weight: 300;
             font-size: 13px;
             line-height: 12px;
@@ -908,7 +909,7 @@
           }
 
           h6 {
-            font-family: sans-serif;
+            font-family: $font-all;
             font-style: normal;
             font-weight: 700;
             font-size: 14px;

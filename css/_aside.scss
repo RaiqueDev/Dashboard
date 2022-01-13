@@ -16,7 +16,7 @@
 			@extend .flexSpace-aroundColumn;
 
 			background-color: $primary-color-dark;
-			border-radius: 10px;
+			border-radius: 6px;
 
 			.MyCard_title {
 				width: 90%;
@@ -29,10 +29,10 @@
 				}
 
 				p {
-					font-family: sans-serif;
+					font-family: $font-all;
 					font-style: normal;
-					font-weight: 600;
-					font-size: 14px;
+					font-weight: 800;
+					font-size: 18px;
 					line-height: 16px;
 					display: flex;
 					align-items: center;
@@ -53,7 +53,7 @@
 			@extend .flexSpace-aroundColumn;
 
 			background-color: $primary-color-dark;
-			border-radius: 10px;
+			border-radius: 6px;
 
 			.Anallytics_title {
 				width: 90%;
@@ -62,10 +62,10 @@
 				@extend .flexSpace-between;
 
 				p {
-					font-family: sans-serif;
+					font-family: $font-all;
 					font-style: normal;
-					font-weight: 600;
-					font-size: 14px;
+					font-weight: 800;
+					font-size: 18px;
 					line-height: 16px;
 					display: flex;
 					align-items: center;
@@ -86,7 +86,7 @@
 					font-family: sans-serif;
 					font-style: normal;
 					font-weight: 600;
-					font-size: 10px;
+					font-size: 12px;
 					line-height: 8px;
 
 					display: flex;
@@ -94,6 +94,7 @@
 					cursor: pointer;
 
 					color: $color-font-dark;
+          font-family: $font-all;
 				}
 			}
 
@@ -114,10 +115,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -153,10 +154,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -192,10 +193,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -231,10 +232,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -270,10 +271,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -309,10 +310,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -348,10 +349,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -387,10 +388,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -426,10 +427,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -465,10 +466,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -504,10 +505,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 12px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -543,10 +544,10 @@
 						width: 50%;
 						height: 100%;
 
-						font-family: "Gilroy", sans-serif;
+						font-family: $font-all;
 						font-style: normal;
-						font-weight: normal;
-						font-size: 13px;
+						font-weight: 400;
+						font-size: 15px;
 						line-height: 9px;
 						display: flex;
 						align-items: center;
@@ -581,10 +582,10 @@
 				border-top: 1px solid #1d1e2c;
 
 				p {
-					font-family: "Gilroy", sans-serif;
+					font-family: $font-all;
 					font-style: normal;
-					font-weight: bold;
-					font-size: 13px;
+					font-weight: 800;
+					font-size: 16px;
 					line-height: 12px;
 					display: flex;
 					align-items: center;
@@ -593,10 +594,10 @@
 				}
 
 				h6 {
-					font-family: "Gilroy", sans-serif;
+					font-family: $font-all;
 					font-style: normal;
-					font-weight: bold;
-					font-size: 13px;
+					font-weight: 800;
+					font-size: 16px;
 					line-height: 12px;
 					display: flex;
 					align-items: center;

@@ -9,6 +9,8 @@ $color-font-light: #364A63;
 $search-time: 400ms;
 $reset-time: 150ms;
 
+$font-all: 'Saira Condensed', sans-serif;
+
 //CIRCLE'S
 $circle-red-color: #9b4343;
 $circle-rebeccapurple-color: #894ba9;
@@ -31,6 +33,33 @@ $circle-rebeccapurple-color: #894ba9;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
+}
+
+.flex-startBetween {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.flex-startBetweenColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.flex-startAroundColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.flex-startEvenlyColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
 }
 
 .flex-startColumn {
